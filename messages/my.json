@@ -1,0 +1,30 @@
+
+{
+    "Logo": {
+        "LogoSection": {
+            "title": "Boikot"
+        }
+    },
+    "Header": {
+        "HeaderSection": {
+            "search": "Cari Semua",
+            "browse": "Semak Kategori",
+            "donate": "Derma Dengan MATW"
+        }
+    },
+    "Container": {
+        "IntroSection": {
+            "title": "Sokong Palestin. Boikot Israel",
+            "description": "Bersama dengan rakyat Palestin dalam perjuangan mereka untuk kebebasan, keadilan, dan kesamaan hak. Sementara pemerintah kita menyokong negara apartheid secara kewangan, kita tidak perlu melakukan hal yang sama."
+        }
+    },
+    "Food": {
+        "FoodData": {
+            "descNestle": "Osem ialah pengeluar makanan Israel yang beroperasi di Palestin yang Diduduki. Nestle memiliki pegangan kawalan dalam Osem.",
+            "categoriesNestle":  "makanan,minuman",
+            "alternativesNestle": "Pilihan jenama sendiri pasaraya.,jenama bukan-Nestle/Coca-Cola/Pepsico"
+
+            
+        }
+    }
+}

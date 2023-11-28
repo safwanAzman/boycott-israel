@@ -1,0 +1,28 @@
+{
+    "Logo": {
+        "LogoSection": {
+            "title": "Boycott"
+        }
+    },
+    "Header": {
+        "HeaderSection": {
+            "search": "Search All",
+            "browse": "Browse Categories",
+            "donate": "Donate With MATW"
+        }
+    },
+    "Container": {
+        "IntroSection": {
+            "title": "Support Palestine. Boycott Israel",
+            "description": "Stand with the Palestinians in their struggle for freedom, justice, and equality. Whilst our governments financially support the apartheid state, we don't have to."
+        }
+    },
+
+    "Food": {
+        "FoodData": {
+            "descNestle": "Osem is an Israeli food manufacturer which operates in Occupied Palestine. Nestle owns a controlling stake in Osem.",
+            "categoriesNestle" : "food,drinks",
+            "alternativesNestle": "Supermarket own brand options.,non-Nestle/Coca-Cola/Pepsico brands"
+        }
+    }
+}
