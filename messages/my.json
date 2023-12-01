@@ -9,6 +9,7 @@
         "HeaderSection": {
             "search": "Cari Semua",
             "browse": "Semak Kategori",
+            "reference": "Rujukan",
             "donate": "Derma Dengan MATW"
         }
     },
@@ -18,13 +19,375 @@
             "description": "Bersama dengan rakyat Palestin dalam perjuangan mereka untuk kebebasan, keadilan, dan kesamaan hak. Sementara pemerintah kita menyokong negara apartheid secara kewangan, kita tidak perlu melakukan hal yang sama."
         }
     },
-    "Food": {
-        "FoodData": {
-            "descNestle": "Osem ialah pengeluar makanan Israel yang beroperasi di Palestin yang Diduduki. Nestle memiliki pegangan kawalan dalam Osem.",
-            "categoriesNestle":  "makanan,minuman",
-            "alternativesNestle": "Pilihan jenama sendiri pasaraya.,jenama bukan-Nestle/Coca-Cola/Pepsico"
-
+    "Why": {
+        "WhySection": {
+            "why": "Mengapa memboikot produk ini?",
+            "categories": "Kategori",
+            "alternatives": "Alternatif",
+            "proofLink" : "Pautan Bukti",
+            "bntProof" : "Bukti "
             
+        }
+    },
+    "Form": {
+        "formSection": {
+            "search": "Carian",
+            "reset": "Set Semula"
+        },
+        "categories": {
+            "all": "Semua",
+            "car": "Kereta",
+            "charity": "Amal",
+            "clothing": "Pakaian",
+            "coffee": "Kopi",
+            "contractor": "Kontraktor",
+            "cosmetics": "Kosmetik",
+            "drinks": "Minuman",
+            "entertainment": "Hiburan",
+            "fashion": "Fesyen",
+            "finance": "Kewangan",
+            "food": "Makanan",
+            "healthcare": "Penjagaan Kesihatan",
+            "household": "Isi Rumah",
+            "insurance": "Insurans",
+            "luxury": "Mewah",
+            "manufacturer": "Pengeluar",
+            "petcare": "Penjagaan Haiwan Peliharaan",
+            "pharmaceuticals": "Farmaseutikal",
+            "politics": "Politik",
+            "supermarket": "Pasaran Raya",
+            "technology": "Teknologi"
+        }
+    },
+
+    "Data": {
+        "boycottData": {
+            "Nestle": {
+                "desc": "Osem ialah pengeluar makanan Israel yang beroperasi di Palestin yang Diduduki. Nestle memiliki pegangan kawalan dalam Osem.",
+                "categories": "makanan,minuman",
+                "alternatives": "Pilihan jenama sendiri pasaraya.,jenama bukan-Nestle/Coca-Cola/Pepsico"
+            },
+            "Cadbury": {
+                "desc": "Pemilik Cadbury, Mondelez, melabur dalam startup Israel di Palestin yang Diduduki.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Maggi": {
+                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki. Terutamanya elakkan mana-mana jenama Osem seperti Sabra Salads.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Lipton": {
+                "desc": "Lipton, di bawah PepsiCo, mendapat perhatian kerana afiliasi dan pelaburannya dalam syarikat yang berkaitan dengan Israel.",
+                "categories": "minuman",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Nescafe": {
+                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki. Terutamanya elakkan mana-mana jenama Osem seperti Sabra Salads.",
+                "categories": "minuman, kopi",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Kitkat": {
+                "desc": "Nestle memiliki pegangan kawalan dalam Osem, pengeluar makanan Israel yang beroperasi di Palestin yang Diduduki.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Oreo": {
+                "desc": "Mondelez, pemilik Oreo, melabur dalam startup Israel di Palestin yang Diduduki.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Mars": {
+                "desc": "Mars menyokong negara Zionis dengan melabur dalam startup foodtech melalui rakan kongsi modal teroka JVC.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Snickers": {
+                "desc": "Mars, pemilik Snickers, menyokong negara Zionis dengan melabur dalam startup foodtech melalui rakan kongsi modal teroka JVC.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Pringles": {
+                "desc": "Pringles mengembangkan operasi ke Israel.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Milo": {
+                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki. Terutamanya elakkan mana-mana jenama Osem seperti Sabra Salads.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Toblerone": {
+                "desc": "Mondelez, pemilik Toblerone, melabur dalam startup Israel di Palestin yang Diduduki.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Nestum": {
+                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "MatKool": {
+                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Nutella": {
+                "desc": "Nutella ialah produk coklat Ferrero, yang dijual di lebih daripada 100 negara.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Coca-Cola": {
+                "desc": "Coca-Cola mengendalikan kilang di penempatan haram Israel di Atarot, di Palestin yang Diduduki.",
+                "categories": "minuman",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Nestea": {
+                "desc": "Nestea, terkenal dengan tawaran teh aisnya, adalah sebahagian daripada Nestle.",
+                "categories": "minuman",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Knorr": {
+                "desc": "Unilever, pemilik Knorr, menjual hak edaran Israel Ben & Jerry's kepada Avi Zinger untuk meneruskan penjualan di Israel.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Hershey": {
+                "desc": "HERSHEY menyokong Israel.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "M&M": {
+                "desc": "Mars, pemilik M&M's, menyokong negara Zionis melalui pelaburan dalam startup foodtech.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "La Cremeria": {
+                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Haagen-Dazs": {
+                "desc": "Keluarga Mattus, bekas pemilik Häagen-Dazs, memberi tumpuan kepada menyokong penyebab Yahudi, Israel, dan Zionis.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Magnum": {
+                "desc": "Magnum, dimiliki oleh Unilever, yang juga memiliki Ben & Jerry's. Unilever menjual hak edaran Israel Ben & Jerry's untuk meneruskan penjualan di Israel.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Lady's Choice": {
+                "desc": "Lady's Choice mempunyai afiliasi dengan syarikat Yahudi atau menyokong pendudukan Zionis di Palestin.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Horlicks": {
+                "desc": "Horlicks mempunyai afiliasi dengan syarikat Yahudi atau menyokong pendudukan Zionis di Palestin.",
+                "categories": "makanan, minuman",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Cornetto": {
+                "desc": "Cornetto, dimiliki oleh Unilever, yang juga memiliki Ben & Jerry's. Unilever menjual hak edaran Israel Ben & Jerry's untuk meneruskan penjualan di Israel.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Wall's": {
+                "desc": "Wall's, dimiliki oleh Unilever, yang juga memiliki Ben & Jerry's. Unilever menjual hak edaran Israel Ben & Jerry's untuk meneruskan penjualan di Israel.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Fanta": {
+                "desc": "Coca-Cola Company, yang memiliki Fanta, mengendalikan kilang di penempatan haram Israel di Atarot, di Palestin yang Diduduki.",
+                "categories": "minuman",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Sprite": {
+                "desc": "Coca-Cola Company, yang memiliki Sprite, mengendalikan kilang di penempatan haram Israel di Atarot, di Palestin yang Diduduki.",
+                "categories": "minuman",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Pepsi": {
+                "desc": "PepsiCo, pemilik Pepsi, membeli SodaStream dan memiliki 50% Saham Sabra, kedua-duanya memanfaatkan pendudukan Israel di Palestin.",
+                "categories": "minuman",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Jacob's": {
+                "desc": "Jacob's mempunyai hubungan dengan syarikat Yahudi atau menyokong pendudukan Zionis di Palestin.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "7up": {
+                "desc": "PepsiCo, pengedar antarabangsa 7up, membeli SodaStream dan memiliki 50% Sabra, kedua-duanya telah mengambil kesempatan daripada pendudukan Israel di Palestin.",
+                "categories": "minuman",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Coffee Mate": {
+                "desc": "Nestle, pemilik Coffee Mate, memiliki pegangan kawalan dalam Osem, pengeluar makanan Israel yang beroperasi di Palestin yang Diduduki.",
+                "categories": "makanan, kopi",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Costa Coffee": {
+                "desc": "Costa Coffee, milik Coca-Cola Company, mengendalikan kilang di penempatan haram Israel di Atarot, di Palestin yang Diduduki.",
+                "categories": "makanan, kopi",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Dasani Water": {
+                "desc": "Coca-Cola Company, yang memiliki Dasani Water, mengendalikan kilang di penempatan haram Israel di Atarot, di Palestin yang Diduduki.",
+                "categories": "minuman, air",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Gatorade": {
+                "desc": "PepsiCo, pemilik Gatorade, membeli SodaStream dan memiliki 50% Sabra, kedua-duanya telah mengambil kesempatan daripada pendudukan Israel di Palestin.",
+                "categories": "minuman",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Halls": {
+                "desc": "Mondelez, pemilik Halls, melabur dalam permulaan di Israel di Palestin yang Diduduki.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Mondelez": {
+                "desc": "Mondelez melabur dalam permulaan di Israel di Palestin yang Diduduki.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Unilever": {
+                "desc": "Unilever, pemilik Ben & Jerry's, menjual hak pengedaran jenama di Israel untuk terus menjual di Israel.",
+                "categories": "makanan, minuman, kosmetik",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Belvita": {
+                "desc": "Mondelez, pemilik Belvita, melabur dalam permulaan di Israel di Palestin yang Diduduki.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Nesquik": {
+                "desc": "Nestle, pemilik Nesquik, memiliki pegangan kawalan dalam Osem, pengeluar makanan Israel yang beroperasi di Palestin yang Diduduki.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Koko Krunch": {
+                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Honey Stars": {
+                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Fitnesse": {
+                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Sjora": {
+                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+                "categories": "minuman",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Quaker Oats": {
+                "desc": "PepsiCo, pemilik Quaker Oats, membeli SodaStream dan memiliki 50% Sabra, kedua-duanya telah mengambil kesempatan daripada pendudukan Israel di Palestin.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Smarties": {
+                "desc": "Nestle, pemilik Smarties, memiliki pegangan kawalan dalam Osem, pengeluar makanan Israel yang beroperasi di Palestin yang Diduduki.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Lays": {
+                "desc": "PepsiCo, pemilik Lay's, membeli SodaStream dan memiliki 50% Sabra, kedua-duanya telah mengambil kesempatan daripada pendudukan Israel di Palestin.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Carnation": {
+                "desc": "Nestle, pemilik Carnation, memiliki pegangan kawalan dalam Osem, pengeluar makanan Israel yang beroperasi di Palestin yang Diduduki.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Mountain Dew": {
+                "desc": "PepsiCo, pemilik Mountain Dew, membeli SodaStream dan memiliki 50% Sabra, kedua-duanya telah mengambil kesempatan daripada pendudukan Israel di Palestin.",
+                "categories": "minuman",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Mcdonalds": {
+                "desc": "McDonalds Israel menyokong IDF dengan menyediakan makanan dan minuman percuma kepada militan Israel.",
+                "categories": "makanan, minuman",
+                "alternatives":"Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+            },
+            "Starbucks": {
+                "desc": "Howard Schultz, pemilik saham terbesar Starbucks, adalah Zionis tegar yang melabur banyak dalam ekonomi Israel, termasuk pelaburan terkini sebanyak $1.7 Bilion dalam permulaan keselamatan siber Wiz.",
+                "categories": "makanan, kopi, minuman",
+                "alternatives": "Zus Coffee,Kopi Saigon,Tealive,Bask Bear,Cool Blog,GIGI Coffee,Richiamo"
+            },
+            "Domino": {
+                "desc": "Domino Pizza tidak menyuarakan sokongan terhadap Israel secara terbuka tetapi menjadi subjek seruan boikot di negara-negara Arab.",
+                "categories": "makanan",
+                "alternatives": "Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+            },
+            "Omega": {
+                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+                "categories": "makanan",
+                "alternatives": "Pilihan jenama sendiri pasaraya"
+            },
+            "Pizza Hut": {
+                "desc": "Syarikat induk Yum Brands adalah pelabur dalam permulaan di Israel.",
+                "categories": "makanan",
+                "alternatives":"Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+            },
+            "Burger King": {
+                "desc": "Burger King didakwa menyokong IDF melalui pemberian makanan dan minuman percuma kepada militan Israel.",
+                "categories": "makanan",
+                "alternatives":"Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+            },
+            "Subway": {
+                "desc": "Subway terlibat dalam kontroversi kerana hubungannya dengan menyokong Israel dalam konflik Palestin.",
+                "categories": "makanan",
+                "alternatives": "Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+            },
+            "Baskin Robbins": {
+                "desc": "Baskin-Robbins mempunyai sejarah yang berkaitan dengan pengasas Yahudinya, Burt Baskin dan Irv Robbins, yang menyokong sebab Yahudi dan Israel.",
+                "categories": "makanan",
+                "alternatives": "Kedai ais krim tempatan atau jenama ais krim lain"
+            },
+            "PapaJohns": {
+                "desc": "Restoran Papa John's telah menyertai senarai restoran yang menyokong Israel.",
+                "categories": "makanan",
+                "alternatives": "Marrybrown, The Chicken Rice Shop, Ramly's Burger, Ayamas, The Manhattan Fish Market"
+            },
+            "KFC": {
+                "desc": "Syarikat induk Yum Brands adalah pelabur dalam permulaan di Israel.",
+                "categories": "makanan",
+                "alternatives": "Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+            },
+            "Papa Johns": {
+                "desc": "Restoran Papa John's menyokong Israel.",
+                "categories": "makanan",
+                "alternatives":"Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+            },
+            "EveryDay": {
+                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+                "categories": "makanan, minuman",
+                "alternatives": "Jenama lain serbuk susu atau produk tenusu tempatan"
+            },
+            "Lactogrow": {
+                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+                "categories": "makanan, minuman",
+                "alternatives": "Jenama formula bayi lain atau pilihan nutrisi"
+            },
+            "Lactokid": {
+                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+                "categories": "makanan, minuman",
+                "alternatives": "Jenama formula bayi lain"
+            },
+            "Cerelac": {
+                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+                "categories": "makanan",
+                "alternatives": "Jenama sereal bayi lain atau makanan bayi buatan sendiri"
+            }
+        
         }
     }
 }

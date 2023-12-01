@@ -1,13 +1,22 @@
 'use client'
+import React , {useState} from "react";
 import Logo from "@/components/ui/logo";
-import { Menu , X ,Globe ,Search,BookCopy,Sun} from "lucide-react"
+import { Menu , X ,Globe ,Search,BookCopy,Sun ,ExternalLink ,LayoutDashboard} from "lucide-react"
 import { useLocale } from "next-intl";
+import {
+    Menubar,
+    MenubarContent,
+    MenubarItem,
+    MenubarMenu,
+    MenubarTrigger,
+} from "@/components/ui/menubar"
 import { useMobileNavbar } from '@/context/MobileNavbarContext';
 import {Link ,usePathname} from '../../navigation';
 import { useTranslations } from "next-intl";
 
 const Navbar = ({})=> {
     const { showNavbar, setShowNavbar } = useMobileNavbar();
+    const [openDropdown , setOpenDropdown] = useState(false)
     const t = useTranslations("Header");
     const locale = useLocale();
     const pathname = usePathname()
@@ -30,7 +39,25 @@ const Navbar = ({})=> {
         {
             title:`${t("HeaderSection.browse")}`,
             href:"/categories-list",
-            icon: <BookCopy className="w-5 h-5" />
+            icon: <LayoutDashboard className="w-5 h-5" />
+        },
+        {
+            title:`${t("HeaderSection.reference")}`,
+            icon: <BookCopy className="w-5 h-5" />,
+            dropdown: [
+                { 
+                    title: "boycott.thewitness.news", 
+                    href: "https://boycott.thewitness.news/" 
+                },
+                { 
+                    title: "nurzariniismail.com", 
+                    href: "https://www.nurzariniismail.com/2023/11/senarai-produk-makanan-barangan-israel-untuk-boikot.html" 
+                },
+                { 
+                    title: "mayniaga.com", 
+                    href: "https://www.mayniaga.com/" 
+                },
+            ]
         },
         {
             title:`${t("HeaderSection.donate")}`,
@@ -41,22 +68,43 @@ const Navbar = ({})=> {
 
     return(
         <>
-            <div className="hidden lg:block">
-                <nav className="bg-white px-2 w-full shadow-md">
+            {/* desktop view */}
+            <div className="hidden lg:block fixed w-full top-0 z-50">
+                <nav className="bg-white/80 backdrop-blur-xl px-2 w-full shadow-md">
                     <div className="flex flex-1 flex-row justify-between items-center">
                         <Logo/>
-                        <div className="flex items-center space-x-1">
-                        {navItem.map((item,index) => (
+                        <div className="flex items-center">
+                        {navItem.map((item, index) => (
                             <div key={index}>
-                                <Link 
-                                    href={item.href} 
-                                    className={
-                                        `text-sm px-3 font-semibold py-5 w-full flex items-center space-x-2 
-                                        ${pathname === item.href ? 'text-red-500' : ''}`}
-                                    >
-                                    {item.icon}
-                                    <p>{item.title}</p>
-                                </Link>
+                                {!item.dropdown ? (
+                                    <Link
+                                        href={item.href}
+                                        className={`text-sm px-3 font-semibold w-full flex items-center space-x-2 hover:scale-110 ${pathname === item.href ? 'text-red-500' : ''}`}>
+                                        {item.icon}
+                                        <p>{item.title}</p>
+                                    </Link>
+                                ) : (
+                                    <Menubar className="border-none bg-transparent">
+                                        <MenubarMenu>
+                                            <MenubarTrigger>
+                                                <div className="text-sm font-semibold w-full flex items-center space-x-2 cursor-pointer hover:scale-110">
+                                                    {item.icon}
+                                                    <p>{item.title}</p>
+                                                </div>
+                                            </MenubarTrigger>
+                                            <MenubarContent>
+                                                {item.dropdown.map((dropdownItem, dropdownIndex) => (
+                                                    <MenubarItem className="text-sm pr-10" key={dropdownIndex}>
+                                                        <Link className="flex items-center space-x-2" href={dropdownItem.href} target="_blank">
+                                                            <ExternalLink className="w-4 h-4" />
+                                                            <p>{dropdownItem.title}</p>
+                                                        </Link>
+                                                    </MenubarItem>
+                                                ))}
+                                            </MenubarContent>
+                                        </MenubarMenu>
+                                    </Menubar>
+                                )}
                             </div>
                         ))}
                         </div>
@@ -85,9 +133,10 @@ const Navbar = ({})=> {
                 </nav>
             </div>
 
-            <div className="block lg:hidden fixed w-full  bg-white z-50">
-                <nav className="bg-white px-2 w-full shadow-md">
-                    <div className="flex justify-between items-center">
+            {/* mobile view */}
+            <div className="block lg:hidden fixed w-full z-50">
+                <nav className="w-full shadow-md">
+                    <div className="flex justify-between items-center bg-white/80 backdrop-blur-xl w-full shadow-md px-2">
                         <Logo/>
                         <div className="flex items-center space-x-5">
                             <button className="text-sm font-semibold flex items-center space-x-2">
@@ -116,20 +165,44 @@ const Navbar = ({})=> {
                     {showNavbar ? 
                     <div className="fixed inset-0 z-50 top-[5%] w-full bg-white ">
                         <div className="mt-4 border-t">
-                            {navItem.map((item,index) => (
-                                <div key={index}
-                                    onClick={()=> setShowNavbar(false)}
-                                    className="border-b flex"
-                                    >
+                            {navItem.map((item, index) => (
+                            <div 
+                                className="border-b px-5 py-5" 
+                                key={index}
+                                >
+                                {!item.dropdown ? (
                                     <Link 
+                                        onClick={()=> setShowNavbar(false)}
                                         href={item.href} 
-                                        className={`text-sm font-semibold px-5 py-5 w-full flex items-center space-x-2 
+                                        className={`text-sm font-semibold  w-full flex items-center space-x-2 
                                         ${pathname === item.href ? 'text-red-500 font-semibold' : ''}`}>
                                         {item.icon}
                                         <p>{item.title}</p>
                                     </Link>
-                                </div>
-                            ))}
+                                ) : (
+                                    <div>
+                                        <div>
+                                            <button
+                                                onClick={()=> setOpenDropdown(!openDropdown)}
+                                                className="text-sm font-semibold  w-full flex items-center space-x-2">
+                                                {item.icon}
+                                                <p>{item.title}</p>
+                                            </button>
+                                        </div>
+                                        {openDropdown ?
+                                        <div className="mt-2 bg-gray-50 px-4 py-5 rounded-lg">
+                                            {item.dropdown.map((dropdownItem, dropdownIndex) => (
+                                                <Link className="flex items-center space-x-2 pb-4" href={dropdownItem.href} target="_blank">
+                                                    <ExternalLink className="w-4 h-4" />
+                                                    <p>{dropdownItem.title}</p>
+                                                </Link>
+                                            ))}
+                                        </div>
+                                        :null}
+                                    </div>
+                                )}
+                            </div>
+                        ))}
                             <div>
                                 {locale !== "en" ? (
                                     <div onClick={()=> setShowNavbar(false)} className="border-b ">

@@ -8,6 +8,7 @@
         "HeaderSection": {
             "search": "Search All",
             "browse": "Browse Categories",
+            "reference": "Reference",
             "donate": "Donate With MATW"
         }
     },
@@ -18,11 +19,368 @@
         }
     },
 
-    "Food": {
-        "FoodData": {
-            "descNestle": "Osem is an Israeli food manufacturer which operates in Occupied Palestine. Nestle owns a controlling stake in Osem.",
-            "categoriesNestle" : "food,drinks",
-            "alternativesNestle": "Supermarket own brand options.,non-Nestle/Coca-Cola/Pepsico brands"
+    "Why": {
+        "WhySection": {
+            "why": "Why boycott this product?",
+            "categories": "Categories",
+            "alternatives": "Alternatives",
+            "proofLink" : "Proof Links",
+            "bntProof" : "Proof "
+            
+        }
+    },
+    "Form": {
+        "formSection": {
+            "search": "Search",
+            "reset": "Reset"
+        },
+        "categories": {
+            "all": "All",
+            "car": "Car",
+            "charity": "Charity",
+            "clothing": "Clothing",
+            "coffee": "Coffee",
+            "contractor": "Contractor",
+            "cosmetics": "Cosmetics",
+            "drinks": "Drinks",
+            "entertainment": "Entertainment",
+            "fashion": "Fashion",
+            "finance": "Finance",
+            "food": "Food",
+            "healthcare": "Healthcare",
+            "household": "Household",
+            "insurance": "Insurance",
+            "luxury": "Luxury",
+            "manufacturer": "Manufacturer",
+            "petcare": "Petcare",
+            "pharmaceuticals": "Pharmaceuticals",
+            "politics": "Politics",
+            "supermarket": "Supermarket",
+            "technology": "Technology"
+        }
+    },
+    "Data": {
+        "boycottData": {
+            "Nestle": {
+                "desc": "Osem is an Israeli food manufacturer which operates in Occupied Palestine. Nestle owns a controlling stake in Osem.",
+                "categories": "food,drinks",
+                "alternatives": "Supermarket own brand options.,non-Nestle/Coca-Cola/Pepsico brands"
+            },
+            "Cadbury": {
+                "desc": "The owner of Cadbury, Mondelez, invests in Israeli startups in Occupied Palestine.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Maggi": {
+                "desc": "Avoid Nestle products until they divest all operations in Occupied Palestine. Especially avoid any Osem brands such as Sabra Salads.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Lipton": {
+                "desc": "Lipton, under PepsiCo, faces scrutiny for its affiliations and investments in companies connected to Israel.",
+                "categories": "drinks",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Nescafe": {
+                "desc": "Avoid Nestle products until they divest all operations in Occupied Palestine. Especially avoid any Osem brands such as Sabra Salads.",
+                "categories": "drinks, coffee",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Kitkat": {
+                "desc": "Nestle owns a controlling stake in Osem, an Israeli food manufacturer operating in Occupied Palestine.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Oreo": {
+                "desc": "Mondelez, owner of Oreo, invests in Israeli startups in Occupied Palestine.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Mars": {
+                "desc": "Mars supports the Zionist state by investing in the foodtech startup scene through venture capital partner JVC.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Snickers": {
+                "desc": "Mars, owner of Snickers, supports the Zionist state by investing in the foodtech startup scene through venture capital partner JVC.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Pringles": {
+                "desc": "Pringles has expanded into Israel.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Milo": {
+                "desc": "Avoid Nestle products until they divest all operations in Occupied Palestine. Especially avoid any Osem brands such as Sabra Salads.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Toblerone": {
+                "desc": "Mondelez, owner of Toblerone, invests in Israeli startups in Occupied Palestine.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Nestum": {
+                "desc": "Avoid Nestle products until they divest all operations in Occupied Palestine.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "MatKool": {
+                "desc": "Avoid Nestle products until they divest all operations in Occupied Palestine.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Nutella": {
+                "desc": "Nutella is a chocolate product of Ferrero, sold in more than 100 countries.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Coca-Cola": {
+                "desc": "Coca-Cola operates a factory in the illegal Israeli settlement of Atarot, in Occupied Palestine.",
+                "categories": "drinks",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Nestea": {
+                "desc": "Nestea, known for its iced tea offerings, is part of Nestle.",
+                "categories": "drinks",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Knorr": {
+                "desc": "Unilever, owner of Knorr, sold the Israeli distribution rights of Ben & Jerry's to Avi Zinger to continue selling in Israel.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Hershey": {
+                "desc": "HERSHEY supports Israel.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "M&M": {
+                "desc": "Mars, owner of M&M's, supports the Zionist state through investments in the foodtech startup scene.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "La Cremeria": {
+                "desc": "Avoid Nestle products until they divest all operations in Occupied Palestine.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Haagen-Dazs": {
+                "desc": "The Mattus family, former owners of Häagen-Dazs, focused on supporting Jewish, Israeli, and Zionist causes.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Magnum": {
+                "desc": "Magnum, owned by Unilever, which also owns Ben & Jerry's. Unilever sold off Ben & Jerry's Israeli distribution rights to continue selling in Israel.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Lady's Choice": {
+                "desc": "Lady's Choice has affiliations with Jewish companies or supports the Zionist occupation of Palestine.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Horlicks": {
+                "desc": "Horlicks has affiliations with Jewish companies or supports the Zionist occupation of Palestine.",
+                "categories": "food, drinks",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Cornetto": {
+                "desc": "Cornetto, owned by Unilever, which also owns Ben & Jerry's. Unilever sold off Ben & Jerry's Israeli distribution rights to continue selling in Israel.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Wall's": {
+                "desc": "Wall's, owned by Unilever, which also owns Ben & Jerry's. Unilever sold off Ben & Jerry's Israeli distribution rights to continue selling in Israel.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Fanta": {
+                "desc": "Coca-Cola Company, which owns Fanta, operates a factory in the illegal Israeli settlement of Atarot, in Occupied Palestine.",
+                "categories": "drinks",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Sprite": {
+                "desc": "Coca-Cola Company, which owns Sprite, operates a factory in the illegal Israeli settlement of Atarot, in Occupied Palestine.",
+                "categories": "drinks",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Pepsi": {
+                "desc": "PepsiCo, owner of Pepsi, bought SodaStream and owns 50% of Sabra, both of which had taken advantage of the Israeli occupation of Palestine.",
+                "categories": "drinks",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Jacob's": {
+                "desc": "Jacob's has any affiliation with Jewish companies or supports the Zionist occupation of Palestine.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "7up": {
+                "desc": "PepsiCo, the international distributor of 7up, bought SodaStream and owns 50% of Sabra, both of which had taken advantage of the Israeli occupation of Palestine.",
+                "categories": "drinks",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Coffee Mate": {
+                "desc": "Nestle, owner of Coffee Mate, has a controlling stake in Osem, an Israeli food manufacturer operating in Occupied Palestine.",
+                "categories": "food, coffee",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Costa Coffee": {
+                "desc": "Costa Coffee, owned by Coca-Cola Company, operates a factory in the illegal Israeli settlement of Atarot, in Occupied Palestine.",
+                "categories": "food, coffee",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Dasani Water": {
+                "desc": "Coca-Cola Company, which owns Dasani Water, operates a factory in the illegal Israeli settlement of Atarot, in Occupied Palestine.",
+                "categories": "drinks, water",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Gatorade": {
+                "desc": "PepsiCo, owner of Gatorade, bought SodaStream and owns 50% of Sabra, both of which had taken advantage of the Israeli occupation of Palestine.",
+                "categories": "drinks",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Halls": {
+                "desc": "Mondelez, the owner of Halls, invests in Israeli startups in Occupied Palestine.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Mondelez": {
+                "desc": "Mondelez invests in Israeli startups in Occupied Palestine.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Unilever": {
+                "desc": "Unilever, owner of Ben & Jerry's, sold off the brand's Israeli distribution rights to continue selling in Israel.",
+                "categories": "food, drinks, cosmetics",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Belvita": {
+                "desc": "Mondelez, owner of Belvita, invests in Israeli startups in Occupied Palestine.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Nesquik": {
+                "desc": "Nestle, owner of Nesquik, has a controlling stake in Osem, an Israeli food manufacturer operating in Occupied Palestine.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Koko Krunch": {
+                "desc": "Avoid Nestle products until they divest all operations in Occupied Palestine.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Honey Stars": {
+                "desc": "Avoid Nestle products until they divest all operations in Occupied Palestine.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Fitnesse": {
+                "desc": "Avoid Nestle products until they divest all operations in Occupied Palestine.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Sjora": {
+                "desc": "Avoid Nestle products until they divest all operations in Occupied Palestine.",
+                "categories": "drinks",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Quaker Oats": {
+                "desc": "PepsiCo, owner of Quaker Oats, bought SodaStream and owns 50% of Sabra, both of which had taken advantage of the Israeli occupation of Palestine.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Smarties": {
+                "desc": "Nestle, owner of Smarties, has a controlling stake in Osem, an Israeli food manufacturer operating in Occupied Palestine.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Lays": {
+                "desc": "PepsiCo, owner of Lay's, bought SodaStream and owns 50% of Sabra, both of which had taken advantage of the Israeli occupation of Palestine.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Carnation": {
+                "desc": "Nestle, owner of Carnation, has a controlling stake in Osem, an Israeli food manufacturer operating in Occupied Palestine.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Mountain Dew": {
+                "desc": "PepsiCo, owner of Mountain Dew, bought SodaStream and owns 50% of Sabra, both of which had taken advantage of the Israeli occupation of Palestine.",
+                "categories": "drinks",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Mcdonalds": {
+                "desc": "McDonalds Israel supports IDF by providing free food and drinks to Israeli militants.",
+                "categories": "food, drinks",
+                "alternatives":"Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+            },
+            "Starbucks": {
+                "desc": "Howard Schultz, the largest private owner of Starbucks shares, is a staunch Zionist who invests heavily in Israel's economy, including a recent $1.7 Billion investment in cybersecurity startup Wiz.",
+                "categories": "food, coffee, drinks",
+                "alternatives":"Zus Coffee,Kopi Saigon,Tealive,Bask Bear,Cool Blog,GIGI Coffee,Richiamo"
+            },
+            "Domino": {
+                "desc": "Domino Pizza has not publicly voiced support for Israel but is subject to boycott calls in Arab countries.",
+                "categories": "food",
+                "alternatives":"Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+            },
+            "Omega": {
+                "desc": "Avoid Nestle products until they divest all operations in Occupied Palestine.",
+                "categories": "food",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Pizza Hut": {
+                "desc": "Parent company Yum Brands is an investor in Israeli startups.",
+                "categories": "food",
+                "alternatives":"Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+            },
+            "Burger King": {
+                "desc": "Burger King purportedly supports IDF through free food and beverages to Israeli militants.",
+                "categories": "food",
+                "alternatives": "Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+            },
+            "Subway": {
+                "desc": "Subway is involved in controversy due to its association with supporting Israel in the Palestine conflict.",
+                "categories": "food",
+                "alternatives": "Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+            },
+            "Baskin Robbins": {
+                "desc": "Baskin-Robbins has a history linked with its Jewish founders, Burt Baskin and Irv Robbins, who supported Jewish and Israeli causes.",
+                "categories": "food",
+                "alternatives":"Local ice cream shops or other ice cream brands"
+            },
+            "PapaJohns": {
+                "desc": "Papa John's restaurant has joined the list of restaurants supporting Israel.",
+                "categories": "food",
+                "alternatives": "Marrybrown, The Chicken Rice Shop, Ramly's Burger, Ayamas, The Manhattan Fish Market"
+            },
+            "KFC": {
+                "desc": "Parent company Yum Brands is an investor in Israeli startups.",
+                "categories": "food",
+                "alternatives":"Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+            },
+            "EveryDay": {
+                "desc": "Avoid Nestle products until they divest all operations in Occupied Palestine.",
+                "categories": "food, drinks",
+                "alternatives":"Other milk powder brands or local dairy products"
+            },
+            "Lactogrow": {
+                "desc": "Avoid Nestle products until they divest all operations in Occupied Palestine.",
+                "categories": "food, drinks",
+                "alternatives":"Other baby formula brands or nutrition options"
+            },
+            "Lactokid": {
+                "desc": "Avoid Nestle products until they divest all operations in Occupied Palestine.",
+                "categories": "food, drinks",
+                "alternatives":"Alternative baby formula brands"
+            },
+            "Cerelac": {
+                "desc": "Avoid Nestle products until they divest all operations in Occupied Palestine.",
+                "categories": "food",
+                "alternatives":"Other baby cereal brands or homemade baby food"
+            }
         }
     }
 }

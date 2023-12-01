@@ -16,12 +16,16 @@ import {
   SelectValue,
 } from "@/components/ui/select"
 import {getBoycottList} from '@/data'
-import {categories} from '@/shared/categories'
+import {categoriesList} from '@/shared/categories'
 import {Link} from '../../navigation';
+import { useTranslations } from "next-intl";
 
 
 export default function Home() {
+  const form = useTranslations("Form");
   const boycottData = getBoycottList();
+  const categories = categoriesList();
+  
   const [data, setData] = useState<any[]>([])
   const [searchData, setSearchData] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -46,9 +50,9 @@ export default function Home() {
   return (
     <Container 
         section={
-          <div className="flex flex-col md:flex-row items-center space-x-0 space-y-2 md:space-y-0 md:space-x-2 pt-4 justify-center bg-gray-50 p-4 rounded-t-lg">
+          <div className="flex flex-col md:flex-row items-center space-x-0 space-y-2 md:space-y-0 md:space-x-2  justify-center  bg-gray-50/80 backdrop-blur-xl p-4 lg:rounded-t-lg sticky top-[3rem] md:top-16 z-50">
               <Input 
-                placeholder='search' 
+                placeholder={form("formSection.search")}
                 className="text-xs w-full md:w-96"
                 value={searchData}
                 onChange={handleSearchChange}
@@ -69,12 +73,12 @@ export default function Home() {
                     </SelectGroup>
                   </SelectContent>
                 </Select>
-                <Button size="sm" className="text-xs w-full md:w-24" onClick={() =>{
+                <Button size="sm" className="text-xs w-full md:w-32" onClick={() =>{
                   setSearchData('')
                   setSelectedCategory('all')
                   }}>
                     <RotateCcw className="mr-2 h-4 w-4" />
-                    Reset
+                    <p>{form("formSection.reset")}</p>
                 </Button>
           </div>
         }
@@ -87,7 +91,7 @@ export default function Home() {
                 <Link href={`/why/${item.id}`}>
                   <div className="flex items-center flex-col justify-center">
                     <Image
-                      src={item.img_url}
+                      src={LogoImg}
                       alt="Logo"
                       className="w-32 h-32 object-contain"
                       width={100}

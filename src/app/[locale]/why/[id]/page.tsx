@@ -8,8 +8,10 @@ import Container from '@/components/layouts/container'
 import {getBoycottList} from '@/data'
 import {BoycottList} from '@/types'
 import { Link as LinkIcon} from "lucide-react"
+import { useTranslations } from "next-intl";
 
 const Why = ({ params }: { params: { id: string } }) => {
+    const t = useTranslations("Why");
     const boycottData = getBoycottList();
     const [data, setData] = useState<BoycottList | undefined>(undefined)
 
@@ -26,7 +28,7 @@ const Why = ({ params }: { params: { id: string } }) => {
                 <div className="grid grid-cols-12 gap-6">
                     <div className="relative col-span-12 lg:col-span-4 bg-gray-50 h-52 lg:h-full rounded-lg">
                         <Image
-                            src={data.img_url}
+                            src={LogoImg}
                             quality={75}
                             alt={'main-img'}
                             fill
@@ -43,7 +45,7 @@ const Why = ({ params }: { params: { id: string } }) => {
                             <div className="space-y-2 pt-2">
                                 <div className="flex items-center justify-between">
                                     <h1 className="text-lg text-gray-400">
-                                        Why boycott this product?
+                                        {t("WhySection.why")}
                                     </h1>
                                 </div>
                                 <p className="text-sm">
@@ -53,7 +55,7 @@ const Why = ({ params }: { params: { id: string } }) => {
                             <div className="space-y-2 pt-2">
                                 <div className="flex items-center justify-between">
                                     <h1 className="text-lg text-gray-400">
-                                        Categories
+                                        {t("WhySection.categories")}
                                     </h1>
                                 </div>
                                 <div className="flex items-center flex-wrap">
@@ -69,7 +71,7 @@ const Why = ({ params }: { params: { id: string } }) => {
                             <div className="space-y-2 pt-2">
                                 <div className="flex items-center justify-between">
                                     <h1 className="text-lg text-gray-400">
-                                        Alternatives
+                                        {t("WhySection.alternatives")}
                                     </h1>
                                 </div>
                                 <div className="flex items-center flex-wrap">
@@ -85,13 +87,13 @@ const Why = ({ params }: { params: { id: string } }) => {
                             <div className="space-y-2 pt-2">
                                 <div className="flex items-center justify-between">
                                     <h1 className="text-lg text-gray-400">
-                                        Proof Links
+                                    {t("WhySection.proofLink")}
                                     </h1>
                                 </div>
                                 <div className="w-full md:w-40 pb-6">
                                     <Link href={data.proof_link} className="bg-black px-4 py-4 lg:py-2 hover:bg-gray-800 rounded-xl text-xs border flex items-center justify-center text-white">
                                         <LinkIcon className="mr-2 h-3 w-3" />
-                                        <p>Proof</p>
+                                        <p>{t("WhySection.bntProof")}</p>
                                     </Link>
                                 </div>
                             </div>
