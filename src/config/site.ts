@@ -3,8 +3,7 @@ import { SiteConfig } from "@/types";
 export const siteConfig: SiteConfig = {
     title: `Boycott Israel`,
     description:`
-        Stand with the Palestinians in their struggle for freedom, justice, and equality. 
-        Whilst our governments financially support the apartheid state, we don't have to.
+        Stand with the Palestinians in their struggle for freedom, justice, and equality.
     `,
     url: `${process.env.NEXT_PUBLIC_OG_URL}`,
     ogImage: `${process.env.NEXT_PUBLIC_OG_URL}/og.png`,
