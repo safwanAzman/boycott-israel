@@ -24,7 +24,7 @@ async function getMessages(locale: string) {
   }
 }
 export const metadata: Metadata = {
-  metadataBase: new URL(siteConfig.url),
+  // metadataBase: new URL(siteConfig.url),
   title: siteConfig.title,
   description: siteConfig.description,
   icons: {
@@ -34,26 +34,26 @@ export const metadata: Metadata = {
     },
     shortcut: { url: "/logo.png", type: "image/png" },
   },
-  openGraph: {
-    type: 'website',
-    url: siteConfig.url,
-    title: siteConfig.title,
-    description:siteConfig.description,
-    images: [siteConfig.ogImage],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: siteConfig.title,
-    description: siteConfig.description,
-    images: [siteConfig.ogImage],
-  },
-  keywords: siteConfig.keywords,
-  authors: [
-    {
-      name: siteConfig.name,
-      url: siteConfig.links.github,
-    },
-  ],
+  // openGraph: {
+  //   type: 'website',
+  //   url: siteConfig.url,
+  //   title: siteConfig.title,
+  //   description:siteConfig.description,
+  //   images: [siteConfig.ogImage],
+  // },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: siteConfig.title,
+  //   description: siteConfig.description,
+  //   images: [siteConfig.ogImage],
+  // },
+  // keywords: siteConfig.keywords,
+  // authors: [
+  //   {
+  //     name: siteConfig.name,
+  //     url: siteConfig.links.github,
+  //   },
+  // ],
   creator: siteConfig.name,
 }
 interface RootLayoutProps {
