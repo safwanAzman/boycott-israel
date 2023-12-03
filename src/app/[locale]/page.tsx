@@ -1,12 +1,11 @@
 "use client"
 
-import React, { useState, useEffect} from 'react';
-import Image from 'next/image'
+import React, { useState, useEffect,ChangeEvent} from 'react';
 import Container from '@/components/layouts/container'
-import LogoImg from '../../../public/logo.png'
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { RotateCcw} from "lucide-react"
+import {BoycottList} from '@/types'
 import {
   Select,
   SelectContent,
@@ -17,8 +16,8 @@ import {
 } from "@/components/ui/select"
 import {getBoycottList} from '@/data'
 import {categoriesList} from '@/shared/categories'
-import {Link} from '../../navigation';
 import { useTranslations } from "next-intl";
+import BoycottCard from '@/components/molecules/boycott-card';
 
 
 export default function Home() {
@@ -26,15 +25,15 @@ export default function Home() {
   const boycottData = getBoycottList();
   const categories = categoriesList();
 
-  const [data, setData] = useState<any[]>([])
+  const [data, setData] = useState<BoycottList[]>([])
   const [searchData, setSearchData] = useState('');
   const [selectedCategory, setSelectedCategory] = useState(form("categories.all"));
 
-  const handleSearchChange = (e:any) => {
+  const handleSearchChange = (e:ChangeEvent<HTMLInputElement>) => {
     setSearchData(e.target.value);
   };
   
-  const handleCategoryChange = (value:any) => {
+  const handleCategoryChange = (value:string) => {
     setSelectedCategory(value);
   };
 
@@ -50,7 +49,7 @@ export default function Home() {
   return (
     <Container 
         section={
-          <div className="search-container">
+          <div className="search-container flex-col md:flex-row justify-center items-center">
               <Input 
                 placeholder={form("formSection.search")}
                 className="text-xs w-full md:w-96"
@@ -68,7 +67,11 @@ export default function Home() {
                   <SelectContent>
                     <SelectGroup>
                     {categories?.map((item) => (
-                      <SelectItem key={item.id} value={item.value}>{item.label}</SelectItem>
+                      <SelectItem 
+                        key={item.id} 
+                        value={item.value}>
+                          {item.label}
+                      </SelectItem>
                     ))}
                     </SelectGroup>
                   </SelectContent>
@@ -85,32 +88,12 @@ export default function Home() {
       >
         <div className="grid grid-cols-2 lg:grid-cols-5 gap-4">
           {data?.map((item) => (
-              <div 
-                key={item.id} 
-                className="group/why bg-white dark:bg-gray-900 shadow-sm p-4 border-[0.5px] rounded-lg relative">
-                <Link href={`/why/${item.id}`}>
-                  <div className="flex items-center flex-col justify-center">
-                    <Image
-                      src={LogoImg}
-                      alt="Logo"
-                      className="w-32 h-32 object-contain bg-white rounded-md"
-                      width={100}
-                      height={100}
-                      priority
-                  />
-                  <p className="pt-2 font-medium">{item.name}</p>
-                  </div>
-                  <div>
-                    <div className="hidden group-hover/why:block ">
-                      <div className="absolute inset-0 rounded-lg flex items-center justify-center bg-black/60 backdrop-blur-sm ">
-                        <Button size="sm" className=" bg-transparent border border-white hover:bg-transparent">
-                          <p className="text-[10px] lg:text-sm dark:text-white">Why Boycott {item.name} ?</p>
-                        </Button>
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              </div>
+              <BoycottCard
+                  key={item.id} 
+                  img={item.img_url}
+                  href={`/why/${item.id}`}
+                  productName={item.name}
+              />
             ))}
         </div>
     </Container>

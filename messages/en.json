@@ -29,10 +29,16 @@
             
         }
     },
+    "BoycottCard": {
+        "BoycottCardSection": {
+            "why": "Why Boycott"
+        }
+    },
     "Form": {
         "formSection": {
             "search": "Search",
-            "reset": "Reset"
+            "reset": "Reset",
+            "back": "Back"
         },
         "categories": {
             "all": "all",

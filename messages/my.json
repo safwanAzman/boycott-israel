@@ -29,10 +29,16 @@
             
         }
     },
+    "BoycottCard": {
+        "BoycottCardSection": {
+            "why": "Kenapa Perlu Boikot"
+        }
+    },
     "Form": {
         "formSection": {
             "search": "Carian",
-            "reset": "Set Semula"
+            "reset": "Set Semula",
+            "back": "Kembali"
         },
         "categories": {
             "all": "semua",
@@ -43,7 +49,7 @@
             "contractor": "kontraktor",
             "cosmetics": "kosmetik",
             "drinks": "minuman",
-            "entertainment": "Hiburan",
+            "entertainment": "hiburan",
             "fashion": "fesyen",
             "finance": "kewangan",
             "food": "makanan",

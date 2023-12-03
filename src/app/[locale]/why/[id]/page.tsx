@@ -2,13 +2,14 @@
 import React, { useState, useEffect} from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import LogoImg from '../../../../../public/logo.png'
 import { Badge } from "@/components/ui/badge"
+import { AspectRatio } from "@/components/ui/aspect-ratio"
 import Container from '@/components/layouts/container'
 import {getBoycottList} from '@/data'
 import {BoycottList} from '@/types'
 import { Link as LinkIcon} from "lucide-react"
 import { useTranslations } from "next-intl";
+import BackBtn from '@/components/molecules/back-btn';
 
 const Why = ({ params }: { params: { id: string } }) => {
     const t = useTranslations("Why");
@@ -19,27 +20,38 @@ const Why = ({ params }: { params: { id: string } }) => {
         const convertId = Number(params.id);
         const item = boycottData.find(item => item.id === convertId);
         setData(item)
-        
     }, [params.id]); 
 
     return (
-        <Container>
+        <Container
+            section={
+                <div className="search-container justify-between items-center">
+                    <div className="text-lg font-medium mt-2 px-2 md:px-4">
+                        <h1>#FreePalestine 🇵🇸</h1>
+                    </div>
+                    <div>
+                        <BackBtn/>
+                    </div>
+                </div>
+            }
+        >
             {data ? (
                 <div className="grid grid-cols-12 gap-6">
-                    <div className="relative col-span-12 lg:col-span-4 bg-gray-50 dark:bg-gray-900 h-52 lg:h-full rounded-lg">
-                        <Image
-                            src={LogoImg}
-                            quality={75}
-                            alt={data.name}
-                            fill
-                            style={{objectFit:"contain"}}
-                            className='p-4'
-                            priority
-                        />
+                    <div className="relative col-span-12 lg:col-span-4 bg-gray-50 dark:bg-gray-900 rounded-lg flex justify-center item-center p-10">
+                        <AspectRatio ratio={10 / 9} className="bg-white">
+                            <Image
+                                src={data.img_url}
+                                quality={75}
+                                alt={data.name}
+                                fill
+                                className="rounded-md object-contain"
+                                priority
+                            />
+                        </AspectRatio>
                     </div>
                     <div className="col-span-12 lg:col-span-8">
                         <div className="space-y-2">
-                            <div className="border-b pb-4">
+                            <div className="border-b py-4">
                                 <h1 className="text-4xl font-semibold">{data.name}</h1>
                             </div>
                             <div className="space-y-2 pt-2">
@@ -48,7 +60,7 @@ const Why = ({ params }: { params: { id: string } }) => {
                                         {t("WhySection.why")}
                                     </h1>
                                 </div>
-                                <p className="text-sm">
+                                <p className="text-base text-left lg:text-justify max-w-4xl leading-7">
                                     {data.desc}
                                 </p>
                             </div>

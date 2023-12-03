@@ -4,11 +4,11 @@ import { useTranslations } from "next-intl";
 const Logo = ({}) =>{
     const t = useTranslations("Logo");
     return(
-        <div className="flex items-center">
+        <div className="flex items-center space-x-2 py-3">
             <Image
                 src={LogoImg}
                 alt="Logo"
-                className="w-auto h-12 md:h-16"
+                className="w-auto h-8 lg:h-10"
                 width={100}
                 height={24}
                 priority

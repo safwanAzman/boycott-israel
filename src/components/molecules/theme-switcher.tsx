@@ -17,7 +17,7 @@ export const ThemeSwitcher = () => {
         <div>
             <button 
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                className="text-sm font-semibold flex items-center space-x-2">
+                className="text-sm font-semibold flex items-center space-x-2  hover:scale-110">
                 {
                 theme === "light" ?
                 <>

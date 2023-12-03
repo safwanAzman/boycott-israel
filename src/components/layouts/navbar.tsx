@@ -1,16 +1,17 @@
 'use client'
 import React , {useState} from "react";
 import Logo from "@/components/ui/logo";
-import { Menu , X ,Globe ,Search,BookCopy,Sun ,ExternalLink ,LayoutDashboard} from "lucide-react"
+import { Menu , X ,Globe ,Search,BookCopy ,ExternalLink ,LayoutDashboard} from "lucide-react"
 import { useLocale } from "next-intl";
 import { ThemeSwitcher } from "@/components/molecules/theme-switcher";
 import {
-    Menubar,
-    MenubarContent,
-    MenubarItem,
-    MenubarMenu,
-    MenubarTrigger,
-} from "@/components/ui/menubar"
+    NavigationMenu,
+    NavigationMenuContent,
+    NavigationMenuItem,
+    NavigationMenuLink,
+    NavigationMenuList,
+    NavigationMenuTrigger,
+} from "@/components/ui/navigation-menu"
 import { useMobileNavbar } from '@/context/MobileNavbarContext';
 import {Link ,usePathname} from '../../navigation';
 import { useTranslations } from "next-intl";
@@ -83,7 +84,7 @@ const Navbar = ({})=> {
         <>
             {/* desktop view */}
             <div className="hidden lg:block fixed w-full top-0 z-50">
-                <nav className="bg-white/80 backdrop-blur-xl px-2 w-full shadow-md dark:bg-gray-900/80">
+                <nav className="bg-white/80 backdrop-blur-xl px-2 w-full  dark:bg-gray-900/80">
                     <div className="flex flex-1 flex-row justify-between items-center">
                         <Logo/>
                         <div className="flex items-center">
@@ -97,26 +98,30 @@ const Navbar = ({})=> {
                                         <p>{item.title}</p>
                                     </Link>
                                 ) : (
-                                    <Menubar className="border-none bg-transparent">
-                                        <MenubarMenu>
-                                            <MenubarTrigger>
-                                                <div className="text-sm font-semibold w-full flex items-center space-x-2 cursor-pointer hover:scale-110">
-                                                    {item.icon}
-                                                    <p>{item.title}</p>
-                                                </div>
-                                            </MenubarTrigger>
-                                            <MenubarContent>
+                                    <NavigationMenu>
+                                        <NavigationMenuList>
+                                            <NavigationMenuItem>
+                                                <NavigationMenuTrigger>
+                                                    <div className="text-sm font-semibold w-full flex items-center space-x-2 cursor-pointer hover:scale-110">
+                                                        {item.icon}
+                                                        <p>{item.title}</p>
+                                                    </div>
+                                                </NavigationMenuTrigger>
+                                                <NavigationMenuContent>
                                                 {item.dropdown.map((dropdownItem, dropdownIndex) => (
-                                                    <MenubarItem className="text-sm pr-10" key={dropdownIndex}>
-                                                        <Link className="flex items-center space-x-2" href={dropdownItem.href} target="_blank">
-                                                            <ExternalLink className="w-4 h-4" />
-                                                            <p>{dropdownItem.title}</p>
-                                                        </Link>
-                                                    </MenubarItem>
+                                                    <NavigationMenuLink  key={dropdownIndex}>
+                                                        <div className="px-6 py-2 hover:bg-red-50 hover:text-red-500">
+                                                            <Link className="flex items-center space-x-2" href={dropdownItem.href} target="_blank">
+                                                                <ExternalLink className="w-4 h-4" />
+                                                                <p>{dropdownItem.title}</p>
+                                                            </Link>
+                                                        </div>
+                                                    </NavigationMenuLink>
                                                 ))}
-                                            </MenubarContent>
-                                        </MenubarMenu>
-                                    </Menubar>
+                                                </NavigationMenuContent>
+                                            </NavigationMenuItem>
+                                        </NavigationMenuList>
+                                    </NavigationMenu>
                                 )}
                             </div>
                         ))}
@@ -125,14 +130,14 @@ const Navbar = ({})=> {
                             <ThemeSwitcher/>
                             {locale !== "en" ? (
                                 <div onClick={()=> setShowNavbar(false)}>
-                                    <Link href={generateLocaleUrl()}  className={`text-sm font-semibold px-5 py-5 w-full flex items-center space-x-2`} locale="en">
+                                    <Link href={generateLocaleUrl()}  className={`text-sm font-semibold px-5 py-5 w-full flex items-center space-x-2  hover:scale-110`} locale="en">
                                         <Globe className="w-5 h-5" />
                                         <p>English</p>
                                     </Link>
                                 </div>
                                 ) : (
                                 <div onClick={()=> setShowNavbar(false)}>
-                                    <Link href={generateLocaleUrl()}  className={`text-sm font-semibold px-5 py-5 w-full flex items-center space-x-2`}  locale="my">
+                                    <Link href={generateLocaleUrl()}  className={`text-sm font-semibold px-5 py-5 w-full flex items-center space-x-2  hover:scale-110`}  locale="my">
                                         <Globe className="w-5 h-5" />
                                         <p>Malay</p>
                                     </Link>
@@ -146,7 +151,7 @@ const Navbar = ({})=> {
             {/* mobile view */}
             <div className="block lg:hidden fixed w-full z-50">
                 <nav className="w-full shadow-md">
-                    <div className="flex justify-between items-center bg-white/80 backdrop-blur-xl w-full shadow-md px-2  dark:bg-gray-900/80">
+                    <div className="flex justify-between items-center bg-white/80 backdrop-blur-xl w-full px-2  dark:bg-gray-900/80">
                         <Logo/>
                         <div className="flex items-center space-x-5">
                             <ThemeSwitcher/>
