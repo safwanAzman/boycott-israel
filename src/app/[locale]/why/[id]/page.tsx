@@ -23,7 +23,13 @@ const Why = ({ params }: { params: { id: string } }) => {
     }, [params.id]); 
 
     return (
-        <Container>
+        <Container
+            section={
+                <div className="search-container justify-between items-center">
+                    <BackBtn title={data?.name} />
+                </div>
+                }
+            >
             {data ? (
                 <div className="grid grid-cols-12 gap-6">
                     <div className="relative col-span-12 lg:col-span-4 bg-gray-50 dark:bg-gray-900 rounded-lg flex justify-center item-center p-10">
@@ -92,7 +98,7 @@ const Why = ({ params }: { params: { id: string } }) => {
                                     </h1>
                                 </div>
                                 <div className="w-full md:w-40 pb-6">
-                                    <Link href={data.proof_link} className="bg-black dark:bg-gray-900 px-4 py-4 lg:py-2 hover:bg-gray-800 rounded-xl text-xs border flex items-center justify-center text-white">
+                                    <Link href={data.proof_link} target='_blank' className="bg-black dark:bg-gray-900 px-4 py-4 lg:py-2 hover:bg-gray-800 rounded-xl text-xs border flex items-center justify-center text-white">
                                         <LinkIcon className="mr-2 h-3 w-3" />
                                         <p>{t("WhySection.bntProof")}</p>
                                     </Link>

@@ -1,10 +1,11 @@
 import Image from 'next/image'
 import LogoImg from '../../../public/logo.png'
 import { useTranslations } from "next-intl";
+import Link from 'next/link';
 const Logo = ({}) =>{
     const t = useTranslations("Logo");
     return(
-        <div className="flex items-center space-x-2 py-3">
+        <Link href="/" className="flex items-center space-x-2 py-3">
             <Image
                 src={LogoImg}
                 alt="Logo"
@@ -16,7 +17,7 @@ const Logo = ({}) =>{
             <p className="text-xs md:text-sm font-semibold">
             {t("LogoSection.title")} <span>Israel</span>
             </p>
-        </div>
+        </Link>
     )
 }
 

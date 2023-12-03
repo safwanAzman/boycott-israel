@@ -3,7 +3,7 @@ import React, { useState, useEffect,ChangeEvent } from 'react';
 import Container from '@/components/layouts/container';
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { RotateCcw ,ArrowLeft} from "lucide-react";
+import { RotateCcw} from "lucide-react";
 import { useCategoriesList } from '@/shared/categories';
 import { useBoycottList } from '@/data';
 import {CategoriesList} from '@/types'
@@ -20,6 +20,7 @@ import { useTranslations } from "next-intl";
 
 const CategoriesList = () => {
     const form = useTranslations("Form");
+    const t = useTranslations("Header");
     const categories = useCategoriesList();
     const boycottData = useBoycottList();
     const [selectedItemId, setSelectedItemId] = useState<number | null>(null);
@@ -49,20 +50,24 @@ const CategoriesList = () => {
     return (
         <Container
             section={
-            <div className="search-container  flex-col md:flex-row  justify-center items-center">
-                <Input
-                    placeholder={form("formSection.search")}
-                    className="text-xs w-full md:w-96"
-                    value={searchData}
-                    onChange={handleSearchChange}
-                />
-                <Button size="sm" className="text-xs w-full md:w-32" onClick={() => {
-                    setSearchData('')
-                }}>
-                    <RotateCcw className="mr-2 h-4 w-4" />
-                    <p>{form("formSection.reset")}</p>
-                </Button>
-                <BackBtn/>
+            <div className="search-container relative flex-col md:flex-row ">
+                <div className=' flex justify-start w-full sm:w-1/4 pb-4 sm:pb-0'>
+                    <BackBtn title={`${t("HeaderSection.browse")}`} />
+                </div>
+                <div className='flex flex-col md:flex-row space-x-0 space-y-2 md:space-y-0 md:space-x-2  justify-center items-center'>
+                    <Input
+                        placeholder={form("formSection.search")}
+                        className="text-xs w-full md:w-96"
+                        value={searchData}
+                        onChange={handleSearchChange}
+                    />
+                    <Button size="sm" className="text-xs w-full md:w-32" onClick={() => {
+                        setSearchData('')
+                    }}>
+                        <RotateCcw className="mr-2 h-4 w-4" />
+                        <p>{form("formSection.reset")}</p>
+                    </Button>
+                </div>
             </div>
             }
         >
