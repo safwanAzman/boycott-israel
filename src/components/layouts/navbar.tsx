@@ -3,6 +3,7 @@ import React , {useState} from "react";
 import Logo from "@/components/ui/logo";
 import { Menu , X ,Globe ,Search,BookCopy,Sun ,ExternalLink ,LayoutDashboard} from "lucide-react"
 import { useLocale } from "next-intl";
+import { ThemeSwitcher } from "@/components/molecules/theme-switcher";
 import {
     Menubar,
     MenubarContent,
@@ -55,7 +56,19 @@ const Navbar = ({})=> {
                 },
                 { 
                     title: "mayniaga.com", 
-                    href: "https://www.mayniaga.com/" 
+                    href: "https://www.mayniaga.com/companies-supporting-israel/" 
+                },
+                { 
+                    title: "shafiqolbu.wordpress.com", 
+                    href: "https://shafiqolbu.wordpress.com/2014/08/09/apakah-senarai-produk-barangan-israelamerika-yang-perlu-di-boikot/" 
+                },
+                { 
+                    title: "nextstepmalaysia.com", 
+                    href: "https://www.nextstepmalaysia.com/israel-cukup-takut-dengan-tindakan-ini-senarai-produk-israel-wajib-diboikot/" 
+                },
+                { 
+                    title: "theblushinggiraffe.com", 
+                    href: "https://www.theblushinggiraffe.com/p/ethical-beauty.html" 
                 },
             ]
         },
@@ -70,7 +83,7 @@ const Navbar = ({})=> {
         <>
             {/* desktop view */}
             <div className="hidden lg:block fixed w-full top-0 z-50">
-                <nav className="bg-white/80 backdrop-blur-xl px-2 w-full shadow-md">
+                <nav className="bg-white/80 backdrop-blur-xl px-2 w-full shadow-md dark:bg-gray-900/80">
                     <div className="flex flex-1 flex-row justify-between items-center">
                         <Logo/>
                         <div className="flex items-center">
@@ -109,10 +122,7 @@ const Navbar = ({})=> {
                         ))}
                         </div>
                         <div className="flex items-center space-x-2">
-                            <button className="text-sm font-semibold flex items-center space-x-2">
-                                <Sun className="w-5 h-5 text-orange-500" />
-                                <p className="text-orange-500">Light</p>
-                            </button>
+                            <ThemeSwitcher/>
                             {locale !== "en" ? (
                                 <div onClick={()=> setShowNavbar(false)}>
                                     <Link href={generateLocaleUrl()}  className={`text-sm font-semibold px-5 py-5 w-full flex items-center space-x-2`} locale="en">
@@ -136,13 +146,10 @@ const Navbar = ({})=> {
             {/* mobile view */}
             <div className="block lg:hidden fixed w-full z-50">
                 <nav className="w-full shadow-md">
-                    <div className="flex justify-between items-center bg-white/80 backdrop-blur-xl w-full shadow-md px-2">
+                    <div className="flex justify-between items-center bg-white/80 backdrop-blur-xl w-full shadow-md px-2  dark:bg-gray-900/80">
                         <Logo/>
                         <div className="flex items-center space-x-5">
-                            <button className="text-sm font-semibold flex items-center space-x-2">
-                                <Sun className="w-5 h-5 text-orange-500" />
-                                <p className="text-orange-500">Light</p>
-                            </button>
+                            <ThemeSwitcher/>
                             {!showNavbar ? 
                             <button 
                                 type="button" 
@@ -163,8 +170,8 @@ const Navbar = ({})=> {
                         </div>
                     </div>
                     {showNavbar ? 
-                    <div className="fixed inset-0 z-50 top-[5%] w-full bg-white ">
-                        <div className="mt-4 border-t">
+                    <div className="fixed inset-0 z-50 top-[6%] w-full bg-white dark:bg-background">
+                        <div>
                             {navItem.map((item, index) => (
                             <div 
                                 className="border-b px-5 py-5" 
@@ -190,7 +197,7 @@ const Navbar = ({})=> {
                                             </button>
                                         </div>
                                         {openDropdown ?
-                                        <div className="mt-2 bg-gray-50 px-4 py-5 rounded-lg">
+                                        <div className="mt-2 bg-gray-50 dark:bg-gray-900 px-4 py-5 rounded-lg">
                                             {item.dropdown.map((dropdownItem, dropdownIndex) => (
                                                 <Link className="flex items-center space-x-2 pb-4" href={dropdownItem.href} target="_blank">
                                                     <ExternalLink className="w-4 h-4" />

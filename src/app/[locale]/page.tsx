@@ -25,10 +25,10 @@ export default function Home() {
   const form = useTranslations("Form");
   const boycottData = getBoycottList();
   const categories = categoriesList();
-  
+
   const [data, setData] = useState<any[]>([])
   const [searchData, setSearchData] = useState('');
-  const [selectedCategory, setSelectedCategory] = useState('all');
+  const [selectedCategory, setSelectedCategory] = useState(form("categories.all"));
 
   const handleSearchChange = (e:any) => {
     setSearchData(e.target.value);
@@ -40,7 +40,7 @@ export default function Home() {
 
   useEffect(() => {
     const filteredData = boycottData.filter((item) => {
-      const matchesCategory = selectedCategory === 'all' || item.categories.includes(selectedCategory);
+      const matchesCategory = selectedCategory === form("categories.all")|| item.categories.includes(selectedCategory);
       const matchesSearch = item.name.toLowerCase().includes(searchData.toLowerCase());
       return matchesCategory && matchesSearch;
     });
@@ -50,7 +50,7 @@ export default function Home() {
   return (
     <Container 
         section={
-          <div className="flex flex-col md:flex-row items-center space-x-0 space-y-2 md:space-y-0 md:space-x-2  justify-center  bg-gray-50/80 backdrop-blur-xl p-4 lg:rounded-t-lg sticky top-[3rem] md:top-16 z-50">
+          <div className="search-container">
               <Input 
                 placeholder={form("formSection.search")}
                 className="text-xs w-full md:w-96"
@@ -75,7 +75,7 @@ export default function Home() {
                 </Select>
                 <Button size="sm" className="text-xs w-full md:w-32" onClick={() =>{
                   setSearchData('')
-                  setSelectedCategory('all')
+                  setSelectedCategory(form("categories.all"))
                   }}>
                     <RotateCcw className="mr-2 h-4 w-4" />
                     <p>{form("formSection.reset")}</p>
@@ -87,13 +87,13 @@ export default function Home() {
           {data?.map((item) => (
               <div 
                 key={item.id} 
-                className="group/why bg-white shadow-sm p-4 border-[0.5px] rounded-lg relative">
+                className="group/why bg-white dark:bg-gray-900 shadow-sm p-4 border-[0.5px] rounded-lg relative">
                 <Link href={`/why/${item.id}`}>
                   <div className="flex items-center flex-col justify-center">
                     <Image
                       src={LogoImg}
                       alt="Logo"
-                      className="w-32 h-32 object-contain"
+                      className="w-32 h-32 object-contain bg-white rounded-md"
                       width={100}
                       height={100}
                       priority
@@ -102,9 +102,9 @@ export default function Home() {
                   </div>
                   <div>
                     <div className="hidden group-hover/why:block ">
-                      <div className="absolute inset-0 rounded-lg flex items-center justify-center bg-black/60 backdrop-blur-sm text-black">
+                      <div className="absolute inset-0 rounded-lg flex items-center justify-center bg-black/60 backdrop-blur-sm ">
                         <Button size="sm" className=" bg-transparent border border-white hover:bg-transparent">
-                          <p className="text-[10px] lg:text-sm">Why Boycott {item.name} ?</p>
+                          <p className="text-[10px] lg:text-sm dark:text-white">Why Boycott {item.name} ?</p>
                         </Button>
                       </div>
                     </div>

@@ -35,28 +35,29 @@
             "reset": "Reset"
         },
         "categories": {
-            "all": "All",
-            "car": "Car",
-            "charity": "Charity",
-            "clothing": "Clothing",
-            "coffee": "Coffee",
-            "contractor": "Contractor",
-            "cosmetics": "Cosmetics",
-            "drinks": "Drinks",
-            "entertainment": "Entertainment",
-            "fashion": "Fashion",
-            "finance": "Finance",
-            "food": "Food",
-            "healthcare": "Healthcare",
-            "household": "Household",
-            "insurance": "Insurance",
-            "luxury": "Luxury",
-            "manufacturer": "Manufacturer",
-            "petcare": "Petcare",
-            "pharmaceuticals": "Pharmaceuticals",
-            "politics": "Politics",
-            "supermarket": "Supermarket",
-            "technology": "Technology"
+            "all": "all",
+            "car": "car",
+            "charity": "charity",
+            "clothing": "clothing",
+            "coffee": "coffee",
+            "contractor": "contractor",
+            "cosmetics": "cosmetics",
+            "drinks": "drinks",
+            "entertainment": "entertainment",
+            "fashion": "fashion",
+            "finance": "finance",
+            "food": "food",
+            "healthcare": "healthcare",
+            "household": "household",
+            "insurance": "insurance",
+            "luxury": "luxury",
+            "manufacturer": "manufacturer",
+            "petcare": "petcare",
+            "pharmaceuticals": "pharmaceuticals",
+            "politics": "politics",
+            "supermarket": "supermarket",
+            "technology": "technology",
+            "travel": "travel"
         }
     },
     "Data": {
@@ -380,6 +381,411 @@
                 "desc": "Avoid Nestle products until they divest all operations in Occupied Palestine.",
                 "categories": "food",
                 "alternatives":"Other baby cereal brands or homemade baby food"
+            },
+            "Colgate": {
+                "desc": "S. Schestowitz is one of the largest toiletries importers in Israel. The company controls 60% of Israel's toothpaste market, according to Haaretz.",
+                "categories": "household, healthcare",
+                "alternatives": "Supermarket own brand options, Mu'min, Safi, Halagel, Oradex, Aafiyat Store"
+            },
+            "Listerine": {
+                "desc": "This is Johnson & Johnson Product, johnson & johnson purchased Israeli company Biosense for $400 million",
+                "categories": "household, healthcare",
+                "alternatives": "Supermarket own brand options, Mu'min, Safi, Halagel, Oradex, Aafiyat Store"
+            },
+            "Darlie": {
+                "desc": "Darlie is a popular Chinese brand owned by Colgate and its joint venture partner, Hawley & Hazel. Its package features a smiling man in a top hat. It used to be called Darkie and featured a man in blackface.",
+                "categories": "household, healthcare",
+                "alternatives": "Supermarket own brand options, Mu'min, Safi, Halagel, Oradex, Aafiyat Store"
+            },
+            "Pepsodent": {
+                "desc": "Pepsodent, owned by Unilever, which also owns Ben & Jerry's. Unilever sold off Ben & Jerry's Israeli distribution rights to continue selling in Israel.",
+                "categories": "household, healthcare",
+                "alternatives": "Supermarket own brand options, Mu'min, Safi, Halagel, Oradex, Aafiyat Store"
+            },
+            "Dove": {
+                "desc": "Dove is owned by Unilever. Ben & Jerry's is also owned by Unilever. When Ben & Jerry's decided to stop selling its products in Israel, Unilever sold off the Israeli distribution rights to Avi Zinger to circumvent their decision and to force Ben & Jerry's brand name to continue selling in Israel.",
+                "categories": "household, cosmetics",
+                "alternatives": "Supermarket own brand options, Antabax, Good Virtues Co, Bad Lab, Fruiser, Safi"
+            },
+            "Palmolive": {
+                "desc": "S. Schestowitz is one of the largest toiletries importers in Israel. The company controls 60% of Israel's toothpaste market, according to Haaretz.",
+                "categories": "household",
+                "alternatives": "Supermarket own brand options"
+            },
+            "CleanAndClear": {
+                "desc": "This is Johnson & Johnson Product, johnson & johnson purchased Israeli company Biosense for $400 million",
+                "categories": "household, cosmetics",
+                "alternatives": "Supermarket own brand options, Aiken, Nano White, Kayman, Safi, Zarzou, Cosmoderm, Jelita KL, Nurish, Elianto, Pixy, Silkygirl, SimplySiti, Nurraysa"
+            },
+            "Vaseline": {
+                "desc": "Vaseline, owned by Unilever, which also owns Ben & Jerry's. Unilever sold off Ben & Jerry's Israeli distribution rights to continue selling in Israel.",
+                "categories": "household, cosmetics",
+                "alternatives": "Supermarket own brand options, Aiken, Nano White, Kayman, Safi, Zarzou, Cosmoderm, Jelita KL, Nurish, Elianto, Pixy, Silkygirl, SimplySiti, Nurraysa"
+            },
+            "Vicks": {
+                "desc": "Vicks is owned by Procter and Gamble, who opened an R&D center in Tel Aviv, Occupied Palestine, in which it invests $2bn annually.",
+                "categories": "household, pharmaceuticals",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Breeze": {
+                "desc": "Breeze, owned by Unilever, which also owns Ben & Jerry's. Unilever sold off Ben & Jerry's Israeli distribution rights to continue selling in Israel",
+                "categories": "household",
+                "alternatives": "Supermarket own brand options, Kuat Harimau, Dozee, TLC, Good Maid, Toyyib"
+            },
+            "Joy": {
+                "desc": "P&G association with Israeli company Avgol Nonwoven, specializing in producing textiles for hygienic products, has attracted attention.",
+                "categories": "household",
+                "alternatives": "Supermarket own brand options, Kuat Harimau, Dozee, TLC, Good Maid, Toyyib"
+            },
+            "Downy": {
+                "desc": "P&G, the parent company of Downy, has deep connections with Israel, raising discussions and debates about its business collaborations within the region. Notably, P&G association with Israeli company Avgol Nonwoven, specializing in producing textiles for hygienic products, has attracted attention.",
+                "categories": "household",
+                "alternatives": "Supermarket own brand options, Kuat Harimau, Dozee, TLC, Good Maid, Toyyib"
+            },
+            "Axion": {
+                "desc": "S. Schestowitz is one of the largest toiletries importers in Israel. The company controls 60% of Israel's toothpaste market, according to Haaretz.",
+                "categories": "household",
+                "alternatives": "Supermarket own brand options, Kuat Harimau, Dozee, TLC, Good Maid, Toyyib"
+            },
+            "Sunlight": {
+                "desc": "Sunlight, owned by Unilever, which also owns Ben & Jerry's. Unilever sold off Ben & Jerry's Israeli distribution rights to continue selling in Israel.",
+                "categories": "household",
+                "alternatives": "Supermarket own brand options, Kuat Harimau, Dozee, TLC, Good Maid, Toyyib"
+            },
+            "Kotex": {
+                "desc": "In 1998 Robert P. Van der Merwe, Chairman of Kimberly Clark, received the Jubilee Award from Israeli Prime Minister Netanyahu, for their contribution in developing the Israeli economy.",
+                "categories": "household, healthcare",
+                "alternatives": "Supermarket own brand options, Libresse, Sofy, Flowra"
+            },
+            "Huggies": {
+                "desc": "Kimberly-Clark is one of the largest consumer companies in the world with nearly 56,000 employees in 35 countries, and a sales turnover of over $19 billion in 2009. Its family care brands include Kleenex, Scott, Andrex, Huggies, Pull-Ups, Kotex, Poise and Depend",
+                "categories": "household, healthcare",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Lux": {
+                "desc": "Lux is owned by Unilever. Ben & Jerry's is also owned by Unilever. When Ben & Jerry's decided to stop selling its products in Israel, Unilever sold off the Israeli distribution rights to Avi Zinger to circumvent their decision and to force Ben & Jerry's brand name to continue selling in Israel.",
+                "categories": "household, cosmetics",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Febreze": {
+                "desc": "Febreze is owned by Procter and Gamble, who opened an R&D center in Tel Aviv, Occupied Palestine, in which it invests $2bn annually.",
+                "categories": "household",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Lifebuoy": {
+                "desc": "Lifebuoy is owned by Unilever. Ben & Jerry's is also owned by Unilever. When Ben & Jerry's decided to stop selling its products in Israel, Unilever sold off the Israeli distribution rights to Avi Zinger to circumvent their decision and to force Ben & Jerry's brand name to continue selling in Israel.",
+                "categories": "household, healthcare",
+                "alternatives": "Supermarket own brand options, Antabax, Good Virtues Co, Bad Lab, Fruiser, Safi"
+            },
+            "Rexona": {
+                "desc": "Rexona is owned by Unilever. Ben & Jerry's is also owned by Unilever. When Ben & Jerry's decided to stop selling its products in Israel, Unilever sold off the Israeli distribution rights to Avi Zinger to circumvent their decision and to force Ben & Jerry's brand name to continue selling in Israel.",
+                "categories": "household, cosmetics",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Maybeline": {
+                "desc": "Maybelline, under the ownership of LOréal, has navigated a contentious path in its relationship with Israel.",
+                "categories": "cosmetics",
+                "alternatives": "Supermarket own brand options, Aiken, Nano White, Kayman, Safi, Zarzou, Silkygirl, SimplySiti, Nurraysa"
+            },
+            "Loreal": {
+                "desc": "L'Oreal is a 'warm friend of Israel'. After sending a letter to the Arab League with information helping the boycott, they paid a $1.4m fine and issued an apology, before fostering a new relationship with Israel, with heavy investment and even operating a factory in Occupied Palestine.",
+                "categories": "cosmetics",
+                "alternatives": "Supermarket own brand options, Aiken, Nano White, Kayman, Safi, Zarzou, Silkygirl, SimplySiti, Nurraysa"
+            },
+            "Garnier": {
+                "desc": "Garnier is a brand owned by L'Oreal, which is a 'warm friend of Israel'. After sending a letter to the Arab League with information helping the boycott, they paid a $1.4m fine and issued an apology, before fostering a new relationship with Israel, with heavy investment and even operating a factory in Occupied Palestine.",
+                "categories": "cosmetics",
+                "alternatives": "Supermarket own brand options, Aiken, Nano White, Kayman, Safi, Zarzou, Silkygirl, SimplySiti, Nurraysa"
+            },
+            "Clinique": {
+                "desc": "Clinique is owned by Estee Lauder, who's ownership, especially Ronald Lauder, has extremist zionist views and financially and politically supports Israeli occupation of Palestinian land.",
+                "categories": "cosmetics",
+                "alternatives": "Supermarket own brand options, Aiken, Nano White, Kayman, Safi, Zarzou, Silkygirl, SimplySiti, Nurraysa"
+            },
+            "Gillete": {
+                "desc": "Renowned for its grooming line, Gillette operates under P&G, a multinational corporation. P&G gained attention due to its substantial investment in Israel, notably establishing a Research and Development (R&D) center in Tel Aviv, situated within what is termed occupied Palestine.",
+                "categories": "cosmetics",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Louis Vuitton": {
+                "desc": "The owner of Louis Vuitton's parent company, LVMH, Bernard Arnault invests hundreds of millions in Israeli companies",
+                "categories": "luxury, clothing, cosmetics",
+                "alternatives": "support local brand"
+            },
+            "Giorgio Armani": {
+                "desc": "Giorgio Armani Beauty is a partnership with L'Oreal, which is a 'warm friend of Israel'. After sending a letter to the Arab League with information helping the boycott, they paid a $1.4m fine and issued an apology, before fostering a new relationship with Israel, with heavy investment and even operating a factory in Occupied Palestine.",
+                "categories": "luxury, clothing, cosmetics, fashion",
+                "alternatives": "support local brand"
+            },
+            "Johnson n Johnson": {
+                "desc": "Johnson & Johnson purchased Israeli company Biosense for $400 million",
+                "categories": "healthcare",
+                "alternatives": "Supermarket own brand options"
+            },
+            "Bath & Body Works": {
+                "desc": "Les Wexner who owns L Brands, the parent company of Bath&Body Works, is a staunch ally of Israel, and a long time business partner of Jeffrey Epstein, the convicted child trafficker.",
+                "categories": "cosmetics",
+                "alternatives": "Supermarket own brand options, Lush cosmetics, Unbranded oil based perfumes, Sunnamusk"
+            },
+            "Herbal Essence": {
+                "desc": "Herbal essences is owned by Procter and Gamble, who opened an R&D center in Tel Aviv, Occupied Palestine, in which it invests $2bn annually.",
+                "categories": "cosmetics, healthcare",
+                "alternatives": "Own brand options"
+            },
+            "Victoria Secret": {
+                "desc": "Victoria Secret profits from Israels occupation of Palestinian land & crimes against humanity by closely partnering with Israeli corporations.",
+                "categories": "luxury",
+                "alternatives": "Own brand options"
+            },
+            "Estee Lauder": {
+                "desc": "Ronald Lauder, who together with his brother Leonard Lauder inherited the Estee Lauder company, is the president of the World Jewish Congress, and chairman of the Jewish National Fund, and is a zionist with extremist views and financially and politically supports Israeli occupation of Palestinian land.",
+                "categories": "cosmetics",
+                "alternatives": "Own brand options"
+            },
+            "Ralph Lauren": {
+                "desc": "Ralph Lauren Frangrances is a partnership with L'Oreal, which is a 'warm friend of Israel'. After sending a letter to the Arab League with information helping the boycott, they paid a $1.4m fine and issued an apology, before fostering a new relationship with Israel, with heavy investment and even operating a factory in Occupied Palestine.",
+                "categories": "luxury",
+                "alternatives": "Unbranded oil based fragrances, Sunnamusk"
+            },
+            "Neutrogena": {
+                "desc": "Delving into Neutrogena footprint in Israel, we unearth a web of relationships, partnerships, and investments that paint a multifaceted picture of the brand engagement in this region.",
+                "categories": "cosmetics",
+                "alternatives": "Own brand options"
+            },
+            "Valentino Beauty": {
+                "desc": "Valentino Beauty is a partnership with L'Oreal, which is a 'warm friend of Israel'. After sending a letter to the Arab League with information helping the boycott, they paid a $1.4m fine and issued an apology, before fostering a new relationship with Israel, with heavy investment and even operating a factory in Occupied Palestine.",
+                "categories": "luxury, clothing, fashion, cosmetics",
+                "alternatives": "Own brand options"
+            },
+            "YSL Beauty": {
+                "desc": "YSL Beauty is a partnership with L'Oreal, which is a 'warm friend of Israel'. After sending a letter to the Arab League with information helping the boycott, they paid a $1.4m fine and issued an apology, before fostering a new relationship with Israel, with heavy investment and even operating a factory in Occupied Palestine.",
+                "categories": "luxury, clothing, fashion, cosmetics",
+                "alternatives": "Own brand options"
+            },
+            "Tommy Hilfiger": {
+                "desc": "Amid the turmoil, reports reveal that PVH, the parent company of Tommy Hilfiger, pledged to match donations from its associates at a 2:1 ratio for relief efforts in the region.",
+                "categories": "luxury, clothing, fashion",
+                "alternatives": "Own brand options"
+            },
+            "Kerastase": {
+                "desc": "Kerastase is owned by L'Oreal. L'Oreal is a 'warm friend of Israel'. After sending a letter to the Arab League with information helping the boycott, they paid a $1.4m fine and issued an apology, before fostering a new relationship with Israel, with heavy investment and even operating a factory in Occupied Palestine.",
+                "categories": "cosmetics",
+                "alternatives": "Own brand options"
+            },
+            "Lancome": {
+                "desc": "Lancome is a brand owned by L'Oreal, which is a 'warm friend of Israel'. After sending a letter to the Arab League with information helping the boycott, they paid a $1.4m fine and issued an apology, before fostering a new relationship with Israel, with heavy investment and even operating a factory in Occupied Palestine.",
+                "categories": "luxury, cosmetics",
+                "alternatives": "Lush cosmetics, Huda beauty"
+            },
+            "Revlon": {
+                "desc": "Revlon largest stakeholder, Ronald Perelman, is a major trustee of the Simon Weisenthal foundation, which runs the somewhat ironically named Museum of Tolerance.",
+                "categories": "cosmetics",
+                "alternatives": "Own brand options"
+            },
+            "Chanel": {
+                "desc": "Alain Wertheimer, condemned the attack on Israel but remained silent on the attacks on Gaza, also pledged $4m in Chanel's name.",
+                "categories": "luxury, clothing, fashion, cosmetics",
+                "alternatives": "Lush cosmetics, Huda beauty, Sunnamusk, Unbranded oil based perfumes"
+            },
+            "Cerave": {
+                "desc": "Cerave is owned by L'Oreal. L'Oreal is a 'warm friend of Israel'. After sending a letter to the Arab League with information helping the boycott, they paid a $1.4m fine and issued an apology, before fostering a new relationship with Israel, with heavy investment and even operating a factory in Occupied Palestine.",
+                "categories": "cosmetics",
+                "alternatives": "Lush cosmetics, Huda beauty"
+            },
+            "Kenzo": {
+                "desc": "The owner of Kenzo's parent company, LVMH, Bernard Arnault invests hundreds of millions in Israeli companies",
+                "categories": "luxury, clothing, fashion, cosmetics",
+                "alternatives": "Lush cosmetics, Huda beauty, Sunnamusk, Unbranded oil based perfumes"
+            },
+            "Kiehl": {
+                "desc": "Kiehl's is a brand owned by L'Oreal, which is a 'warm friend of Israel'. After sending a letter to the Arab League with information helping the boycott, they paid a $1.4m fine and issued an apology, before fostering a new relationship with Israel, with heavy investment and even operating a factory in Occupied Palestine.",
+                "categories": "cosmetics",
+                "alternatives": "Lush cosmetics, Huda beauty"
+            },
+            "Olay": {
+                "desc": "Olay is owned by Procter and Gamble, who opened an R&D center in Tel Aviv, Occupied Palestine, in which it invests $2bn annually.",
+                "categories": "cosmetics, healthcare",
+                "alternatives": "Aiken, Nano White, Kayman, Safi, Zarzou, Cosmoderm, Jelita KL, Nurish, Elianto, Pixy, Silkygirl, SimplySiti, Nurraysa"
+            },
+            "Dior": {
+                "desc": "The owner of Dior's parent company, LVMH, Bernard Arnault invests hundreds of millions in Israeli companies",
+                "categories": "luxury, clothing, fashion, cosmetics",
+                "alternatives": "Supermarket own brand options"
+            },
+            "MAC": {
+                "desc": "MAC Cosmetics is owned by Estee Lauder, who's ownership, especially Ronald Lauder, has extremist zionist views and financially and politically supports Israeli occupation of Palestinian land.",
+                "categories": "cosmetics",
+                "alternatives": "Aiken, Nano White, Kayman, Safi, Zarzou, Cosmoderm, Jelita KL, Nurish, Elianto, Pixy, Silkygirl, SimplySiti, Nurraysa"
+            },
+            "La Mer": {
+                "desc": "La Mer is owned by Estee Lauder, who's ownership, especially Ronald Lauder, has extremist zionist views and financially and politically supports Israeli occupation of Palestinian land.",
+                "categories": "luxury, cosmetics",
+                "alternatives": "Aiken, Nano White, Kayman, Safi, Zarzou, Cosmoderm, Jelita KL, Nurish, Elianto, Pixy, Silkygirl, SimplySiti, Nurraysa"
+            },
+            "Agoda": {
+                "desc": "Booking.com, whos parent company Booking Holdings owns Agoda, allows listings in occupied Palestinian territory, and after initially deciding to add a label to properties which are in occupied territory, reversed that move under pressure from Israel.",
+                "categories": "travel, technology",
+                "alternatives": "halalbooking.com"
+            },
+            "Airbnb": {
+                "desc": "Airbnb allows listings in occupied Palestinian territory, and after announcing it will remove 200 of such listings, it reversed its decision, showing it is knowingly complicit in Israels occupation.",
+                "categories": "travel, technology",
+                "alternatives": "halalbooking.com"
+            },
+            "Amazon": {
+                "desc": "Amazon is investing $7.2bn in data centers in Israel via AWS",
+                "categories": "supermarket, technology",
+                "alternatives": "eBay (unverified)"
+            },
+            "AXA": {
+                "desc": "AXA continues to invest in Israeli banks which are complicit in Israels occupation and apartheid in Palestine.",
+                "categories": "insurance, finance",
+                "alternatives": "Other insurance companies"
+            },
+            "Booking": {
+                "desc": "Booking.com allows listings in occupied Palestinian territory, and after announcing it will remove 200 of such listings, it reversed its decision, showing it is knowingly complicit in Israels occupation.",
+                "categories": "travel, technology",
+                "alternatives": "halalbooking.com"
+            },
+            "Carrefour": {
+                "desc": "Carrefour made huge investments into Israel last year, opening 50 stores and is planning to open a further 100 by 2024.",
+                "categories": "supermarket, food, drinks, clothing, household",
+                "alternatives": "Other supermarket chains"
+            },
+            "Tesco": {
+                "desc": "Tesco is partnering with an Israeli start, Trigo Retail, up to deliver till-less stores with several already open in London. Michael Gabay, the CEO of Trigo is a staunch zionist.",
+                "categories": "supermarket, food, drinks, insurance, household, finance",
+                "alternatives": "Other supermarket chains"
+            },
+            "Disney": {
+                "desc": "Disney made an official announcement that it will be pledging $2m and further initiatives to support Israel. Whilst the CEO explicitly condemned attacks on Jews in Israel, he made no mention of the Palestinian people who are being killed by the Israeli military.",
+                "categories": "entertainment, technology",
+                "alternatives": "Other entertainment and media companies"
+            },
+            "Fiverr": {
+                "desc": "CEO, Micha Kaufman, is a staunch zionist who supports the IDF.",
+                "categories": "technology",
+                "alternatives": "Other freelance services platforms"
+            },
+            "HP": {
+                "desc": "Hewlett Packard runs the biometric ID system that Israel uses to restrict Palestinian movement as well as other systems for the IDF.",
+                "categories": "technology",
+                "alternatives": "Lenovo"
+            },
+            "HSBC": {
+                "desc": "HSBC invests in companies selling arms and military equipment to Israel that have been used in the oppression of Palestinians",
+                "categories": "finance",
+                "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
+            },
+            "Motorola": {
+                "desc": "The IDF uses Motorola as a main supplier for its communication equipment which enables them to effectively control the occupied Palestinians. They also manufacture the bomb fuses used in IDF bombs.",
+                "categories": "technology, manufacturer",
+                "alternatives": "Other mobile phone and technology companies"
+            },
+            "Movenpick": {
+                "desc": "The owner of the Movenpick brand, Nestle, owns a controlling stake in Osem. Osem is an Israeli food manufacturer which operates in Occupied Palestine.",
+                "categories": "food",
+                "alternatives": "Other food and beverage brands"
+            },
+            "PUMA": {
+                "desc": "Puma is the main sponsor of the Israel Football Association (IFA), which includes teams in Israel's illegal settlements on occupied Palestinian land.",
+                "categories": "clothing, fashion",
+                "alternatives": "Other sportswear and fashion brands"
+            },
+            "Tag Heuer": {
+                "desc": "The owner of TAG Heuer's parent company, LVMH, Bernard Arnault invests hundreds of millions in Israeli companies",
+                "categories": "luxury, fashion",
+                "alternatives": "Other luxury watch brands"
+            },
+            "Waze": {
+                "desc": "Founder, Uri Levine, is a staunch zionist who is also ex-IDF (also founded moovit). Waze was bought by Google who are also on the boycott list for building Israel's supercomputer with Amazon. Waze is owned by Google but their team and office is still based in Israel. Waze is a revenue generator, because it serves ads on the map itself which means they make money when you use navigation. Google maps is free and not a revenue generator. It helps Google to target you with ads later, but if you do not click those ads, then you are not benefiting Google. So we recommend using Google maps, but not clicking on Google ads when you browse the internet.",
+                "categories": "technology, travel",
+                "alternatives": "Other GPS navigation software"
+            },
+            "Nokia": {
+                "desc": "Nokia Venture Partners, a branch of Nokia Ventures Organization, launched a new $500 million fund in December 2000 and allowed that a disproportionate amount of it would go into Israeli companies. Nokia Research Center is on the lookout for Israeli start-ups with which it can cooperate.",
+                "categories": "technology",
+                "alternatives": "Other mobile phone manufacturers"
+            },
+            "Nike": {
+                "desc": "Nike's decision to halt supply to Israeli stores marks a setback for many sports outlets in the country. It reflects Nike's global strategy rather than a targeted political message against Israel, aiming to control sales processes and bolster profitability.",
+                "categories": "clothing, fashion",
+                "alternatives": "Other sportswear and athletic brands"
+            },
+            "Skechers": {
+                "desc": "Michael S Greenberg, the president of Skechers, is a zionist who has posted pro-Israel content on his Instagram.",
+                "categories": "clothing, fashion",
+                "alternatives": "Other footwear and fashion brands"
+            },
+            "Adidas": {
+                "desc": "Adidas uses Israeli manufacturer, Delta Galil, to manufacture its underwear range.",
+                "categories": "clothing, fashion",
+                "alternatives": "Other sportswear and athletic brands"
+            },
+            "Hyundai": {
+                "desc": "Hyundai heavy machinery has been used in the demolition of Palestinian neighbourhoods in Jerusalem, benefiting them commercially from the Israeli occupation.",
+                "categories": "car, manufacturer",
+                "alternatives": "Other automobile manufacturers"
+            },
+            "Mercedes Benz": {
+                "desc": "Mercedes Benz opened a tech hub in Tel Aviv to develop connected cars technology, when it could have opened such a hub in any city in the world.",
+                "categories": "car, manufacturer",
+                "alternatives": "Other luxury automobile manufacturers"
+            },
+            "Rentalcars": {
+                "desc": "Booking.com, whose parent company Booking Holdings owns Rentalcars.com, allows listings in occupied Palestinian territory, and after initially deciding to add a label to properties which are in occupied territory, reversed that move under pressure from Israel.",
+                "categories": "car, technology, travel",
+                "alternatives": "Other car rental services"
+            },
+            "Volvo": {
+                "desc": "Volvo heavy machinery has been used in the demolition of Palestinian neighbourhoods in Occupied Palestine, benefiting them commercially from the Israeli occupation. They issued a statement distancing themselves and rejecting responsibility for its sales networks decisions, however, it is still complicit unless it ends its relationship with the companies who sell equipment to the IDF, for example Mayers Cars and Trucks in Ashdod.",
+                "categories": "car, manufacturer",
+                "alternatives": "Other automobile manufacturers"
+            },
+            "Shell": {
+                "desc": "Shell shares hit record high as Israel-Hamas war drives up oil price",
+                "categories": "energy",
+                "alternatives": "Petronas, BHP"
+            },
+            "Caltex": {
+                "desc": "Chevron is implicated in Israel policy and practice of depriving the Palestinian people of their right to sovereignty over their natural resources.",
+                "categories": "energy",
+                "alternatives": "Petronas, BHP"
+            },
+            "Purina": {
+                "desc": "The owner of the Purina brand, Nestle, owns a controlling stake in Osem. Osem is an Israeli food manufacturer which operates in Occupied Palestine.",
+                "categories": "petcare",
+                "alternatives": "Other pet food brands"
+            },
+            "Friskies": {
+                "desc": "The connection between Friskies Nestle and Israel is alarming, to say the least. It is concerning to know that a well-known brand like Friskies, which is owned by Nestle, supports Israel occupation of Palestinian territories.",
+                "categories": "petcare",
+                "alternatives": "Other pet food brands"
+            },
+            "Whiskas": {
+                "desc": "The owner of Whiskas, Mars, supports the zionist state by investing heavily in the foodtech startup scene through venture capital partner JVC.",
+                "categories": "petcare",
+                "alternatives": "Other pet food brands"
+            },
+            "Unicef": {
+                "desc": "The head of Unicef, Catherine Russell is married to the chairman of BlackRock investments, one of the largest investors in weapons companies in the world. This is a major conflict of interest and Unicef should not be trusted.",
+                "categories": "charity",
+                "alternatives": "Muslims Around The World, Ummah Welfare Trust, One Ummah"
+            },
+            "Labour party": {
+                "desc": "Keir Starmer has made official statements that Labour stands with Israel.",
+                "categories": "politics",
+                "alternatives": "Abstain, Vote for a small party with good values"
+            },
+            "Conservative party": {
+                "desc": "Rishi Sunak has made official statements that Conservatives stand with Israel. He also sent military assistance to help Israel in its genocide of Gaza.",
+                "categories": "politics",
+                "alternatives": "Abstain, Vote for a small party with good values"
+            },
+            "G4S": {
+                "desc": "G4S has now completely divested from Israel after BDS pressure. But they have been complicit and helped the Israeli occupation for many years already.",
+                "categories": "contractor",
+                "alternatives": "No alternatives researched"
             }
         }
     }

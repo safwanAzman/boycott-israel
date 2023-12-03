@@ -3,8 +3,6 @@ import { useTranslations } from "next-intl";
 export function getBoycottList() {
     const t = useTranslations("Data");
     const boycottList = [ 
-
-    // ------------------------------------ Start Food Data ---------------------------------------------------------
     {
         "id" : 1,
         "name": "Nestle",
@@ -576,766 +574,730 @@ export function getBoycottList() {
         "id": 65,
         "name": "Colgate",
         "img_url": "https://ucarecdn.com/6239d9cf-0dc2-400c-9599-079ec3a1b130/",
-        "categories": ["household","healthcare"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Colgate.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Colgate.desc"),
+        "proof_link": "https://www.drbicuspid.com/dental-hygiene/hygiene-tools/article/15375888/israeli-court-investigates-colgate-distributor",
+        "alternatives": t("boycottData.Colgate.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 66,
         "name": "Listerine",
         "img_url": "https://ucarecdn.com/f553871d-8040-4e4e-adbf-3a2538b76e34/",
-        "categories": ["household","healthcare"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Listerine.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Listerine.desc"),
+        "proof_link": "https://www.theblushinggiraffe.com/p/ethical-beauty.html",
+        "alternatives": t("boycottData.Listerine.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 67,
         "name": "Darlie",
         "img_url": "https://ucarecdn.com/c3004deb-c372-40c1-9f01-3a05e10ad3af/",
-        "categories": ["household","healthcare"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
-    },
+        "categories": t("boycottData.Darlie.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Darlie.desc"),
+        "proof_link": "https://www.aljazeera.com/economy/2020/6/19/colgate-reviewing-toothpaste-darlie-branding-amid-race-debate",
+        "alternatives": t("boycottData.Darlie.alternatives").split(',').map(alternative => alternative.trim())
+    },    
     {
         "id": 68,
         "name": "Pepsodent",
         "img_url": "https://ucarecdn.com/0a95a83e-1a78-4821-a86e-26b8fa9afa7b/",
-        "categories": ["household","healthcare"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
-    },
-    {
-        "id": 69,
-        "name": "Sensodyne",
-        "img_url": "https://ucarecdn.com/d9e240e1-3c51-4196-a50d-e48ecede1a78/",
-        "categories": ["household","healthcare"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Pepsodent.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Pepsodent.desc"),
+        "proof_link": "https://www.unilever.co.za/brands/beauty-wellbeing/pepsodent/",
+        "alternatives": t("boycottData.Pepsodent.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 70,
         "name": "Dove",
         "img_url": "https://ucarecdn.com/2f5d8d42-9280-4d45-89b4-6ed672103f5d/",
-        "categories": ["household","cosmetics"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Dove.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Dove.desc"),
+        "proof_link": "https://www.unilever.com/news/press-and-media/press-releases/2022/unilever-reaches-new-business-arrangement-for-ben-jerrys-in-israel/",
+        "alternatives": t("boycottData.Dove.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 71,
         "name": "Palmolive",
         "img_url": "https://ucarecdn.com/077cd131-333e-4e64-8de1-34f8fe06a291/",
-        "categories": ["household","household"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
-    },
+        "categories": t("boycottData.Palmolive.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Palmolive.desc"),
+        "proof_link": "https://www.drbicuspid.com/dental-hygiene/hygiene-tools/article/15375888/israeli-court-investigates-colgate-distributor",
+        "alternatives": t("boycottData.Palmolive.alternatives").split(',').map(alternative => alternative.trim())
+    },    
     {
         "id": 72,
         "name": "Clean & Clear",
         "img_url": "https://ucarecdn.com/101aee86-33b5-4c1c-81f9-2aa0657292b8/",
-        "categories": ["household","cosmetics"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.CleanAndClear.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.CleanAndClear.desc"),
+        "proof_link": "https://www.theblushinggiraffe.com/p/ethical-beauty.html",
+        "alternatives": t("boycottData.CleanAndClear.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 73,
         "name": "Vaseline",
         "img_url": "https://ucarecdn.com/264c207c-80e0-47ac-964a-2be31c61345f/",
-        "categories": ["household","cosmetics"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Vaseline.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Vaseline.desc"),
+        "proof_link": "https://www.unilever.com/news/press-and-media/press-releases/2022/unilever-reaches-new-business-arrangement-for-ben-jerrys-in-israel/",
+        "alternatives": t("boycottData.Vaseline.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 74,
         "name": "Vick's",
         "img_url": "https://ucarecdn.com/bf325bca-8ea7-4ae2-9458-d5a4dfcd176a/",
-        "categories": ["household","pharmaceuticals"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Vicks.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Vicks.desc"),
+        "proof_link": "https://www.forbes.com/sites/ricardogeromel/2012/05/16/procter-and-gamble-israel-startup/?sh=7c66a09a11f5",
+        "alternatives": t("boycottData.Vicks.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 75,
         "name": "Breeze",
         "img_url": "https://ucarecdn.com/34b80a89-4743-4602-ba23-db3856d5eaed/",
-        "categories": ["household"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Breeze.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Breeze.desc"),
+        "proof_link": "https://www.unilever.com.my/brands/home-care/breeze/",
+        "alternatives": t("boycottData.Breeze.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 76,
         "name": "Joy",
         "img_url": "https://ucarecdn.com/4e77d7f9-f9c7-470d-bcab-6b86963a2287/",
-        "categories": ["household"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Joy.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Joy.desc"),
+        "proof_link": "https://en.wikipedia.org/wiki/Joy_(dishwashing_liquid)",
+        "alternatives": t("boycottData.Joy.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 77,
         "name": "Downy",
         "img_url": "https://ucarecdn.com/f84b1267-a3eb-4d52-91c0-197f59508854/",
-        "categories": ["household"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Downy.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Downy.desc"),
+        "proof_link": "https://www.mayniaga.com/downys-support-for-israel-examining-the-details/",
+        "alternatives": t("boycottData.Downy.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 78,
         "name": "Axion",
         "img_url": "https://ucarecdn.com/44f9df75-b62a-473a-9b17-1ddb24dff223/",
-        "categories": ["household"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Axion.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Axion.desc"),
+        "proof_link": "https://www.drbicuspid.com/dental-hygiene/hygiene-tools/article/15375888/israeli-court-investigates-colgate-distributor",
+        "alternatives": t("boycottData.Axion.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 79,
         "name": "Sunlight",
         "img_url": "https://ucarecdn.com/0bad37f6-915d-4787-a742-b86d0e0e3c7f/",
-        "categories": ["household"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
-    },
+        "categories": t("boycottData.Sunlight.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Sunlight.desc"),
+        "proof_link": "https://www.unilever.com/news/press-and-media/press-releases/2022/unilever-reaches-new-business-arrangement-for-ben-jerrys-in-israel/",
+        "alternatives": t("boycottData.Sunlight.alternatives").split(',').map(alternative => alternative.trim())
+    },    
     {
         "id": 80,
         "name": "Kotex",
         "img_url": "https://ucarecdn.com/7469cf51-66c8-4c4f-ba51-c1cdd8b55ea6/",
-        "categories": ["household","healthcare"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
-    },
-    {
-        "id": 81,
-        "name": "Stayfree",
-        "img_url": "https://ucarecdn.com/507e87be-b41d-4094-905f-30471a2aec68/",
-        "categories": ["household","healthcare"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
-    },
-    {
-        "id": 82,
-        "name": "Carefree",
-        "img_url": "https://ucarecdn.com/f3696bd6-4f2d-4efc-a56a-2fe4e355f23e/",
-        "categories": ["household","healthcare"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
-    },
-    {
-        "id": 83,
-        "name": "Laurier",
-        "img_url": "https://ucarecdn.com/813851fb-b219-471e-8e5b-32e4219f1f14/",
-        "categories": ["household","healthcare"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Kotex.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Kotex.desc"),
+        "proof_link": "https://www.nextstepmalaysia.com/israel-cukup-takut-dengan-tindakan-ini-senarai-produk-israel-wajib-diboikot/",
+        "alternatives": t("boycottData.Kotex.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 84,
         "name": "Huggies",
         "img_url": "https://ucarecdn.com/50df3609-3160-40b5-9749-355baa297e36/",
-        "categories": ["household","healthcare"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
-    },
-    {
-        "id": 85,
-        "name": "Mead Johnson",
-        "img_url": "https://ucarecdn.com/e669256e-26aa-4184-be66-4fa8989a00f4/",
-        "categories": ["food"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Huggies.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Huggies.desc"),
+        "proof_link": "http://www.inminds.com/article.php?id=10435",
+        "alternatives": t("boycottData.Huggies.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 86,
         "name": "Lux",
         "img_url": "https://ucarecdn.com/2b05cbe0-6bbb-4d25-aee5-2ee81a22f5bb/",
-        "categories": ["household","cosmetics"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Lux.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Lux.desc"),
+        "proof_link": "https://www.unilever.com/news/press-and-media/press-releases/2022/unilever-reaches-new-business-arrangement-for-ben-jerrys-in-israel/",
+        "alternatives": t("boycottData.Lux.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 87,
         "name": "Febreze",
         "img_url": "https://ucarecdn.com/171ffad1-277b-4af6-b0b2-b1a1bc3b9d7e/",
-        "categories": ["household"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
-    },
+        "categories": t("boycottData.Febreze.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Febreze.desc"),
+        "proof_link": "https://www.forbes.com/sites/ricardogeromel/2012/05/16/procter-and-gamble-israel-startup/?sh=7c66a09a11f5",
+        "alternatives": t("boycottData.Febreze.alternatives").split(',').map(alternative => alternative.trim())
+    },    
     {
         "id": 88,
         "name": "Lifebuoy",
         "img_url": "https://ucarecdn.com/5afcfd11-1e91-48f9-b49a-5708f2b4320c/",
-        "categories": ["household","healthcare"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Lifebuoy.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Lifebuoy.desc"),
+        "proof_link": "https://www.unilever.com/news/press-and-media/press-releases/2022/unilever-reaches-new-business-arrangement-for-ben-jerrys-in-israel/",
+        "alternatives": t("boycottData.Lifebuoy.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 89,
         "name": "Rexona",
         "img_url": "https://ucarecdn.com/0527c853-6f5e-4a16-827d-7038d35d96fd/",
-        "categories": ["household","cosmetics"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Rexona.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Rexona.desc"),
+        "proof_link": "https://www.unilever.com/news/press-and-media/press-releases/2022/unilever-reaches-new-business-arrangement-for-ben-jerrys-in-israel/",
+        "alternatives": t("boycottData.Rexona.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 90,
-        "name": "Maybeline",
+        "name": "Maybelline",
         "img_url": "https://ucarecdn.com/0c11f5a7-e4b3-4ecd-a767-4ee0c654e793/",
-        "categories": ["cosmetics"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Maybeline.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Maybeline.desc"),
+        "proof_link": "https://www.mayniaga.com/is-maybelline-supportive-of-israel-explained/",
+        "alternatives": t("boycottData.Maybeline.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 91,
         "name": "Loreal",
         "img_url": "https://ucarecdn.com/1779efa7-54e0-4743-bee3-68cce8b00c27/",
-        "categories": ["cosmetics"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Loreal.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Loreal.desc"),
+        "proof_link": "https://bdsmovement.net/news/l%E2%80%99oreal-makeup-israeli-apartheid",
+        "alternatives": t("boycottData.Loreal.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 92,
         "name": "Garnier",
         "img_url": "https://ucarecdn.com/6ca868a5-3bc9-41c9-888e-548929176ace/",
-        "categories": ["cosmetics"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Garnier.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Garnier.desc"),
+        "proof_link": "https://bdsmovement.net/news/l%E2%80%99oreal-makeup-israeli-apartheid",
+        "alternatives": t("boycottData.Garnier.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 93,
         "name": "Clinique",
         "img_url": "https://ucarecdn.com/1b7ccf62-dbf8-4073-8f21-a8f65177f913/",
-        "categories": ["cosmetics"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Clinique.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Clinique.desc"),
+        "proof_link": "https://www.jnf.org/menu-3/speakers-bureau/bio-page?id=830973c9-caae-67a8-a4cf-ff000038378d",
+        "alternatives": t("boycottData.Clinique.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 94,
-        "name": "Gillete",
+        "name": "Gillette",
         "img_url": "https://ucarecdn.com/95b547d4-6b45-484c-9387-615318f60756/",
-        "categories": ["cosmetics"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Gillete.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Gillete.desc"),
+        "proof_link": "https://www.mayniaga.com/gillettes-support-for-israel-examining-the-details/",
+        "alternatives": t("boycottData.Gillete.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 95,
         "name": "Louis Vuitton",
         "img_url": "https://ucarecdn.com/75cfa2d7-b639-4c76-8263-5cd445786e59/",
-        "categories": ["luxury"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Louis Vuitton.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Louis Vuitton.desc"),
+        "proof_link": "https://www.timesofisrael.com/luxury-goods-magnate-bernard-arnault-invests-in-israeli-cybersecurity-firm-wiz/",
+        "alternatives": t("boycottData.Louis Vuitton.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 96,
         "name": "Giorgio Armani",
         "img_url": "https://ucarecdn.com/67ad42aa-e124-4bc2-881a-07adb39139ee/",
-        "categories": ["luxury"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Giorgio Armani.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Giorgio Armani.desc"),
+        "proof_link": "https://bdsmovement.net/news/l%E2%80%99oreal-makeup-israeli-apartheid",
+        "alternatives": t("boycottData.Giorgio Armani.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 97,
         "name": "Johnson n Johnson",
         "img_url": "https://ucarecdn.com/2f775677-1636-427f-b5fc-65999187edd0/",
-        "categories": ["healthcare"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Johnson n Johnson.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Johnson n Johnson.desc"),
+        "proof_link": "http://www.inminds.co.uk/boycott-johnson-and-johnson.html",
+        "alternatives": t("boycottData.Johnson n Johnson.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 98,
         "name": "Bath & Body Works",
         "img_url": "https://ucarecdn.com/d7c382aa-8078-4fa0-8b2c-7a7f69fd4d1f/",
-        "categories": ["cosmetics"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
-    },
-    {
-        "id": 99,
-        "name": "The Body Shop",
-        "img_url": "https://ucarecdn.com/82e74095-ad88-486e-abf5-7e121225de07/",
-        "categories": ["cosmetics"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Bath & Body Works.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Bath & Body Works.desc"),
+        "proof_link": "https://www.timesofisrael.com/the-relationship-between-epstein-and-jewish-philanthropist-wexner-explained/",
+        "alternatives": t("boycottData.Bath & Body Works.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 100,
         "name": "Herbal Essence",
         "img_url": "https://ucarecdn.com/b89ab582-30ff-4585-889a-2dade49105cc/",
-        "categories": ["cosmetics"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Herbal Essence.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Herbal Essence.desc"),
+        "proof_link": "https://www.forbes.com/sites/ricardogeromel/2012/05/16/procter-and-gamble-israel-startup/?sh=7c66a09a11f5",
+        "alternatives": t("boycottData.Herbal Essence.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 101,
         "name": "Victoria Secret",
         "img_url": "https://ucarecdn.com/01b27fbd-fb2e-41d9-88c7-a6d86ba6fa3a/",
-        "categories": ["luxury"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Victoria Secret.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Victoria Secret.desc"),
+        "proof_link": "http://www.palestineinformation.org/Victorias_Secret_handbill",
+        "alternatives": t("boycottData.Victoria Secret.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 102,
         "name": "Estee Lauder",
         "img_url": "https://ucarecdn.com/681870e8-1afc-47c6-b211-6cc3063d989c/",
-        "categories": ["cosmetics"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
-    },
+        "categories": t("boycottData.Estee Lauder.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Estee Lauder.desc"),
+        "proof_link": "https://www.jnf.org/menu-3/speakers-bureau/bio-page?id=830973c9-caae-67a8-a4cf-ff000038378d",
+        "alternatives": t("boycottData.Estee Lauder.alternatives").split(',').map(alternative => alternative.trim())
+    },    
     {
         "id": 103,
         "name": "Ralph Lauren",
         "img_url": "https://ucarecdn.com/342b636f-7ef6-4d7e-a6af-83bfac0e6414/",
-        "categories": ["luxury"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Ralph Lauren.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Ralph Lauren.desc"),
+        "proof_link": "https://bdsmovement.net/news/l%E2%80%99oreal-makeup-israeli-apartheid",
+        "alternatives": t("boycottData.Ralph Lauren.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 104,
         "name": "Neutrogena",
         "img_url": "https://ucarecdn.com/282540e4-360a-4cba-9796-8d7ac51f3575/",
-        "categories": ["cosmetics"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Neutrogena.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Neutrogena.desc"),
+        "proof_link": "https://www.chicagojewishnews.com/neutrogenas-position-on-israel-unveiling-the-connection/",
+        "alternatives": t("boycottData.Neutrogena.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 105,
         "name": "Valentino Beauty",
         "img_url": "https://ucarecdn.com/a5ab0392-4ebe-4aab-8d6e-c6b5acfacb9f/",
-        "categories": ["luxury"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Valentino Beauty.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Valentino Beauty.desc"),
+        "proof_link": "https://bdsmovement.net/news/l%E2%80%99oreal-makeup-israeli-apartheid",
+        "alternatives": t("boycottData.Valentino Beauty.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 106,
         "name": "YSL Beauty",
         "img_url": "https://ucarecdn.com/3938f119-5345-447b-9f97-c683fda7f855/",
-        "categories": ["luxury"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.YSL Beauty.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.YSL Beauty.desc"),
+        "proof_link": "https://bdsmovement.net/news/l%E2%80%99oreal-makeup-israeli-apartheid",
+        "alternatives": t("boycottData.YSL Beauty.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 107,
         "name": "Tommy Hilfiger",
         "img_url": "https://ucarecdn.com/6a161385-c7f9-42f8-a747-ce20c2ea262a/",
-        "categories": ["fashion"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Tommy Hilfiger.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Tommy Hilfiger.desc"),
+        "proof_link": "https://www.mayniaga.com/navigating-tommy-hilfiger-allegiances-israel-or-palestine/",
+        "alternatives": t("boycottData.Tommy Hilfiger.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 108,
         "name": "Kerastase",
         "img_url": "https://ucarecdn.com/8887fd70-e0bb-47f2-94c3-dfbc491cbcb3/",
-        "categories": ["cosmetics"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Kerastase.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Kerastase.desc"),
+        "proof_link": "https://bdsmovement.net/news/l%E2%80%99oreal-makeup-israeli-apartheid",
+        "alternatives": t("boycottData.Kerastase.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 109,
         "name": "Lancome",
         "img_url": "https://ucarecdn.com/ad57db6d-75b8-4896-9a93-407b079f55f1/",
-        "categories": ["luxury"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Lancome.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Lancome.desc"),
+        "proof_link": "https://bdsmovement.net/news/l%E2%80%99oreal-makeup-israeli-apartheid",
+        "alternatives": t("boycottData.Lancome.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 110,
         "name": "Revlon",
         "img_url": "https://ucarecdn.com/85ec1622-c7b9-407b-b78e-0bd132d70fce/",
-        "categories": ["cosmetics"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Revlon.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Revlon.desc"),
+        "proof_link": "https://www.theblushinggiraffe.com/p/ethical-beauty.html",
+        "alternatives": t("boycottData.Revlon.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 111,
         "name": "Chanel",
         "img_url": "https://ucarecdn.com/66d01ed4-ee27-4ebd-b3f0-9d3f9b59def7/",
-        "categories": ["luxury"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Chanel.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Chanel.desc"),
+        "proof_link": "https://www.universityoffashion.com/blog/#:~:text=Chanel%20was%20donating%20%244%20million",
+        "alternatives": t("boycottData.Chanel.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 112,
         "name": "Cerave",
         "img_url": "https://ucarecdn.com/2fa50aac-00f3-4120-94dd-fa6b24eceec6/",
-        "categories": ["cosmetics"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Cerave.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Cerave.desc"),
+        "proof_link": "https://bdsmovement.net/news/l%E2%80%99oreal-makeup-israeli-apartheid",
+        "alternatives": t("boycottData.Cerave.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 113,
         "name": "Kenzo",
         "img_url": "https://ucarecdn.com/ffea8ef0-05ff-4adb-8683-74632a51f7ea/",
-        "categories": ["fashion"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Kenzo.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Kenzo.desc"),
+        "proof_link": "https://www.timesofisrael.com/luxury-goods-magnate-bernard-arnault-invests-in-israeli-cybersecurity-firm-wiz/",
+        "alternatives": t("boycottData.Kenzo.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 114,
-        "name": "Kieh'l",
+        "name": "Kiehl's",
         "img_url": "https://ucarecdn.com/35f8a71e-fd01-42a6-b1f2-b07bbfcf0abc/",
-        "categories": ["cosmetics"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Kiehl.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Kiehl.desc"),
+        "proof_link": "https://bdsmovement.net/news/l%E2%80%99oreal-makeup-israeli-apartheid",
+        "alternatives": t("boycottData.Kiehl.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 115,
         "name": "Olay",
         "img_url": "https://ucarecdn.com/f84dda2e-bb17-4df3-8cea-24df2fa9a53d/",
-        "categories": ["cosmetics"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Olay.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Olay.desc"),
+        "proof_link": "https://www.forbes.com/sites/ricardogeromel/2012/05/16/procter-and-gamble-israel-startup/?sh=7c66a09a11f5",
+        "alternatives": t("boycottData.Olay.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 116,
         "name": "Dior",
         "img_url": "https://ucarecdn.com/b859115e-9044-4037-96af-a5c1825ca34c/",
-        "categories": ["luxury"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.Dior.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Dior.desc"),
+        "proof_link": "https://www.timesofisrael.com/luxury-goods-magnate-bernard-arnault-invests-in-israeli-cybersecurity-firm-wiz/",
+        "alternatives": t("boycottData.Dior.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 117,
         "name": "MAC",
         "img_url": "https://ucarecdn.com/a91bfddf-7d57-4e2d-9823-47688d7ae5d9/",
-        "categories": ["cosmetics"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.MAC.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.MAC.desc"),
+        "proof_link": "https://www.jnf.org/menu-3/speakers-bureau/bio-page?id=830973c9-caae-67a8-a4cf-ff000038378d",
+        "alternatives": t("boycottData.MAC.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 118,
         "name": "La Mer",
         "img_url": "https://ucarecdn.com/8358e8ee-e172-41c2-b35e-9ec31f72a6f7/",
-        "categories": ["luxury"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Supermarket own brand options"]
+        "categories": t("boycottData.La Mer.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.La Mer.desc"),
+        "proof_link": "https://www.jnf.org/menu-3/speakers-bureau/bio-page?id=830973c9-caae-67a8-a4cf-ff000038378d",
+        "alternatives": t("boycottData.La Mer.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 119,
         "name": "Agoda",
         "img_url": "https://ucarecdn.com/1bfc7242-052a-4a31-977e-2277ab0c333e/",
-        "categories": ["travel"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other travel booking websites"]
+        "categories": t("boycottData.Agoda.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Agoda.desc"),
+        "proof_link": "https://www.aljazeera.com/news/2022/10/5/is-booking-com-reversal-palestine-corporate-hypocrisy",
+        "alternatives": t("boycottData.Agoda.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 120,
         "name": "Airbnb",
         "img_url": "https://ucarecdn.com/1a287b8d-5056-4672-ba8d-cc9464bae62e/",
-        "categories": ["travel"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other accommodation and experience hosting services"]
+        "categories": t("boycottData.Airbnb.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Airbnb.desc"),
+        "proof_link": "https://www.aljazeera.com/news/2022/10/5/is-booking-com-reversal-palestine-corporate-hypocrisy",
+        "alternatives": t("boycottData.Airbnb.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 121,
         "name": "Amazon",
         "img_url": "https://ucarecdn.com/e60bbe05-477b-4bf9-b6f7-41e9342f3319/",
-        "categories": ["supermarket"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other online retail platforms"]
+        "categories": t("boycottData.Amazon.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Amazon.desc"),
+        "proof_link": "https://www.reuters.com/technology/amazon-invest-72-bln-israel-launches-aws-cloud-region-2023-08-01/",
+        "alternatives": t("boycottData.Amazon.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 122,
         "name": "AXA",
         "img_url": "https://ucarecdn.com/7993ffd5-561b-43fb-aa01-a86c65b44647/",
-        "categories": ["insurance"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other insurance companies"]
+        "categories": t("boycottData.AXA.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.AXA.desc"),
+        "proof_link": "https://bdsmovement.net/news/axa-continues-investments-in-israeli-apartheid-boycott-axa-now",
+        "alternatives": t("boycottData.AXA.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 123,
         "name": "Booking.com",
         "img_url": "https://ucarecdn.com/e22e89b0-7ec5-4f44-b1c8-aae9ee1c7a08/",
-        "categories": ["travel"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other travel and accommodation booking sites"]
+        "categories": t("boycottData.Booking.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Booking.desc"),
+        "proof_link": "https://www.aljazeera.com/news/2022/10/5/is-booking-com-reversal-palestine-corporate-hypocrisy",
+        "alternatives": t("boycottData.Booking.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 124,
         "name": "Carrefour",
         "img_url": "https://ucarecdn.com/d0c1c804-e294-479e-aee7-966b810b66aa/",
-        "categories": ["supermarket"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other supermarket chains"]
+        "categories": t("boycottData.Carrefour.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Carrefour.desc"),
+        "proof_link": "https://www.carrefour.com/en/news/2023/arrivee-de-carrefour-en-israel",
+        "alternatives": t("boycottData.Carrefour.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 125,
         "name": "Tesco",
         "img_url": "https://ucarecdn.com/0495b839-e10f-4217-aa12-82c6d687f40b/",
-        "categories": ["supermarket"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other supermarket chains"]
+        "categories": t("boycottData.Tesco.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Tesco.desc"),
+        "proof_link": "https://www.businesswire.com/news/home/20211018005203/en/Trigo-Powers-Fully-Autonomous-Tesco-Grocery-Store-in-Central-London",
+        "alternatives": t("boycottData.Tesco.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 126,
         "name": "Disney",
         "img_url": "https://ucarecdn.com/0d8bdc01-6869-423b-9eeb-1699485472a3/",
-        "categories": ["entertainment"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other entertainment and media companies"]
+        "categories": t("boycottData.Disney.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Disney.desc"),
+        "proof_link": "https://www.yahoo.com/entertainment/disney-pledges-2-million-donation-032004758.html?guccounter=1&guce_referrer=aHR0cHM6Ly9ib3ljb3R0LnRoZXdpdG5lc3MubmV3cy8&guce_referrer_sig=AQAAAMnahQziOyW5xyBa9-lg7RfFkwzQg0i1KtyHiwcbpYWuOHOnypn6cf0mzvxpJbHgE5cH9wdF3IZM7QhK59D6wM3VTUvrpzL6SJfzyv6o6IBSnLTLjGQdnZygcCUApBK7oZztt6zqQRXCl6zzURKTaqCN_uLmTqgZtEcyB7EoF-HD",
+        "alternatives": t("boycottData.Disney.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 127,
         "name": "Fiverr",
         "img_url": "https://ucarecdn.com/b8a9ada7-f8cf-4f81-b8f0-f221538e284b/",
-        "categories": ["technology"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other freelance services platforms"]
+        "categories": t("boycottData.Fiverr.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Fiverr.desc"),
+        "proof_link": "https://twitter.com/michakaufman",
+        "alternatives": t("boycottData.Fiverr.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 128,
         "name": "HP",
         "img_url": "https://ucarecdn.com/6efab425-8d19-4dcc-80c3-a559e8a7d3c2/",
-        "categories": ["technology"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other computer and technology companies"]
+        "categories": t("boycottData.HP.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.HP.desc"),
+        "proof_link": "https://en.wikipedia.org/wiki/Hewlett-Packard_Israel",
+        "alternatives": t("boycottData.HP.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 129,
         "name": "HSBC",
         "img_url": "https://ucarecdn.com/6893d78f-a440-433c-b3f8-4abb02bdc46d/",
-        "categories": ["finance"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other banking and financial services"]
+        "categories": t("boycottData.HSBC.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.HSBC.desc"),
+        "proof_link": "https://www.ethicalconsumer.org/money-finance/israel-deadly-investments",
+        "alternatives": t("boycottData.HSBC.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 130,
         "name": "Motorola",
         "img_url": "https://ucarecdn.com/16a781da-ee74-4bea-a77d-81e0b76a9614/",
-        "categories": ["technology"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other mobile phone and technology companies"]
+        "categories": t("boycottData.Motorola.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Motorola.desc"),
+        "proof_link": "http://www.inminds.co.uk/boycott-motorola.php",
+        "alternatives": t("boycottData.Motorola.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 131,
         "name": "Movenpick",
         "img_url": "https://ucarecdn.com/67ee972e-5c70-4f1b-9b8c-01f317e08616/",
-        "categories": ["food"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other food and beverage brands"]
+        "categories": t("boycottData.Movenpick.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Movenpick.desc"),
+        "proof_link": "https://en.wikipedia.org/wiki/Osem_(company)",
+        "alternatives": t("boycottData.Movenpick.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 132,
         "name": "PUMA",
         "img_url": "https://ucarecdn.com/81da9903-4426-453a-92f2-a76b897c2a3e/",
-        "categories": ["fashion"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other sportswear and fashion brands"]
+        "categories": t("boycottData.PUMA.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.PUMA.desc"),
+        "proof_link": "https://thisispuma.com/",
+        "alternatives": t("boycottData.PUMA.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 133,
         "name": "Tag Heuer",
         "img_url": "https://ucarecdn.com/01fcbb0d-23f8-4a92-aa89-12272df25a74/",
-        "categories": ["luxury"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other luxury watch brands"]
+        "categories": t("boycottData.Tag Heuer.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Tag Heuer.desc"),
+        "proof_link": "https://www.timesofisrael.com/luxury-goods-magnate-bernard-arnault-invests-in-israeli-cybersecurity-firm-wiz/",
+        "alternatives": t("boycottData.Tag Heuer.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 134,
         "name": "Waze",
         "img_url": "https://ucarecdn.com/a4646949-348a-4f71-9980-d181c767af07/",
-        "categories": ["technology"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other GPS navigation software"]
+        "categories": t("boycottData.Waze.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Waze.desc"),
+        "proof_link": "https://twitter.com/UriLevine1",
+        "alternatives": t("boycottData.Waze.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 135,
         "name": "Nokia",
         "img_url": "https://ucarecdn.com/cee7d61c-2913-4a6c-9c07-9d46a636c104/",
-        "categories": ["technology"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other mobile phone manufacturers"]
+        "categories": t("boycottData.Nokia.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Nokia.desc"),
+        "proof_link": "http://www.inminds.co.uk/boycott-nokia.html",
+        "alternatives": t("boycottData.Nokia.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 136,
         "name": "Nike",
         "img_url": "https://ucarecdn.com/6a0fc6e0-ea96-488a-876a-879aa91dadf2/",
-        "categories": ["fashion"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other sportswear and athletic brands"]
+        "categories": t("boycottData.Nike.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Nike.desc"),
+        "proof_link": "https://www.mayniaga.com/does-nike-stand-with-palestine-or-israel-explore-the-truth/",
+        "alternatives": t("boycottData.Nike.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 137,
         "name": "Skechers",
         "img_url": "https://ucarecdn.com/eefefbaf-f2ee-4446-aa0c-4b9f0b75be15/",
-        "categories": ["fashion"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other footwear and fashion brands"]
+        "categories": t("boycottData.Skechers.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Skechers.desc"),
+        "proof_link": "https://twitter.com/thinkaboutwhe/status/1730201358543020273",
+        "alternatives": t("boycottData.Skechers.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 138,
         "name": "Adidas",
         "img_url": "https://ucarecdn.com/fa3a4893-3477-4723-8d05-f1a5052f9b47/",
-        "categories": ["fashion"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other sportswear and athletic brands"]
+        "categories": t("boycottData.Adidas.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Adidas.desc"),
+        "proof_link": "https://adidasunderwear.com/pages/adidas-underwear-partnership/",
+        "alternatives": t("boycottData.Adidas.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 139,
         "name": "Hyundai",
         "img_url": "https://ucarecdn.com/5f5e3c29-f377-47c1-83b2-315113181ad0/",
-        "categories": ["car"],
-        "desc": "",
+        "categories": t("boycottData.Hyundai.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Hyundai.desc"),
         "proof_link": "",
-        "alternatives": ["Other automobile manufacturers"]
+        "alternatives": t("boycottData.Hyundai.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 140,
         "name": "Mercedes Benz",
         "img_url": "https://ucarecdn.com/55c520e1-208a-4b0f-a02e-2accca0a9dd6/",
-        "categories": ["car"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other luxury automobile manufacturers"]
+        "categories": t("boycottData.Mercedes Benz.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Mercedes Benz.desc"),
+        "proof_link": "https://www.timesofisrael.com/mercedes-benz-opens-tech-hub-in-tel-aviv-to-secure-lead-in-connected-cars/",
+        "alternatives": t("boycottData.Mercedes Benz.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 141,
         "name": "Rentalcars.com",
         "img_url": "https://ucarecdn.com/0b7113a5-f5a8-4b7e-b528-5fa20c2598cd/",
-        "categories": ["travel"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other car rental services"]
+        "categories": t("boycottData.Rentalcars.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Rentalcars.desc"),
+        "proof_link": "https://www.aljazeera.com/news/2022/10/5/is-booking-com-reversal-palestine-corporate-hypocrisy",
+        "alternatives": t("boycottData.Rentalcars.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 142,
         "name": "Volvo",
         "img_url": "https://ucarecdn.com/bc242eb0-221c-4efc-a8e2-560ade6f03a8/",
-        "categories": ["car"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other automobile manufacturers"]
+        "categories": t("boycottData.Volvo.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Volvo.desc"),
+        "proof_link": "http://www.inminds.co.uk/article.php?id=10424",
+        "alternatives": t("boycottData.Volvo.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 143,
         "name": "Shell",
         "img_url": "https://ucarecdn.com/5eb1a600-eb2d-4377-8c45-ec044f0d7321/",
-        "categories": ["energy"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other oil and gas companies"]
+        "categories": t("boycottData.Shell.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Shell.desc"),
+        "proof_link": "https://www.offshore-technology.com/news/shell-shares-hit-record-high-amid-israel-palestine-war-driving-up-oil-prices/",
+        "alternatives": t("boycottData.Shell.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 144,
         "name": "Caltex",
         "img_url": "https://ucarecdn.com/9d4903a6-8805-486a-895c-b9a9b6fed7ad/",
-        "categories": ["energy"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other oil and gas companies"]
+        "categories": t("boycottData.Caltex.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Caltex.desc"),
+        "proof_link": "https://bdsmalaysia.com/boikot-caltex/",
+        "alternatives": t("boycottData.Caltex.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 145,
-        "name": "Petron",
-        "img_url": "https://ucarecdn.com/eb4824b9-06d6-4ff6-a824-1c3d57a01a8d/",
-        "categories": ["energy"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other oil and gas companies"]
+        "name": "Purina",
+        "img_url": "https://ucarecdn.com/226af8b2-b640-40df-9e68-9ef42302a128/",
+        "categories": t("boycottData.Purina.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Purina.desc"),
+        "proof_link": "https://en.wikipedia.org/wiki/Osem_(company)",
+        "alternatives": t("boycottData.Purina.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 146,
-        "name": "Purina",
-        "img_url": "https://ucarecdn.com/226af8b2-b640-40df-9e68-9ef42302a128/",
-        "categories": ["petcare"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other pet food brands"]
+        "name": "Friskies",
+        "img_url": "https://ucarecdn.com/cb044e3f-2aa0-4a9a-872f-8f1962659dca/",
+        "categories": t("boycottData.Friskies.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Friskies.desc"),
+        "proof_link": "https://paketmu.com/friskies-support-for-israel-examining-the-nestle-connection/",
+        "alternatives": t("boycottData.Friskies.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 147,
-        "name": "Friskies",
-        "img_url": "https://ucarecdn.com/cb044e3f-2aa0-4a9a-872f-8f1962659dca/",
-        "categories": ["petcare"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other pet food brands"]
+        "name": "Whiskas",
+        "img_url": "https://ucarecdn.com/d4a3cec7-7629-4559-bbeb-46abc31cc998/",
+        "categories": t("boycottData.Whiskas.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Whiskas.desc"),
+        "proof_link": "https://aus.mars.com/news-and-stories/press-releases/mars-partners-with-jerusalem-venture-partners",
+        "alternatives": t("boycottData.Whiskas.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 148,
-        "name": "TOTW",
-        "img_url": "https://ucarecdn.com/7b4a8b19-447f-43ff-98ad-7183627051a2/",
-        "categories": ["petcare"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other pet food brands"]
+        "name": "Unicef",
+        "img_url": "https://ucarecdn.com/8a56124d-37b0-4766-96fb-2ad742f2534e/",
+        "categories": t("boycottData.Unicef.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Unicef.desc"),
+        "proof_link": "https://aus.mars.com/news-and-stories/press-releases/mars-partners-with-jerusalem-venture-partners",
+        "alternatives": t("boycottData.Unicef.alternatives").split(',').map(alternative => alternative.trim())
     },
     {
         "id": 149,
-        "name": "Whiskas",
-        "img_url": "https://ucarecdn.com/d4a3cec7-7629-4559-bbeb-46abc31cc998/",
-        "categories": ["petcare"],
-        "desc": "",
-        "proof_link": "",
-        "alternatives": ["Other pet food brands"]
+        "name": "Labour party",
+        "img_url": "https://ucarecdn.com/da929e8e-8ba2-485e-9653-e716eefa2dae/",
+        "categories": t("boycottData.Labour party.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Labour party.desc"),
+        "proof_link": "https://labour.org.uk/updates/press-releases/keir-starmers-statement-to-the-commons-on-israel-gaza/",
+        "alternatives": t("boycottData.Labour party.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 150,
+        "name": "Conservative party",
+        "img_url": "https://ucarecdn.com/6acc58e0-e035-4aea-8f37-e69c19ba68aa/",
+        "categories": t("boycottData.Conservative party.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Conservative party.desc"),
+        "proof_link": "https://www.theguardian.com/world/2023/oct/14/sunak-promises-israel-unqualified-support-in-face-of-evil-but-fails-to-mention-plight-of-gaza",
+        "alternatives": t("boycottData.Conservative party.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 151,
+        "name": "G4S",
+        "img_url": "https://ucarecdn.com/909d0368-eea4-4417-b7ed-08c97fd621c0/",
+        "categories": t("boycottData.G4S.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.G4S.desc"),
+        "proof_link": "https://peoplesdispatch.org/2023/06/05/private-security-firm-g4s-to-divest-from-israel-after-years-long-campaign-by-bds-activists/",
+        "alternatives": t("boycottData.G4S.alternatives").split(',').map(alternative => alternative.trim())
     }
 ]
 

@@ -73,6 +73,10 @@
     --ring: 212.7 26.8% 83.9%;
   }
 }
+
+.search-container{
+  @apply flex flex-col md:flex-row items-center space-x-0 space-y-2 md:space-y-0 md:space-x-2 justify-center bg-gray-50/80 backdrop-blur-xl p-4 lg:rounded-t-lg sticky top-[3rem] md:top-16 z-50 dark:bg-gray-900/80
+}
  
 @layer base {
   * {

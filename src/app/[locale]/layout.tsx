@@ -5,6 +5,7 @@ import {notFound} from 'next/navigation';
 import { NextIntlClientProvider } from "next-intl";
 import {unstable_setRequestLocale} from 'next-intl/server';
 import { MobileNavbarProvider } from '@/context/MobileNavbarContext';
+import { ThemeProvider } from '@/context/theme-provider';
 const inter = Inter({ subsets: ['latin'] })
 
 const locales = ['en', 'my'];
@@ -42,13 +43,19 @@ export default async function RootLayout({
   unstable_setRequestLocale(locale);
   const messages = await getMessages(locale);
   return (
-    <html lang={locale}>
-      <body className={inter.className}>
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          <MobileNavbarProvider>
-            {children}
-          </MobileNavbarProvider>
-        </NextIntlClientProvider>
+    <html lang={locale} suppressHydrationWarning>
+      <body suppressHydrationWarning={true} className={` bg-gray-50 dark:bg-gray-900 ${inter.className}`}>
+        <ThemeProvider 
+            attribute="class" 
+            defaultTheme="light" 
+            enableSystem
+          >
+          <NextIntlClientProvider locale={locale} messages={messages}>
+            <MobileNavbarProvider>
+              {children}
+            </MobileNavbarProvider>
+          </NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   )

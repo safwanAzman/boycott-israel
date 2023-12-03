@@ -41,7 +41,7 @@ const Container = ({children,section}:ContainerProps) => {
                         </div>
                     </div>
                     <div className="absolute w-full top-64">
-                        <div className="bg-white mx-0 lg:mx-8 shadow-lg lg:rounded-lg mb-20 lg:mb-0">
+                        <div className="bg-white dark:bg-background mx-0 lg:mx-8 shadow-lg lg:rounded-lg mb-20 lg:mb-0">
                             {section}
                             <div className="p-4">
                                 {children}
