@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { Badge } from "@/components/ui/badge"
 import { AspectRatio } from "@/components/ui/aspect-ratio"
 import Container from '@/components/layouts/container'
-import {getBoycottList} from '@/data'
+import {useBoycottList} from '@/data'
 import {BoycottList} from '@/types'
 import { Link as LinkIcon} from "lucide-react"
 import { useTranslations } from "next-intl";
@@ -13,7 +13,7 @@ import BackBtn from '@/components/molecules/back-btn';
 
 const Why = ({ params }: { params: { id: string } }) => {
     const t = useTranslations("Why");
-    const boycottData = getBoycottList();
+    const boycottData = useBoycottList();
     const [data, setData] = useState<BoycottList | undefined>(undefined)
 
     useEffect(() => {

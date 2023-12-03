@@ -14,16 +14,16 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
-import {getBoycottList} from '@/data'
-import {categoriesList} from '@/shared/categories'
+import {useBoycottList} from '@/data'
+import {useCategoriesList} from '@/shared/categories'
 import { useTranslations } from "next-intl";
 import BoycottCard from '@/components/molecules/boycott-card';
 
 
 export default function Home() {
   const form = useTranslations("Form");
-  const boycottData = getBoycottList();
-  const categories = categoriesList();
+  const boycottData = useBoycottList();
+  const categories = useCategoriesList();
 
   const [data, setData] = useState<BoycottList[]>([])
   const [searchData, setSearchData] = useState('');

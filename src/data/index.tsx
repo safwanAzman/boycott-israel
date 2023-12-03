@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 
-export function getBoycottList() {
+export function useBoycottList() {
     const t = useTranslations("Data");
     const boycottList = [ 
     {

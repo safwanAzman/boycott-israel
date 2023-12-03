@@ -25,7 +25,7 @@ import {
     Rocket,
     PlaneTakeoff,
 } from "lucide-react"
-export function categoriesList() {
+export function useCategoriesList() {
 const form = useTranslations("Form");
 const categories = [
     {

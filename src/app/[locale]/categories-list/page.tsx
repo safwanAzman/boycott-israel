@@ -4,8 +4,8 @@ import Container from '@/components/layouts/container';
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { RotateCcw ,ArrowLeft} from "lucide-react";
-import { categoriesList } from '@/shared/categories';
-import { getBoycottList } from '@/data';
+import { useCategoriesList } from '@/shared/categories';
+import { useBoycottList } from '@/data';
 import {CategoriesList} from '@/types'
 import BoycottCard from '@/components/molecules/boycott-card';
 import BackBtn from '@/components/molecules/back-btn';
@@ -20,8 +20,8 @@ import { useTranslations } from "next-intl";
 
 const CategoriesList = () => {
     const form = useTranslations("Form");
-    const categories = categoriesList();
-    const boycottData = getBoycottList();
+    const categories = useCategoriesList();
+    const boycottData = useBoycottList();
     const [selectedItemId, setSelectedItemId] = useState<number | null>(null);
     const [data, setData] = useState<CategoriesList[]>([]);
     const [searchData, setSearchData] = useState('');

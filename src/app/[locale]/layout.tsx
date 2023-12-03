@@ -8,6 +8,7 @@ import { MobileNavbarProvider } from '@/context/MobileNavbarContext';
 import { ThemeProvider } from '@/context/theme-provider';
 const inter = Inter({ subsets: ['latin'] })
 import {siteConfig} from '@/config/site'
+import Script from 'next/script';
 
 const locales = ['en', 'my'];
 
@@ -73,6 +74,12 @@ export default async function RootLayout({
   return (
     <html lang={locale} suppressHydrationWarning>
       <body suppressHydrationWarning={true} className={` bg-gray-50 dark:bg-gray-900 ${inter.className}`}>
+        <Script 
+            src="https://beamanalytics.b-cdn.net/beam.min.js" 
+            data-token="68760ebf-5a10-40e1-b771-caace40d4854" 
+            strategy="afterInteractive"
+            async
+          />
         <ThemeProvider 
             attribute="class" 
             defaultTheme="light" 

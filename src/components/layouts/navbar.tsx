@@ -204,7 +204,7 @@ const Navbar = ({})=> {
                                         {openDropdown ?
                                         <div className="mt-2 bg-gray-50 dark:bg-gray-900 px-4 py-5 rounded-lg">
                                             {item.dropdown.map((dropdownItem, dropdownIndex) => (
-                                                <Link className="flex items-center space-x-2 pb-4" href={dropdownItem.href} target="_blank">
+                                                <Link key={dropdownIndex} className="flex items-center space-x-2 pb-4" href={dropdownItem.href} target="_blank">
                                                     <ExternalLink className="w-4 h-4" />
                                                     <p>{dropdownItem.title}</p>
                                                 </Link>
