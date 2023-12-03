@@ -16,7 +16,7 @@ const BoycottCard = ({
 }: BoycottCardProps) => {
     const t = useTranslations("BoycottCard");
     return(
-        <Link href={href} className="group/why bg-white dark:bg-gray-900 shadow-sm p-4 border-[0.5px] rounded-lg relative">
+        <Link href={href} target="_blank" className="group/why bg-white dark:bg-gray-900 shadow-sm p-4 border-[0.5px] rounded-lg relative">
             <div className="flex items-center flex-col justify-center">
                 <Image
                     src={img}

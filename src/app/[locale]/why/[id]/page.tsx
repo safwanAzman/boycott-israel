@@ -23,18 +23,7 @@ const Why = ({ params }: { params: { id: string } }) => {
     }, [params.id]); 
 
     return (
-        <Container
-            section={
-                <div className="search-container justify-between items-center">
-                    <div className="text-lg font-medium mt-2 px-2 md:px-4">
-                        <h1>#FreePalestine 🇵🇸</h1>
-                    </div>
-                    <div>
-                        <BackBtn/>
-                    </div>
-                </div>
-            }
-        >
+        <Container>
             {data ? (
                 <div className="grid grid-cols-12 gap-6">
                     <div className="relative col-span-12 lg:col-span-4 bg-gray-50 dark:bg-gray-900 rounded-lg flex justify-center item-center p-10">
@@ -60,7 +49,7 @@ const Why = ({ params }: { params: { id: string } }) => {
                                         {t("WhySection.why")}
                                     </h1>
                                 </div>
-                                <p className="text-base text-left lg:text-justify max-w-4xl leading-7">
+                                <p className="text-base text-left lg:text-justify max-w-3xl leading-7">
                                     {data.desc}
                                 </p>
                             </div>
