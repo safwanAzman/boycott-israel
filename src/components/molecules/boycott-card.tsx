@@ -32,7 +32,7 @@ const BoycottCard = ({
                 <div className="hidden group-hover/why:block ">
                 <div className="absolute inset-0 rounded-lg flex items-center justify-center bg-black/60 backdrop-blur-sm ">
                     <Button size="sm" className=" bg-transparent border border-white hover:bg-transparent">
-                        <p className="text-[10px] lg:text-xs dark:text-white">{t("BoycottCardSection.why")}{productName} ?</p>
+                        <p className="text-[10px] lg:text-xs dark:text-white">{t("BoycottCardSection.why")} {productName} ?</p>
                     </Button>
                 </div>
                 </div>
