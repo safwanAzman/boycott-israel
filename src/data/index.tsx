@@ -1298,6 +1298,33 @@ export function useBoycottList() {
         "desc": t("boycottData.G4S.desc"),
         "proof_link": "https://peoplesdispatch.org/2023/06/05/private-security-firm-g4s-to-divest-from-israel-after-years-long-campaign-by-bds-activists/",
         "alternatives": t("boycottData.G4S.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 152,
+        "name": "A&W",
+        "img_url": "https://ucarecdn.com/f7b7e36c-c552-4fa4-a269-10d03934c158/",
+        "categories": t("boycottData.A&W.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.A&W.desc"),
+        "proof_link": "https://en.wikipedia.org/wiki/A%26W_Restaurants",
+        "alternatives": t("boycottData.A&W.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 153,
+        "name": "Taco Bell",
+        "img_url": "https://ucarecdn.com/3337ca2d-9378-40e2-a0e0-3cc1b5701c36/",
+        "categories": t("boycottData.Taco Bell.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Taco Bell.desc"),
+        "proof_link": "https://www.calcalistech.com/ctech/articles/0,7340,L-3901254,00.html",
+        "alternatives": t("boycottData.Taco Bell.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 154,
+        "name": "Meta",
+        "img_url": "https://ucarecdn.com/cfa9a0a4-9265-47c7-a603-43e194e07ebb/",
+        "categories": t("boycottData.Meta.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Meta.desc"),
+        "proof_link": "https://www.ndtv.com/world-news/israel-palestine-war-thank-you-meta-israel-after-mark-zuckerberg-calls-hamas-attacks-pure-evil-4483335",
+        "alternatives": t("boycottData.Meta.alternatives").split(',').map(alternative => alternative.trim())
     }
 ]
 

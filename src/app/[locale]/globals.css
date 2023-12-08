@@ -74,10 +74,10 @@
   }
 }
 
-.search-container{
-  @apply flex space-x-0 space-y-2 md:space-y-0 md:space-x-2  bg-gray-50/80 backdrop-blur-xl p-4 lg:rounded-t-lg sticky top-[3rem] md:top-16 z-40 dark:bg-gray-900/80
-}
- 
+.no-scrollbar::-webkit-scrollbar { 
+  display: none; 
+} 
+
 @layer base {
   * {
     @apply border-border;
@@ -86,3 +86,26 @@
     @apply bg-background text-foreground;
   }
 }
+
+.btn-scroll{
+  @apply bg-white dark:bg-background dark:border-gray-700 rounded-full w-6 h-6 flex items-center justify-center border shadow-md focus:outline-none
+}
+
+.container-btn-scroll{
+  @apply absolute bottom-10 z-0 flex px-2
+}
+
+
+/* why css */
+.proofBtn {
+  @apply bg-black dark:bg-gray-900 px-4 py-4 lg:py-2 hover:bg-gray-800 rounded-xl text-xs border flex items-center justify-center text-white;
+}
+
+.imgWhyContainer {
+  @apply relative col-span-12 lg:col-span-4 bg-gray-50 dark:bg-gray-900 rounded-lg flex justify-center items-center p-10;
+}
+
+.search-container{
+  @apply flex space-x-0 space-y-2 md:space-y-0 md:space-x-2  bg-gray-100/80 backdrop-blur-xl p-4 lg:rounded-t-lg sticky top-[3rem] md:top-16 z-40 dark:bg-gray-900/80
+}
+

@@ -38,7 +38,9 @@
         "formSection": {
             "search": "Carian",
             "reset": "Set Semula",
-            "back": "Halaman Utama"
+            "back": "Halaman Utama",
+            "categories": "Pilih Kategori"
+            
         },
         "categories": {
             "all": "semua",
@@ -799,6 +801,21 @@
                 "desc": "G4S kini telah sepenuhnya melupuskan dari Israel selepas tekanan BDS. Tetapi mereka telah bersubahat dan membantu pendudukan Israel selama bertahun-tahun.",
                 "categories": "kontraktor",
                 "alternatives": "Tiada alternatif yang diselidiki"
+            },
+            "A&W": {
+                "desc": "Syarikat induk Yum Brands adalah pelabur dalam permulaan di Israel.",
+                "categories": "makanan,minuman",
+                "alternatives": "Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+            },
+            "Taco Bell": {
+                "desc": "Syarikat induk Yum Brands adalah pelabur dalam permulaan di Israel.",
+                "categories": "makanan",
+                "alternatives": "Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+            },
+            "Meta": {
+                "desc": "Di tengah-tengah konflik yang berterusan antara Israel dan Palestin, Mark Zuckerberg, Ketua Pegawai Eksekutif Meta, menyatakan pendapatnya mengenai situasi itu dan mengutuk serangan yang dilakukan oleh Hamas. Dalam Kisah Instagram awal minggu ini, Encik Zuckerberg berkata, ''Serangan pengganas oleh Hamas adalah jahat. Tidak pernah ada sebarang justifikasi untuk melakukan tindakan keganasan terhadap orang yang tidak bersalah.''",
+                "categories": "teknologi",
+                "alternatives": "twitter,Gab"
             }
         }
     }

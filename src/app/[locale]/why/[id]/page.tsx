@@ -31,8 +31,8 @@ const Why = ({ params }: { params: { id: string } }) => {
                 }
             >
             {data ? (
-                <div className="grid grid-cols-12 gap-6">
-                    <div className="relative col-span-12 lg:col-span-4 bg-gray-50 dark:bg-gray-900 rounded-lg flex justify-center item-center p-10">
+                <div className="grid grid-cols-12 gap-6 p-4">
+                    <div className="imgWhyContainer">
                         <AspectRatio ratio={10 / 9} className="bg-white">
                             <Image
                                 src={data.img_url}
@@ -68,7 +68,10 @@ const Why = ({ params }: { params: { id: string } }) => {
                                 <div className="flex items-center flex-wrap">
                                     {data.categories.map((category, index) => (
                                         <div key={index}>
-                                            <Badge variant="outline" className="border-red-500 bg-red-50 text-red-500 my-1 mr-2">
+                                            <Badge 
+                                                variant="outline" 
+                                                className="border-red-500 bg-red-50 text-red-500 my-1 mr-2"
+                                            >
                                             {category}
                                             </Badge>
                                         </div>
@@ -84,7 +87,10 @@ const Why = ({ params }: { params: { id: string } }) => {
                                 <div className="flex items-center flex-wrap">
                                     {data.alternatives.map((alternative, index) => (
                                         <div key={index}>
-                                            <Badge variant="outline" className="border-green-500 bg-green-50 text-green-500 my-1 mr-2">
+                                            <Badge 
+                                                variant="outline" 
+                                                className="border-green-500 bg-green-50 text-green-500 my-1 mr-2"
+                                            >
                                             {alternative}
                                             </Badge>
                                         </div>
@@ -98,7 +104,11 @@ const Why = ({ params }: { params: { id: string } }) => {
                                     </h1>
                                 </div>
                                 <div className="w-full md:w-40 pb-6">
-                                    <Link href={data.proof_link} target='_blank' className="bg-black dark:bg-gray-900 px-4 py-4 lg:py-2 hover:bg-gray-800 rounded-xl text-xs border flex items-center justify-center text-white">
+                                    <Link 
+                                        href={data.proof_link} 
+                                        target='_blank' 
+                                        className="proofBtn"
+                                    >
                                         <LinkIcon className="mr-2 h-3 w-3" />
                                         <p>{t("WhySection.bntProof")}</p>
                                     </Link>

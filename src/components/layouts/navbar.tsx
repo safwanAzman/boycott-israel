@@ -39,9 +39,10 @@ const Navbar = ({})=> {
             icon: <Search className="w-5 h-5" />
         },
         {
-            title:`${t("HeaderSection.browse")}`,
-            href:"/categories-list",
-            icon: <LayoutDashboard className="w-5 h-5" />
+            title:`${t("HeaderSection.donate")}`,
+            href:"https://matwproject.org.uk/crisis-and-emergencies/palestine",
+            icon: <div className="text-xl">🇵🇸</div>,
+            newTab:true
         },
         {
             title:`${t("HeaderSection.reference")}`,
@@ -73,11 +74,6 @@ const Navbar = ({})=> {
                 },
             ]
         },
-        {
-            title:`${t("HeaderSection.donate")}`,
-            href:"https://matwproject.org.uk/crisis-and-emergencies/palestine",
-            icon: <div className="text-xl">🇵🇸</div>
-        },
     ]
 
     return(
@@ -92,6 +88,7 @@ const Navbar = ({})=> {
                             <div key={index}>
                                 {!item.dropdown ? (
                                     <Link
+                                        {...(item.newTab ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                                         href={item.href}
                                         className={`text-sm px-3 font-semibold w-full flex items-center space-x-2 hover:scale-110 ${pathname === item.href ? 'text-red-500' : ''}`}>
                                         {item.icon}
@@ -186,6 +183,7 @@ const Navbar = ({})=> {
                                     <Link 
                                         onClick={()=> setShowNavbar(false)}
                                         href={item.href} 
+                                        {...(item.newTab ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                                         className={`text-sm font-semibold  w-full flex items-center space-x-2 
                                         ${pathname === item.href ? 'text-red-500 font-semibold' : ''}`}>
                                         {item.icon}

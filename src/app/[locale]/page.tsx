@@ -1,23 +1,18 @@
 "use client"
 
-import React, { useState, useEffect,ChangeEvent} from 'react';
+import React, { useState, useEffect,ChangeEvent,useRef} from 'react';
 import Container from '@/components/layouts/container'
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
-import { RotateCcw} from "lucide-react"
+import { Badge } from "@/components/ui/badge"
+import { RotateCcw ,ChevronLeft ,ChevronRight} from "lucide-react"
 import {BoycottList} from '@/types'
-import {
-  Select,
-  SelectContent,
-  SelectGroup,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select"
 import {useBoycottList} from '@/data'
 import {useCategoriesList} from '@/shared/categories'
 import { useTranslations } from "next-intl";
 import BoycottCard from '@/components/molecules/boycott-card';
+import CategoryCard from '@/components/molecules/category-card';
+import { scroll } from '@/utils/scroll-horinzontal';
 
 
 export default function Home() {
@@ -25,6 +20,7 @@ export default function Home() {
   const boycottData = useBoycottList();
   const categories = useCategoriesList();
 
+  const scrollRef = useRef<HTMLDivElement>(null);
   const [data, setData] = useState<BoycottList[]>([])
   const [searchData, setSearchData] = useState('');
   const [selectedCategory, setSelectedCategory] = useState(form("categories.all"));
@@ -35,11 +31,18 @@ export default function Home() {
   
   const handleCategoryChange = (value:string) => {
     setSelectedCategory(value);
+    window.scrollTo({top: 0, behavior: 'smooth'})
   };
+
+  const handleReset = () =>{
+    setSearchData('')
+    setSelectedCategory(form("categories.all"))
+  }
 
   useEffect(() => {
     const filteredData = boycottData.filter((item) => {
-      const matchesCategory = selectedCategory === form("categories.all")|| item.categories.includes(selectedCategory);
+      const matchesCategory = selectedCategory === form("categories.all") || 
+      item.categories.includes(selectedCategory);
       const matchesSearch = item.name.toLowerCase().includes(searchData.toLowerCase());
       return matchesCategory && matchesSearch;
     });
@@ -47,54 +50,76 @@ export default function Home() {
   }, [searchData, selectedCategory]);
 
   return (
-    <Container 
-        section={
-          <div className="search-container flex-col md:flex-row justify-center items-center">
+    <Container>
+        <div>
+          <div className="bg-gray-100/80 dark:bg-gray-900/80 backdrop-blur-xl p-4 sticky top-14 rounded-l-lg z-40">
+            <div className="flex flex-col lg:flex-row items-center justify-center mb-4 space-x-0 space-y-2 lg:space-y-0 lg:space-x-2">
               <Input 
                 placeholder={form("formSection.search")}
-                className="text-xs w-full md:w-96"
+                className="text-xs w-full lg:w-96"
                 value={searchData}
                 onChange={handleSearchChange}
               />
-              <Select 
-                key={selectedCategory} 
-                onValueChange={handleCategoryChange} 
-                defaultValue={selectedCategory}
+              <Button 
+                size="sm" 
+                className="text-xs w-full lg:w-32 dark:bg-gray-700 dark:text-white" 
+                onClick={() => handleReset() }
               >
-                <SelectTrigger className="w-full md:w-[280px]">
-                  <SelectValue placeholder="Select a timezone" />
-                </SelectTrigger>
-                  <SelectContent>
-                    <SelectGroup>
-                    {categories?.map((item) => (
-                      <SelectItem 
-                        key={item.id} 
-                        value={item.value}>
-                          {item.label}
-                      </SelectItem>
-                    ))}
-                    </SelectGroup>
-                  </SelectContent>
-                </Select>
-                <Button size="sm" className="text-xs w-full md:w-32" onClick={() =>{
-                  setSearchData('')
-                  setSelectedCategory(form("categories.all"))
-                  }}>
-                    <RotateCcw className="mr-2 h-4 w-4" />
-                    <p>{form("formSection.reset")}</p>
-                </Button>
+                <RotateCcw className="m-2 h-4 w-4" />
+                <p>{form("formSection.reset")}</p>
+              </Button>
+            </div>
+            <div className="px-6">
+              <div ref={scrollRef} className="flex snap-x flex-shrink-0  space-x-1.5 overflow-x-auto no-scrollbar">
+                {categories?.map((item) => (
+                    <CategoryCard
+                        key={item.id}
+                        value={item.value}
+                        selected={selectedCategory.includes(item.value)}
+                        selectedColor={item.selectedColor}
+                        label={item.label}
+                        icon={item.icon}
+                        onClick={handleCategoryChange}
+                    />
+                ))}
+              </div>
+            </div>
+            <div>
+              <div className="container-btn-scroll right-0 ">
+                <button className='btn-scroll' onClick={() => scroll(scrollRef,200)}>
+                  <ChevronRight className="w-4 h-4"/>
+                </button>
+              </div>
+              <div className="container-btn-scroll left-0">
+                <button className='btn-scroll' onClick={() => scroll(scrollRef, -200)}>
+                  <ChevronLeft className="w-4 h-4"/>
+                </button>
+              </div>
+            </div>
           </div>
-        }
-      >
-        <div className="grid grid-cols-2 lg:grid-cols-5 gap-4">
-          {data?.map((item) => (
-              <BoycottCard
-                  key={item.id} 
-                  img={item.img_url}
-                  href={`/why/${item.id}`}
-                  productName={item.name}
-              />
-            ))}
+          <div>
+            <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-5 gap-2 p-4">
+              {data?.map((item) => (
+                  <BoycottCard
+                      key={item.id} 
+                      img={item.img_url}
+                      href={`/why/${item.id}`}
+                      productName={item.name}
+                      desc={item.desc}
+                      categories={item.categories.map((category, index) => (
+                        <div key={index}>
+                            <Badge 
+                              variant="outline" 
+                              className="border-red-500 bg-red-50 text-red-500 my-1 mr-2"
+                            >
+                              {category}
+                            </Badge>
+                        </div>
+                    ))}
+                  />
+                ))}
+            </div>
+          </div>
         </div>
     </Container>
   )

@@ -6,7 +6,7 @@ This project is dedicated to the development of a product listing that identifie
 ## Live Preview
 Link: https://www.boikotisrael.com
 
-![App Screenshot](https://ucarecdn.com/7eb485c2-6376-4aae-a39b-8b1849c5f165/Screenshot20231203at70610PM.png)
+![App Screenshot](https://ucarecdn.com/ad77daec-7298-49b1-a53a-1562a1306267/Screenshot20231208at41626PM.png)
 
 
 

@@ -69,7 +69,15 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        'slow-bounce': 'custom-bounce 1s ease-in-out infinite',
       },
+      keyframes: {
+        'custom-bounce': {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-5%)' },
+        },
+      },
+
     },
   },
   plugins: [require("tailwindcss-animate")],

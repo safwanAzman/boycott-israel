@@ -38,7 +38,8 @@
         "formSection": {
             "search": "Search",
             "reset": "Reset",
-            "back": "Home"
+            "back": "Home",
+            "categories": "Select Categories"
         },
         "categories": {
             "all": "all",
@@ -792,6 +793,21 @@
                 "desc": "G4S has now completely divested from Israel after BDS pressure. But they have been complicit and helped the Israeli occupation for many years already.",
                 "categories": "contractor",
                 "alternatives": "No alternatives researched"
+            },
+            "A&W": {
+                "desc": "Parent company Yum Brands is an investor in Israeli startups.",
+                "categories": "food,drinks",
+                "alternatives": "Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+            },
+            "Taco Bell": {
+                "desc": "Parent company Yum Brands is an investor in Israeli startups.",
+                "categories": "food",
+                "alternatives": "Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+            },
+            "Meta": {
+                "desc": "Amid the ongoing conflict between Israel and Palestine, Mark Zuckerberg, the CEO of Meta, expressed his opinion on the situation and condemned the attacks perpetrated by Hamas. In an Instagram Story earlier this week, Mr Zuckerberg said, ''The terrorist attacks by Hamas are pure evil. There is never any justification for carrying out acts of terrorism against innocent people.''",
+                "categories": "technology",
+                "alternatives": "twitter,Gab"
             }
         }
     }

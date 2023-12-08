@@ -17,6 +17,7 @@ import {
     DialogTrigger
 } from "@/components/ui/dialog";
 import { useTranslations } from "next-intl";
+import { Badge } from "@/components/ui/badge"
 
 const CategoriesList = () => {
     const form = useTranslations("Form");
@@ -88,19 +89,19 @@ const CategoriesList = () => {
                         </div>
                     ))}
                 </div>
-                <DialogContent className='max-w-7xl h-[80vh] overflow-auto p-0 top-[90%] sm:top-[50%]'>
-                    <DialogHeader className='relative pb-96'>
-                    <div className='sticky -top-1 z-50 bg-white dark:bg-gray-900 p-4 border-b'>
-                        <div className=' flex items-center justify-between font-semibold capitalize'>
-                            <p>{selectedItem ? `${selectedItem.label}` : ''}</p>
-                            <div>
-                                <DialogClose asChild>
-                                    <button type="button" className='text-xs w-6 h-6 text-white bg-red-500 rounded-md focus:outline-none'>
-                                        X
-                                    </button>
-                                </DialogClose>
+                <DialogContent className='min-w-full h-[100vh] overflow-auto p-0 top-[90%] sm:top-[50%]'>
+                    <DialogHeader className=' pb-96 md:pb-0'>
+                        <div className='sticky -top-1 z-50 bg-white dark:bg-gray-900 p-4 border-b'>
+                            <div className='flex items-center justify-between font-semibold capitalize'>
+                                <p>{selectedItem ? `${selectedItem.label}` : ''}</p>
+                                <div>
+                                    <DialogClose asChild>
+                                        <button type="button" className='text-xs w-6 h-6 text-white bg-red-500 rounded-md focus:outline-none'>
+                                            X
+                                        </button>
+                                    </DialogClose>
+                                </div>
                             </div>
-                        </div>
                         </div>
                         <div className="grid grid-cols-2 lg:grid-cols-5 gap-4 items-center p-4">
                             {filteredBoycottData.map((boycottItem) => (
@@ -109,6 +110,14 @@ const CategoriesList = () => {
                                     img={boycottItem.img_url}
                                     href={`/why/${boycottItem.id}`}
                                     productName={boycottItem.name}
+                                    desc={boycottItem.desc}
+                                    categories={boycottItem.categories.map((category, index) => (
+                                        <div key={index}>
+                                            <Badge variant="outline" className="border-red-500 bg-red-50 text-red-500 my-1 mr-2">
+                                            {category}
+                                            </Badge>
+                                        </div>
+                                    ))}
                                 />
                             ))}
                         </div>
