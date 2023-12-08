@@ -1,53 +1,67 @@
 "use client"
 
-import React, { useState, useEffect,ChangeEvent,useRef} from 'react';
+import { useRouter ,useSearchParams} from 'next/navigation';
+import React, { useState, useEffect,ChangeEvent,useRef,useMemo} from 'react';
 import Container from '@/components/layouts/container'
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { RotateCcw ,ChevronLeft ,ChevronRight} from "lucide-react"
-import {BoycottList} from '@/types'
 import {useBoycottList} from '@/data'
 import {useCategoriesList} from '@/shared/categories'
 import { useTranslations } from "next-intl";
 import BoycottCard from '@/components/molecules/boycott-card';
 import CategoryCard from '@/components/molecules/category-card';
-import { scroll } from '@/utils/scroll-horinzontal';
+import { scroll ,scrollToCategory} from '@/utils/scroll-horinzontal';
+
 
 
 export default function Home() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
   const form = useTranslations("Form");
   const boycottData = useBoycottList();
   const categories = useCategoriesList();
-
+  const categoryRefs = useRef<Array<HTMLDivElement | null>>([]);
   const scrollRef = useRef<HTMLDivElement>(null);
-  const [data, setData] = useState<BoycottList[]>([])
+  
   const [searchData, setSearchData] = useState('');
   const [selectedCategory, setSelectedCategory] = useState(form("categories.all"));
 
   const handleSearchChange = (e:ChangeEvent<HTMLInputElement>) => {
     setSearchData(e.target.value);
   };
-  
+
   const handleCategoryChange = (value:string) => {
     setSelectedCategory(value);
+    router.push(`/?categories=${value}`)
     window.scrollTo({top: 0, behavior: 'smooth'})
   };
 
   const handleReset = () =>{
     setSearchData('')
-    setSelectedCategory(form("categories.all"))
+    router.push(`/?categories=${form("categories.all")}`)
   }
 
-  useEffect(() => {
-    const filteredData = boycottData.filter((item) => {
+  const filteredData = useMemo(() => {
+    return boycottData.filter((item) => {
       const matchesCategory = selectedCategory === form("categories.all") || 
       item.categories.includes(selectedCategory);
       const matchesSearch = item.name.toLowerCase().includes(searchData.toLowerCase());
       return matchesCategory && matchesSearch;
     });
-    setData(filteredData);
-  }, [searchData, selectedCategory]);
+  }, [searchData, selectedCategory, boycottData]);
+
+  useEffect(() => {
+    const params = searchParams.get('categories');
+    if (params) {
+      setSelectedCategory(params);
+    }
+    categoryRefs.current = categoryRefs.current.slice(0, categories.length);
+
+    scrollToCategory(categoryRefs, selectedCategory, categories, scrollRef);
+
+  }, [searchParams, categories, selectedCategory, setSelectedCategory]);
 
   return (
     <Container>
@@ -71,16 +85,18 @@ export default function Home() {
             </div>
             <div className="px-6">
               <div ref={scrollRef} className="flex snap-x flex-shrink-0  space-x-1.5 overflow-x-auto no-scrollbar">
-                {categories?.map((item) => (
+                {categories?.map((item , index) => (
+                  <div ref={el => categoryRefs.current[index] = el} key={item.id}>
                     <CategoryCard
-                        key={item.id}
                         value={item.value}
                         selected={selectedCategory.includes(item.value)}
                         selectedColor={item.selectedColor}
                         label={item.label}
                         icon={item.icon}
                         onClick={handleCategoryChange}
+                        data-value={item.value}
                     />
+                    </div>
                 ))}
               </div>
             </div>
@@ -99,7 +115,7 @@ export default function Home() {
           </div>
           <div>
             <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-5 gap-2 p-4">
-              {data?.map((item) => (
+              {filteredData?.map((item) => (
                   <BoycottCard
                       key={item.id} 
                       img={item.img_url}
