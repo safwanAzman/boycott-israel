@@ -89,10 +89,10 @@ export default async function RootLayout({
           <NextIntlClientProvider locale={locale} messages={messages}>
             <MobileNavbarProvider>
               {children}
-              <SpeedInsights />
             </MobileNavbarProvider>
           </NextIntlClientProvider>
         </ThemeProvider>
+        <SpeedInsights />
       </body>
     </html>
   )
