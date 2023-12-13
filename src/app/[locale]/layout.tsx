@@ -9,6 +9,7 @@ import { ThemeProvider } from '@/context/theme-provider';
 const inter = Inter({ subsets: ['latin'] })
 import {siteConfig} from '@/config/site'
 import Script from 'next/script';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const locales = ['en', 'my'];
 
@@ -88,6 +89,7 @@ export default async function RootLayout({
           <NextIntlClientProvider locale={locale} messages={messages}>
             <MobileNavbarProvider>
               {children}
+              <SpeedInsights />
             </MobileNavbarProvider>
           </NextIntlClientProvider>
         </ThemeProvider>
