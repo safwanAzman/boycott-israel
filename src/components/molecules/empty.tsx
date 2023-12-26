@@ -15,7 +15,7 @@ const Empty = ({})  => {
                 alt='Sorry'
                 className='w-32 h-32'
             />
-            <p>{t("EmptySection.title")}</p>
+            <p className="max-w-sm">{t("EmptySection.title")}</p>
             <Link 
                 href="mailto:safwanazman017@gmail.com?subject=Boycott Suggestion&body=Company Name:%0D%0ACompany Website:%0D%0AAlternative Options:%0D%0AReason for Boycott:%0D%0AProof URL:" 
                 className="bg-primary text-primary-foreground hover:bg-primary/90 py-2 dark:bg-gray-700 dark:text-white rounded-lg text-sm px-6"> 
