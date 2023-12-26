@@ -90,7 +90,7 @@ const Navbar = ({})=> {
                                     <Link
                                         {...(item.newTab ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                                         href={item.href}
-                                        className={`text-sm px-3 font-semibold w-full flex items-center space-x-2 hover:scale-110 ${pathname === item.href ? 'text-red-500' : ''}`}>
+                                        className={`text-sm px-3 font-semibold w-full flex items-center space-x-2 hover:scale-110  transition duration-300 ease-in-out ${pathname === item.href ? 'text-red-500' : ''}`}>
                                         {item.icon}
                                         <p>{item.title}</p>
                                     </Link>
@@ -99,7 +99,7 @@ const Navbar = ({})=> {
                                         <NavigationMenuList>
                                             <NavigationMenuItem>
                                                 <NavigationMenuTrigger>
-                                                    <div className="text-sm font-semibold w-full flex items-center space-x-2 cursor-pointer hover:scale-110">
+                                                    <div className="text-sm font-semibold w-full flex items-center space-x-2 cursor-pointer hover:scale-110 transition duration-300 ease-in-out">
                                                         {item.icon}
                                                         <p>{item.title}</p>
                                                     </div>
@@ -107,7 +107,7 @@ const Navbar = ({})=> {
                                                 <NavigationMenuContent>
                                                 {item.dropdown.map((dropdownItem, dropdownIndex) => (
                                                     <NavigationMenuLink  key={dropdownIndex}>
-                                                        <div className="px-6 py-2 hover:bg-red-50 hover:text-red-500">
+                                                        <div className="px-6 py-2 hover:bg-red-50 hover:text-red-500 ">
                                                             <Link className="flex items-center space-x-2" href={dropdownItem.href} target="_blank">
                                                                 <ExternalLink className="w-4 h-4" />
                                                                 <p>{dropdownItem.title}</p>
@@ -123,18 +123,18 @@ const Navbar = ({})=> {
                             </div>
                         ))}
                         </div>
-                        <div className="flex items-center space-x-2">
+                        <div className="flex items-center">
                             <ThemeSwitcher/>
                             {locale !== "en" ? (
                                 <div onClick={()=> setShowNavbar(false)}>
-                                    <Link href={generateLocaleUrl()}  className={`text-sm font-semibold px-5 py-5 w-full flex items-center space-x-2  hover:scale-110`} locale="en">
+                                    <Link href={generateLocaleUrl()}  className={`text-sm font-semibold px-5 py-5 w-full flex items-center space-x-2  hover:scale-110 transition duration-300 ease-in-out `} locale="en">
                                         <Globe className="w-5 h-5" />
                                         <p>English</p>
                                     </Link>
                                 </div>
                                 ) : (
                                 <div onClick={()=> setShowNavbar(false)}>
-                                    <Link href={generateLocaleUrl()}  className={`text-sm font-semibold px-5 py-5 w-full flex items-center space-x-2  hover:scale-110`}  locale="my">
+                                    <Link href={generateLocaleUrl()}  className={`text-sm font-semibold px-5 py-5 w-full flex items-center space-x-2  hover:scale-110 transition duration-300 ease-in-out`}  locale="my">
                                         <Globe className="w-5 h-5" />
                                         <p>Malay</p>
                                     </Link>

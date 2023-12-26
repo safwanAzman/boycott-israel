@@ -20,7 +20,7 @@ const CategoryCard = ({
     return (
         <div
             onClick={() => onClick(value)} 
-            className={`${selected ? selectedColor : 'bg-white dark:bg-gray-800 hover:scale-90'} 
+            className={`${selected ? selectedColor : 'bg-white dark:bg-gray-800 hover:scale-90 transition duration-300 ease-in-out'} 
             shadow-sm px-4  py-2 border-[0.5px] rounded-lg cursor-pointer snap-center`}>
             <div className="flex flex-col w-16 items-center justify-start lg:justify-center  text-center ">
                 <div className="flex justify-center items-center">
