@@ -70,6 +70,13 @@
         }
     },
 
+    "Empty": {
+        "EmptySection": {
+            "title": "Jika syarikat yang anda cari tidak tersenarai, dan anda rasa sepatutnya ia tersenarai, sila emel kami dengan butiran relevan untuk semakan.",
+            "btnTitle": "Klik Di Sini"
+        }
+    },
+
     "Data": {
         "boycottData": {
             "Nestle": {

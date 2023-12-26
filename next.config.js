@@ -2,7 +2,7 @@
 const withNextIntl = require('next-intl/plugin')();
 const nextConfig = {
     images: {
-        domains: ['ucarecdn.com'],
+        domains: ['ucarecdn.com','cdn3d.iconscout.com'],
     },
 }
 

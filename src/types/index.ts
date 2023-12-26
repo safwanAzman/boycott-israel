@@ -1,4 +1,4 @@
-export interface BoycottList {
+export type BoycottList = {
     id: number;
     name: string;
     img_url: string;
@@ -7,14 +7,14 @@ export interface BoycottList {
     proof_link: string;
     alternatives: string[];
 };
-export interface CategoriesList {
+export type CategoriesList = {
     id: number;
     value: string;
     label: string;
     icon: React.ReactNode;
 };
 
-export interface SiteConfig  {
+export type SiteConfig = {
     title: string
     name:string
     description: string

@@ -67,6 +67,13 @@
             "travel": "travel"
         }
     },
+    "Empty": {
+        "EmptySection": {
+            "title": "If the company you're searching for isn't listed, and you think it should be, please email us with relevant details for review.",
+            "btnTitle": "Click Here"
+        }
+    },
+
     "Data": {
         "boycottData": {
             "Nestle": {

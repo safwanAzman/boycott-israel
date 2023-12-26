@@ -13,6 +13,7 @@ import { useTranslations } from "next-intl";
 import BoycottCard from '@/components/molecules/boycott-card';
 import CategoryCard from '@/components/molecules/category-card';
 import { scroll ,scrollToCategory} from '@/utils/scroll-horinzontal';
+import Empty from '@/components/molecules/empty';
 
 
 
@@ -114,27 +115,32 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-5 gap-2 p-4">
-              {filteredData?.map((item) => (
+            {
+              filteredData && filteredData.length > 0 ? 
+              <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-5 gap-2 p-4">
+                {filteredData.map((item) => (
                   <BoycottCard
-                      key={item.id} 
-                      img={item.img_url}
-                      href={`/why/${item.id}`}
-                      productName={item.name}
-                      desc={item.desc}
-                      categories={item.categories.map((category, index) => (
-                        <div key={index}>
-                            <Badge 
-                              variant="outline" 
-                              className="border-red-500 bg-red-50 text-red-500 my-1 mr-2"
-                            >
-                              {category}
-                            </Badge>
-                        </div>
+                    key={item.id} 
+                    img={item.img_url}
+                    href={`/why/${item.id}`}
+                    productName={item.name}
+                    desc={item.desc}
+                    categories={item.categories.map((category, index) => (
+                      <div key={index}>
+                        <Badge 
+                          variant="outline" 
+                          className="border-red-500 bg-red-50 text-red-500 my-1 mr-2"
+                        >
+                          {category}
+                        </Badge>
+                      </div>
                     ))}
                   />
                 ))}
-            </div>
+              </div> 
+              : 
+              <Empty/>
+            }
           </div>
         </div>
     </Container>
