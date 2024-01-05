@@ -11,13 +11,13 @@ import { Link as LinkIcon} from "lucide-react"
 import { useTranslations } from "next-intl";
 import BackBtn from '@/components/molecules/back-btn';
 
-const Why = ({ params }: { params: { id: string } }) => {
+const Why = ({ params }: { params: {name:string, id: string } }) => {
     const t = useTranslations("Why");
     const boycottData = useBoycottList();
     const [data, setData] = useState<BoycottList | undefined>(undefined)
 
     useEffect(() => {
-        const convertId = Number(params.id);
+        const convertId = Number(params.id[0]);
         const item = boycottData.find(item => item.id === convertId);
         setData(item)
     }, [params.id]); 

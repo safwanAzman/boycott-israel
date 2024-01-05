@@ -118,25 +118,28 @@ export default function Home() {
             {
               filteredData && filteredData.length > 0 ? 
               <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-5 gap-2 p-4">
-                {filteredData.map((item) => (
-                  <BoycottCard
-                    key={item.id} 
-                    img={item.img_url}
-                    href={`/why/${item.id}`}
-                    productName={item.name}
-                    desc={item.desc}
-                    categories={item.categories.map((category, index) => (
-                      <div key={index}>
-                        <Badge 
-                          variant="outline" 
-                          className="border-red-500 bg-red-50 text-red-500 my-1 mr-2"
-                        >
-                          {category}
-                        </Badge>
-                      </div>
-                    ))}
-                  />
-                ))}
+              {filteredData.map((item) => {
+                  const suburl = item.name.toLowerCase().replace(/\s+/g, '');
+                    return (
+                      <BoycottCard
+                        key={item.id}
+                        img={item.img_url}
+                        href={`/why/${item.id}/${suburl}`}
+                        productName={item.name}
+                        desc={item.desc}
+                        categories={item.categories.map((category, index) => (
+                          <div key={index}>
+                            <Badge 
+                              variant="outline" 
+                              className="border-red-500 bg-red-50 text-red-500 my-1 mr-2"
+                            >
+                              {category}
+                            </Badge>
+                          </div>
+                        ))}
+                      />
+                    );
+                  })}
               </div> 
               : 
               <Empty/>
