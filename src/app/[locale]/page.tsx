@@ -117,7 +117,7 @@ export default function Home() {
           <div>
             {
               filteredData && filteredData.length > 0 ? 
-              <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-5 gap-2 p-4">
+              <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-5 gap-2 p-4 lg:pb-72">
               {filteredData.map((item) => {
                   const suburl = item.name.toLowerCase().replace(/\s+/g, '');
                     return (

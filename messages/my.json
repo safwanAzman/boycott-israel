@@ -823,6 +823,87 @@
                 "desc": "Di tengah-tengah konflik yang berterusan antara Israel dan Palestin, Mark Zuckerberg, Ketua Pegawai Eksekutif Meta, menyatakan pendapatnya mengenai situasi itu dan mengutuk serangan yang dilakukan oleh Hamas. Dalam Kisah Instagram awal minggu ini, Encik Zuckerberg berkata, ''Serangan pengganas oleh Hamas adalah jahat. Tidak pernah ada sebarang justifikasi untuk melakukan tindakan keganasan terhadap orang yang tidak bersalah.''",
                 "categories": "teknologi",
                 "alternatives": "twitter,Gab"
+            },
+            "Aviva": {
+                "desc": "Aviva melabur dalam syarikat-syarikat yang menjual senjata dan peralatan ketenteraan kepada Israel yang telah digunakan dalam penindasan Palestin",
+                "categories": "insurans,kewangan",
+                "alternatives": "Jangan simpan wang persaraan anda dengan Aviva"
+            },
+            "BankOfAmerica": {
+                "desc": "Bank of America adalah sebahagian daripada urusan pinjaman $500 juta dengan konsortium pemberi pinjaman, ke dalam Elbit Systems Ltd, pengilang senjata Israel.",
+                "categories": "kewangan",
+                "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
+            },
+            "BankOfMontreal": {
+                    "desc": "Bank of Montreal meminjamkan $90 juta sebagai sebahagian daripada urusan pinjaman $500 juta dengan konsortium pemberi pinjaman, ke dalam Elbit Systems Ltd, pengilang senjata Israel.",
+                    "categories": "kewangan",
+                    "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
+            },
+                
+            "Barclays": {
+                "desc": "Barclays melabur dalam syarikat-syarikat yang menjual senjata dan peralatan ketenteraan kepada Israel yang telah digunakan dalam penindasan Palestin",
+                "categories": "insurans,kewangan",
+                "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
+            },
+            "BNP": {
+                "desc": "BNP Paribas adalah sebahagian daripada urusan pinjaman $500 juta dengan konsortium pemberi pinjaman, ke dalam Elbit Systems Ltd, pengilang senjata Israel.",
+                "categories": "kewangan",
+                "alternatives": "Jangan berurusan dengan BNP Paribas"
+            },
+            "CapitalOne": {
+                "desc": "Capital One adalah sebahagian daripada urusan pinjaman $500 juta dengan konsortium pemberi pinjaman, ke dalam Elbit Systems Ltd, pengilang senjata Israel.",
+                "categories": "kewangan",
+                "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
+            },
+            "Legal": {
+                "desc": "Legal & General melabur dalam syarikat-syarikat yang menjual senjata dan peralatan ketenteraan kepada Israel yang telah digunakan dalam penindasan Palestin",
+                "categories": "insurans,kewangan",
+                "alternatives": "Jangan melabur dengan Legal & General"
+            },
+            "Lloyds": {
+                "desc": "Lloyds melabur dalam syarikat-syarikat yang menjual senjata dan peralatan ketenteraan kepada Israel yang telah digunakan dalam penindasan Palestin",
+                "categories": "insurans,kewangan",
+                "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
+            },
+            "M&S": {
+                "desc": "Marks & Spencer telah menjadi entiti pro zionis sejak permulaannya, dengan pelbagai ahli pengurusan mereka secara terbuka menyatakan sokongan untuk negara zionis. Selama lebih 100 tahun, mereka telah menjadi saluran komersial terbesar antara Israel dan UK. Walau bagaimanapun, baru-baru ini mereka telah secara terbuka menjauhkan diri daripada mempunyai hubungan 'politik' dan tujuan. Dan kerana kenyataan terakhir dalam sokongan Israel adalah sekitar tahun 2000, sukar untuk mengetahui sejauh mana kepemimpinan mereka menyokong Israel.",
+                "categories": "supermarket, makanan, minuman, pakaian, kewangan",
+                "alternatives": "Morrisons, Co-op"
+            },
+            "RBS": {
+                "desc": "RBS melabur dalam syarikat-syarikat yang menjual senjata dan peralatan ketenteraan kepada Israel yang telah digunakan dalam penindasan Palestin",
+                "categories": "insurans,kewangan",
+                "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
+            },
+            "StandardLife": {
+                "desc": "Standard Life melabur dalam syarikat-syarikat yang menjual senjata dan peralatan ketenteraan kepada Israel yang telah digunakan dalam penindasan Palestin",
+                "categories": "insurans,kewangan",
+                "alternatives": "Jangan simpan atau melabur dengan Standard Life"
+            },
+            "Visa": {
+                "desc": "Visa telah membuka pusat penyelidikan dan pembangunan di Israel dan melabur dengan banyak dalam ekonomi tempatan.",
+                "categories": "kewangan",
+                "alternatives": "Tiada alternatif yang dikaji setakat ini. Bantu kami!"
+            },
+            "WellsFargo": {
+                "desc": "Wells Fargo adalah sebahagian daripada urusan pinjaman $500 juta dengan konsortium pemberi pinjaman, ke dalam Elbit Systems Ltd, pengilang senjata Israel.",
+                "categories": "kewangan",
+                "alternatives": "Jangan berurusan dengan Wells Fargo"
+            },
+            "DunkinDonuts": {
+                "desc": "Di tengah-tengah konflik Israel-Palestin yang berterusan, timbul pertanyaan mengenai pendirian syarikat, yang membuat pengguna bertanya-tanya apakah Dunkin Donuts menyokong salah satu pihak. Artikel ini bertujuan untuk meneroka nuansa sekeliling Dunkin Donuts di Israel dan pendiriannya di tengah-tengah konflik.",
+                "categories": "makanan,kopi,minuman",
+                "alternatives": "sokong jenama tempatan"
+            },
+            "Wix": {
+                "desc": "CEO Avishai Abrahami adalah seorang zionis yang menyokong IDF.",
+                "categories": "teknologi",
+                "alternatives": "Wordpress,Weebly,Squarespace,Framer,Figma"
+            },
+            "Nvidia": {
+                "desc": "Nvidia sedang membina sebuah superkomputer untuk Israel, yang pasti akan digunakan untuk meneruskan penindasan terhadap Palestin dan menguatkuasakan apartheid mereka.",
+                "categories": "teknologi",
+                "alternatives": "AMD"
             }
         }
     }

@@ -815,6 +815,87 @@
                 "desc": "Amid the ongoing conflict between Israel and Palestine, Mark Zuckerberg, the CEO of Meta, expressed his opinion on the situation and condemned the attacks perpetrated by Hamas. In an Instagram Story earlier this week, Mr Zuckerberg said, ''The terrorist attacks by Hamas are pure evil. There is never any justification for carrying out acts of terrorism against innocent people.''",
                 "categories": "technology",
                 "alternatives": "twitter,Gab"
+            },
+
+            "Aviva": {
+                "desc": "Aviva invests in companies selling arms and military equipment to Israel that have been used in the oppression of Palestinians",
+                "categories": "insurance,finance",
+                "alternatives": "Don't keep your pension with Aviva"
+            },
+            "BankOfAmerica": {
+                "desc": "Bank of America was part of a $500m loan deal with a consortium of lenders, into Elbit Systems Ltd, the Israeli weapons manufacturer.",
+                "categories": "finance",
+                "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
+            },
+            "BankOfMontreal": {
+                "desc": "Bank of Montreal lent $90 million as part of a $500m loan deal with a consortium of lenders, into Elbit Systems Ltd, the Israeli weapons manufacturer.",
+                "categories": "finance",
+                "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
+            },
+            "Barclays": {
+                "desc": "Barclays invests in companies selling arms and military equipment to Israel that have been used in the oppression of Palestinians",
+                "categories": "insurance,finance",
+                "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
+            },
+            "BNP": {
+                "desc": "BNP Paribas was part of a $500m loan deal with a consortium of lenders, into Elbit Systems Ltd, the Israeli weapons manufacturer.",
+                "categories": "finance",
+                "alternatives": "Don't bank with BNP Paribas"
+            },
+            "CapitalOne": {
+                "desc": "Capital One was part of a $500m loan deal with a consortium of lenders, into Elbit Systems Ltd, the Israeli weapons manufacturer.",
+                "categories": "finance",
+                "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
+            },
+            "Legal": {
+                "desc": "Legal & General invests in companies selling arms and military equipment to Israel that have been used in the oppression of Palestinians",
+                "categories": "insurance,finance",
+                "alternatives": "Don't invest with Legal & General"
+            },
+            "Lloyds": {
+                "desc": "Lloyds invests in companies selling arms and military equipment to Israel that have been used in the oppression of Palestinians",
+                "categories": "insurance,finance",
+                "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
+            },
+            "M&S": {
+                "desc": "Marks & Spencer has been a pro zionist entity since its inception, with various members of its management openly declaring support for the zionist state. For over 100 years, they have been the biggest commercial conduit between Israel and the UK. More recently however, they have publicly distanced themselves from having 'political' ties and aims. And since the last statements in support of Israel were around the year 2000, it is difficult to tell how much their leadership supports Israel.",
+                "categories": "supermarket, food, drinks, clothing, finance",
+                "alternatives": "Morrisons,Co-op"
+            },
+            "RBS": {
+                "desc": "RBS invests in companies selling arms and military equipment to Israel that have been used in the oppression of Palestinians",
+                "categories": "insurance,finance",
+                "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
+            },
+            "StandardLife": {
+                "desc": "Standard Life invests in companies selling arms and military equipment to Israel that have been used in the oppression of Palestinians",
+                "categories": "insurance,finance",
+                "alternatives": "Don't save or invest with Standard Life"
+            },
+            "Visa": {
+                "desc": "Visa has opened a research and development center in israel and invests heavily in the local economy.",
+                "categories": "finance",
+                "alternatives": "No alternatives researched yet. Help us out!"
+            },
+            "WellsFargo": {
+                "desc": "Wells Fargo was part of a $500m loan deal with a consortium of lenders, into Elbit Systems Ltd, the Israeli weapons manufacturer.",
+                "categories": "finance",
+                "alternatives": "Don't bank with Wells Fargo"
+            },
+            "DunkinDonuts": {
+                "desc": "Amid the ongoing Israel-Palestine conflict, questions about the company stance have emerged, leaving consumers pondering whether Dunkin Donuts supports either side. This article aims to explore the nuances surrounding Dunkin Donuts in Israel and its stance amidst the conflict.",
+                "categories": "food, coffee, drinks",
+                "alternatives": "support local brand"
+            },
+            "Wix": {
+                "desc": "CEO Avishai Abrahami is a zionist who supports the IDF.",
+                "categories": "technology",
+                "alternatives": "Wordpress,Weebly,Squarespace,Framer,Figma"
+            },
+            "Nvidia": {
+                "desc": "Nvidia is building a supercomputer for Israel, which will undoubtedly be used to continue its oppression of Palestinians and enforce their apartheid.",
+                "categories": "technology",
+                "alternatives": "AMD"
             }
         }
     }

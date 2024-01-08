@@ -1325,7 +1325,196 @@ export function useBoycottList() {
         "desc": t("boycottData.Meta.desc"),
         "proof_link": "https://www.ndtv.com/world-news/israel-palestine-war-thank-you-meta-israel-after-mark-zuckerberg-calls-hamas-attacks-pure-evil-4483335",
         "alternatives": t("boycottData.Meta.alternatives").split(',').map(alternative => alternative.trim())
-    }
+    },
+    {
+        "id": 155,
+        "name": "Aviva",
+        "img_url": "https://ucarecdn.com/15b71e96-f844-4d75-885b-436078fe760b/avivasigortalogo66F8BC8A70seeklogocom.png",
+        "categories": t("boycottData.Aviva.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Aviva.desc"),
+        "proof_link": "https://www.ethicalconsumer.org/money-finance/israel-deadly-investments",
+        "alternatives": t("boycottData.Aviva.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 156 ,
+        "name": "Bank of America",
+        "img_url": "https://ucarecdn.com/f64aead9-51f5-4b56-a244-c2bd50b04945/BankofAmericaEmblem.png",
+        "categories": t("boycottData.BankOfAmerica.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.BankOfAmerica.desc"),
+        "proof_link": "https://breachmedia.ca/revealed-bmo-bankrolled-israeli-weapons-maker-with-a-90m-loan/",
+        "alternatives": t("boycottData.BankOfAmerica.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 157,
+        "name": "Bank of Montreal",
+        "img_url": "https://ucarecdn.com/cb200197-aef6-4fca-88d3-8a31a85e3525/BMO20802943.png",
+        "categories": t("boycottData.BankOfMontreal.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.BankOfMontreal.desc"),
+        "proof_link": "https://breachmedia.ca/revealed-bmo-bankrolled-israeli-weapons-maker-with-a-90m-loan/",
+        "alternatives": t("boycottData.BankOfMontreal.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 158,
+        "name": "Barclays",
+        "img_url": "https://ucarecdn.com/84516617-70d6-4068-9d04-3be2c3d0ed09/barclays_logo_icon_168534.png",
+        "categories": t("boycottData.Barclays.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Barclays.desc"),
+        "proof_link": "https://www.ethicalconsumer.org/money-finance/israel-deadly-investments",
+        "alternatives": t("boycottData.Barclays.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 159,
+        "name": "BNP Paribas",
+        "img_url": "https://ucarecdn.com/b77a5a3a-6c84-4cff-b0a9-9df0e80c77d3/BNPPA75daacb0.png",
+        "categories": t("boycottData.BNP.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.BNP.desc"),
+        "proof_link": "https://breachmedia.ca/revealed-bmo-bankrolled-israeli-weapons-maker-with-a-90m-loan/",
+        "alternatives": t("boycottData.BNP.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 160,
+        "name": "Capital One",
+        "img_url": "https://ucarecdn.com/eb367cd0-c947-42e5-86f7-5318157e7082/capitalonebanklogoA14C620C59seeklogocom.png",
+        "categories": t("boycottData.CapitalOne.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.CapitalOne.desc"),
+        "proof_link": "https://breachmedia.ca/revealed-bmo-bankrolled-israeli-weapons-maker-with-a-90m-loan/",
+        "alternatives": t("boycottData.CapitalOne.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 161,
+        "name": "Legal & General",
+        "img_url": "https://ucarecdn.com/f053d896-667f-465d-b7dd-29014a318aa1/legalgenerallogo2.png",
+        "categories": t("boycottData.Legal.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Legal.desc"),
+        "proof_link": "https://www.ethicalconsumer.org/money-finance/israel-deadly-investments",
+        "alternatives": t("boycottData.Legal.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 162,
+        "name": "Lloyds Bank",
+        "img_url": "https://ucarecdn.com/904498c1-82f3-4946-a847-53344b8c84e3/lloydsbanklogo2AE74CBF4Eseeklogocom.png",
+        "categories": t("boycottData.Lloyds.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Lloyds.desc"),
+        "proof_link": "https://www.ethicalconsumer.org/money-finance/israel-deadly-investments",
+        "alternatives": t("boycottData.Lloyds.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 163,
+        "name": "Marks and Spencer / M&S",
+        "img_url": "https://ucarecdn.com/9f80ea15-bbfa-4b8a-9baa-e1430f4249be/marksspencermslogo2B519324C7seeklogocom.png",
+        "categories": t("boycottData.M&S.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.M&S.desc"),
+        "proof_link": "https://www.ihrc.org.uk/briefing-a-brief-chronology-of-the-marks-spencer-israel-relationship/",
+        "alternatives": t("boycottData.M&S.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 164,
+        "name": "RBS",
+        "img_url": "https://ucarecdn.com/44fb2809-83c3-4b49-b6c7-ad0132381329/RBS_Logo.png",
+        "categories": t("boycottData.RBS.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.RBS.desc"),
+        "proof_link": "https://www.ethicalconsumer.org/money-finance/israel-deadly-investments",
+        "alternatives": t("boycottData.RBS.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 165,
+        "name": "Standard Life",
+        "img_url": "https://ucarecdn.com/06f699b6-9ec6-404a-a398-e0f9238fc1be/StandardLifeLogo.jpg",
+        "categories": t("boycottData.StandardLife.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.StandardLife.desc"),
+        "proof_link": "https://www.ethicalconsumer.org/money-finance/israel-deadly-investments",
+        "alternatives": t("boycottData.StandardLife.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 166,
+        "name": "Visa",
+        "img_url": "https://ucarecdn.com/4d0a043c-07b6-4765-bdbc-531af5ba671c/visalogovisaicontransparentfreepng.png",
+        "categories": t("boycottData.Visa.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Visa.desc"),
+        "proof_link": "https://www.timesofisrael.com/credit-card-giant-visa-opens-israeli-rd-center/",
+        "alternatives": t("boycottData.Visa.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 167,
+        "name": "Wells Fargo",
+        "img_url": "https://ucarecdn.com/c83b73ab-3ee0-49e8-b8ce-0580969ba47e/Wells_FargoLogowine.png",
+        "categories": t("boycottData.WellsFargo.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.WellsFargo.desc"),
+        "proof_link": "https://breachmedia.ca/revealed-bmo-bankrolled-israeli-weapons-maker-with-a-90m-loan/",
+        "alternatives": t("boycottData.WellsFargo.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 168,
+        "name": "Dunkin Donuts",
+        "img_url": "https://ucarecdn.com/5aa9ea47-0826-4771-abda-8bb1e4dc577e/ColorDunkinDonutsLogo.jpg",
+        "categories": t("boycottData.DunkinDonuts.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.DunkinDonuts.desc"),
+        "proof_link": "https://www.mayniaga.com/dunkin-donuts-israel-support-what-you-need-to-know/",
+        "alternatives": t("boycottData.DunkinDonuts.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 170,
+        "name": "Wix",
+        "img_url": "https://ucarecdn.com/dd3c8cc8-4611-4222-b81a-bd15b04c2305/WixLogo.png",
+        "categories": t("boycottData.Wix.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Wix.desc"),
+        "proof_link": "https://twitter.com/avishai_ab",
+        "alternatives": t("boycottData.Wix.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 171 ,
+        "name": "Nvidia",
+        "img_url": "https://ucarecdn.com/8c2802e7-9f3e-4bb2-8615-0683ad4f14e5/NVLogo_2D_H_thmb.jpg",
+        "categories": t("boycottData.Nvidia.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Nvidia.desc"),
+        "proof_link": "https://www.reuters.com/technology/nvidia-build-israeli-supercomputer-ai-demand-soars-2023-05-29/",
+        "alternatives": t("boycottData.Nvidia.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    // {
+    //     "id": ,
+    //     "name": "",
+    //     "img_url": "",
+    //     "categories": t("boycottData..categories").split(',').map(category => category.trim()),
+    //     "desc": t("boycottData..desc"),
+    //     "proof_link": "",
+    //     "alternatives": t("boycottData..alternatives").split(',').map(alternative => alternative.trim())
+    // },
+    // {
+    //     "id": ,
+    //     "name": "",
+    //     "img_url": "",
+    //     "categories": t("boycottData..categories").split(',').map(category => category.trim()),
+    //     "desc": t("boycottData..desc"),
+    //     "proof_link": "",
+    //     "alternatives": t("boycottData..alternatives").split(',').map(alternative => alternative.trim())
+    // },
+    // {
+    //     "id": ,
+    //     "name": "",
+    //     "img_url": "",
+    //     "categories": t("boycottData..categories").split(',').map(category => category.trim()),
+    //     "desc": t("boycottData..desc"),
+    //     "proof_link": "",
+    //     "alternatives": t("boycottData..alternatives").split(',').map(alternative => alternative.trim())
+    // },
+    // {
+    //     "id": ,
+    //     "name": "",
+    //     "img_url": "",
+    //     "categories": t("boycottData..categories").split(',').map(category => category.trim()),
+    //     "desc": t("boycottData..desc"),
+    //     "proof_link": "",
+    //     "alternatives": t("boycottData..alternatives").split(',').map(alternative => alternative.trim())
+    // },
+    // {
+    //     "id": ,
+    //     "name": "",
+    //     "img_url": "",
+    //     "categories": t("boycottData..categories").split(',').map(category => category.trim()),
+    //     "desc": t("boycottData..desc"),
+    //     "proof_link": "",
+    //     "alternatives": t("boycottData..alternatives").split(',').map(alternative => alternative.trim())
+    // },
 ]
 
 return boycottList;
