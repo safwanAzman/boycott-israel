@@ -904,7 +904,54 @@
                 "desc": "Nvidia sedang membina sebuah superkomputer untuk Israel, yang pasti akan digunakan untuk meneruskan penindasan terhadap Palestin dan menguatkuasakan apartheid mereka.",
                 "categories": "teknologi",
                 "alternatives": "AMD"
+            },
+            "Zara": {
+                "desc": "Kempen pemasaran terbaru Zara menggunakan mayat dalam pembungkusan plastik, dan estetika zon perang, memperlekehkan pembunuhan besar-besaran oleh Israel di Gaza. Dalam insiden sebelumnya, Joey Schwebel, seorang warganegara dwi Kanada-Israel dan pengerusi francais Zara Israel Trimera, telah mengadakan pertemuan dengan pengganas yang dihukum, Itamar Ben-Gvir, di rumahnya menjelang pilihan raya Israel. Zara tidak mengeluarkan kenyataan untuk menjauhkan diri dari hubungan ini dan membiarkan kempen iklan ini berjalan.",
+                "categories": "pakaian, fesyen",
+                "alternatives": "sokong jenama tempatan"
+            },
+            "LouisVuitton": {
+                "desc": "Pemilik syarikat induk Louis Vuitton, LVMH, Bernard Arnault melabur ratusan juta dalam syarikat-syarikat Israel",
+                "categories": "pakaian, fesyen, kosmetik",
+                "alternatives": "sokong jenama tempatan, kosmetik Lush, kecantikan Huda, Sunnamusk"
+            },
+            "PradaBeauty": {
+                "desc": "Prada Beauty merupakan kerjasama dengan L'Oreal, yang merupakan 'kawan rapat Israel'. Setelah menghantar surat kepada Liga Arab dengan maklumat untuk membantu boikot, mereka membayar denda $1.4 juta dan mengeluarkan permohonan maaf, sebelum membina hubungan baru dengan Israel, dengan pelaburan besar-besaran dan bahkan mengendalikan kilang di Palestin yang Diduduki.",
+                "categories": "pakaian, fesyen, kosmetik",
+                "alternatives": "sokong jenama tempatan, kosmetik Lush, kecantikan Huda, Sunnamusk"
+            },
+            "Sephora": {
+                "desc": "Pemilik Sephora, Bernard Arnault melabur ratusan juta dalam syarikat-syarikat Israel",
+                "categories": "kosmetik",
+                "alternatives": "sokong jenama tempatan, kosmetik Lush, kecantikan Huda, Sunnamusk"
+            },
+            "Ordinary": {
+                "desc": "The Ordinary dimiliki oleh Estee Lauder, di mana pemiliknya, terutama Ronald Lauder, mempunyai pandangan Zionis ekstremis dan menyokong secara kewangan dan politik pendudukan Israel atas tanah Palestin.",
+                "categories": "kosmetik",
+                "alternatives": "sokong jenama tempatan, kosmetik Lush, kecantikan Huda, Sunnamusk"
+            },
+            "Stella": {
+                "desc": "Pemilik syarikat induk STELLA by Stella McCartney, LVMH, Bernard Arnault melabur ratusan juta dalam syarikat-syarikat Israel",
+                "categories": "pakaian, fesyen, kosmetik",
+                "alternatives": "sokong jenama tempatan, kosmetik Lush, kecantikan Huda, Sunnamusk"
+            },
+            "Victorias": {
+                "desc": "Les Wexner yang memiliki L Brands, syarikat induk Victorias Secret, adalah sekutu kukuh Israel, dan rakan perniagaan jangka panjang Jeffrey Epstein, pengedar kanak-kanak yang dihukum.",
+                "categories": "pakaian, kosmetik",
+                "alternatives": "sokong jenama tempatan"
+            },
+            "OralB": {
+                "desc": "Oral B dimiliki oleh Procter and Gamble, yang membuka pusat R&D di Tel Aviv, Palestin yang Diduduki, di mana ia melabur $2bn setiap tahun.",
+                "categories": "penjagaan kesihatan",
+                "alternatives": "Produk jenama sendiri pasar raya"
+            },
+            "Pantene": {
+                "desc": "Pantene dimiliki oleh Procter and Gamble, yang membuka pusat R&D di Tel Aviv, Palestin yang Diduduki, di mana ia melabur $2bn setiap tahun.",
+                "categories": "kosmetik, penjagaan kesihatan",
+                "alternatives": "Produk jenama sendiri pasar raya"
             }
+            
+            
         }
     }
 }

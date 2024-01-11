@@ -896,6 +896,53 @@
                 "desc": "Nvidia is building a supercomputer for Israel, which will undoubtedly be used to continue its oppression of Palestinians and enforce their apartheid.",
                 "categories": "technology",
                 "alternatives": "AMD"
+            },
+
+
+            "Zara": {
+                "desc": "Zara's latest marketing campaign uses corpses in plastic wrapping, and warzone aesthetics, mocking the genocide by israel in Gaza. In a previous incident Joey Schwebel, a Canadian-Israeli dual national and chairman of israel's Zara franchisee Trimera, hosted the convicted terrorist Itamar Ben-Gvir at his home in the lead-up to the Israeli elections. Zara did not made a statement distancing themselves from this association and allowed this ad campaign to run.",
+                "categories": "clothing,fashion",
+                "alternatives": "support local brand"
+            },
+            "LouisVuitton": {
+                "desc": "The owner of Louis Vuitton's parent company, LVMH, Bernard Arnault invests hundreds of millions in Israeli companies",
+                "categories": "clothing, fashion, cosmetics",
+                "alternatives": "support local brand,Lush cosmetics,Huda beauty,Sunnamusk"
+            },
+            "PradaBeauty": {
+                "desc": "Prada Beauty is a partnership with L'Oreal, which is a 'warm friend of Israel'. After sending a letter to the Arab League with information helping the boycott, they paid a $1.4m fine and issued an apology, before fostering a new relationship with Israel, with heavy investment and even operating a factory in Occupied Palestine.",
+                "categories": "clothing, fashion, cosmetics",
+                "alternatives": "support local brand,Lush cosmetics,Huda beauty,Sunnamusk"
+            },
+            "Sephora": {
+                "desc": "The owner of Sephora, Bernard Arnault invests hundreds of millions in Israeli companies",
+                "categories": "cosmetics",
+                "alternatives": "support local brand,Lush cosmetics,Huda beauty,Sunnamusk"
+            },
+            "Ordinary": {
+                "desc": "The Ordinary is owned by Estee Lauder, who's ownership, especially Ronald Lauder, has extremist zionist views and financially and politically supports Israeli occupation of Palestinian land.",
+                "categories": "cosmetics",
+                "alternatives": "support local brand,Lush cosmetics,Huda beauty,Sunnamusk"
+            },
+            "Stella": {
+                "desc": "The owner of STELLA by Stella McCartney's parent company, LVMH, Bernard Arnault invests hundreds of millions in Israeli companies",
+                "categories": "clothing, fashion, cosmetics",
+                "alternatives": "support local brand,Lush cosmetics,Huda beauty,Sunnamusk"
+            },
+            "Victorias": {
+                "desc": "Les Wexner who owns L Brands, the parent company of Victorias Secret, is a staunch ally of Israel, and a long time business partner of Jeffrey Epstein, the convicted child trafficker.",
+                "categories": "clothing, cosmetics",
+                "alternatives": "support local brand"
+            },
+            "OralB": {
+                "desc": "Oral B is owned by Procter and Gamble, who opened an R&D center in Tel Aviv, Occupied Palestine, in which it invests $2bn annually.",
+                "categories": "healthcare",
+                "alternatives": "Supermarket own brand products"
+            },
+            "Pantene": {
+                "desc": "Pantene is owned by Procter and Gamble, who opened an R&D center in Tel Aviv, Occupied Palestine, in which it invests $2bn annually.",
+                "categories": "cosmetics, healthcare",
+                "alternatives": "Supermarket own brand products"
             }
         }
     }

@@ -1470,6 +1470,168 @@ export function useBoycottList() {
         "proof_link": "https://www.reuters.com/technology/nvidia-build-israeli-supercomputer-ai-demand-soars-2023-05-29/",
         "alternatives": t("boycottData.Nvidia.alternatives").split(',').map(alternative => alternative.trim())
     },
+    {
+        "id": 172,
+        "name": "Zara",
+        "img_url": "https://ucarecdn.com/5a35dbfe-073e-4d2a-af2c-b4abde8eff52/2019toPresentZaralogodesign1024x538.jpg",
+        "categories": t("boycottData.Zara.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Zara.desc"),
+        "proof_link": "https://www.thenationalnews.com/lifestyle/fashion-beauty/2023/12/10/zara-campaign-boycott-gaza-palestine/",
+        "alternatives": t("boycottData.Zara.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 173,
+        "name": "Louis Vuitton",
+        "img_url": "https://ucarecdn.com/f324620a-95d5-4782-94ea-4f647fb2c2ec/863_louis_vuitton.jpg",
+        "categories": t("boycottData.LouisVuitton.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.LouisVuitton.desc"),
+        "proof_link": "https://www.timesofisrael.com/luxury-goods-magnate-bernard-arnault-invests-in-israeli-cybersecurity-firm-wiz/",
+        "alternatives": t("boycottData.LouisVuitton.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 174,
+        "name": "Prada Beauty",
+        "img_url": "https://ucarecdn.com/914bc3ab-1335-4b0a-89c3-a15c59810f32/5ogycItcqcvd6530b05e3dcea.jpg",
+        "categories": t("boycottData.PradaBeauty.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.PradaBeauty.desc"),
+        "proof_link": "https://bdsmovement.net/news/l%E2%80%99oreal-makeup-israeli-apartheid",
+        "alternatives": t("boycottData.PradaBeauty.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 175,
+        "name": "Sephora",
+        "img_url": "https://ucarecdn.com/267706a6-d58a-4bcc-bd46-1e63452cab5b/SephoraLogo.png",
+        "categories": t("boycottData.Sephora.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Sephora.desc"),
+        "proof_link": "https://www.timesofisrael.com/luxury-goods-magnate-bernard-arnault-invests-in-israeli-cybersecurity-firm-wiz/",
+        "alternatives": t("boycottData.Sephora.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 176,
+        "name": "The Ordinary",
+        "img_url": "https://ucarecdn.com/800e681e-cb0d-49d8-8d85-b0d384cd1362/ordinary01.jpg",
+        "categories": t("boycottData.Ordinary.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Ordinary.desc"),
+        "proof_link": "https://www.jnf.org/menu-3/speakers-bureau/bio-page?id=830973c9-caae-67a8-a4cf-ff000038378d",
+        "alternatives": t("boycottData.Ordinary.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 177,
+        "name": "Stella McCartney",
+        "img_url": "https://ucarecdn.com/8848531b-237a-4158-b935-f0c3ec201db6/Screenshot20230306at40824PM.png",
+        "categories": t("boycottData.Stella.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Stella.desc"),
+        "proof_link": "https://www.timesofisrael.com/luxury-goods-magnate-bernard-arnault-invests-in-israeli-cybersecurity-firm-wiz/",
+        "alternatives": t("boycottData.Stella.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 178,
+        "name": "Victorias Secret",
+        "img_url": "https://ucarecdn.com/19a3c3bf-9970-4ab6-a536-ec03470a1261/0417261707559c0ec7c43876f1537c55.jpg",
+        "categories": t("boycottData.Victorias.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Victorias.desc"),
+        "proof_link": "https://www.timesofisrael.com/the-relationship-between-epstein-and-jewish-philanthropist-wexner-explained/",
+        "alternatives": t("boycottData.Victorias.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 179,
+        "name": "Oral B",
+        "img_url": "https://ucarecdn.com/8be74e00-5423-4707-83d4-f3a52b7265e9/OralBLogo2020present.png",
+        "categories": t("boycottData.OralB.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.OralB.desc"),
+        "proof_link": "https://www.forbes.com/sites/ricardogeromel/2012/05/16/procter-and-gamble-israel-startup/?sh=7c66a09a11f5",
+        "alternatives": t("boycottData.OralB.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    {
+        "id": 180,
+        "name": "Pantene",
+        "img_url": "https://ucarecdn.com/738bfac2-eba1-4196-b89e-f03edfbb5bbb/PantenelogoDAA1B67CA0seeklogocom.png",
+        "categories": t("boycottData.Pantene.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Pantene.desc"),
+        "proof_link": "https://www.forbes.com/sites/ricardogeromel/2012/05/16/procter-and-gamble-israel-startup/?sh=7c66a09a11f5",
+        "alternatives": t("boycottData.Pantene.alternatives").split(',').map(alternative => alternative.trim())
+    },
+    // {
+    //     "id": ,
+    //     "name": "",
+    //     "img_url": "",
+    //     "categories": t("boycottData..categories").split(',').map(category => category.trim()),
+    //     "desc": t("boycottData..desc"),
+    //     "proof_link": "",
+    //     "alternatives": t("boycottData..alternatives").split(',').map(alternative => alternative.trim())
+    // },
+    // {
+    //     "id": ,
+    //     "name": "",
+    //     "img_url": "",
+    //     "categories": t("boycottData..categories").split(',').map(category => category.trim()),
+    //     "desc": t("boycottData..desc"),
+    //     "proof_link": "",
+    //     "alternatives": t("boycottData..alternatives").split(',').map(alternative => alternative.trim())
+    // },
+    // {
+    //     "id": ,
+    //     "name": "",
+    //     "img_url": "",
+    //     "categories": t("boycottData..categories").split(',').map(category => category.trim()),
+    //     "desc": t("boycottData..desc"),
+    //     "proof_link": "",
+    //     "alternatives": t("boycottData..alternatives").split(',').map(alternative => alternative.trim())
+    // },
+    // {
+    //     "id": ,
+    //     "name": "",
+    //     "img_url": "",
+    //     "categories": t("boycottData..categories").split(',').map(category => category.trim()),
+    //     "desc": t("boycottData..desc"),
+    //     "proof_link": "",
+    //     "alternatives": t("boycottData..alternatives").split(',').map(alternative => alternative.trim())
+    // },
+    // {
+    //     "id": ,
+    //     "name": "",
+    //     "img_url": "",
+    //     "categories": t("boycottData..categories").split(',').map(category => category.trim()),
+    //     "desc": t("boycottData..desc"),
+    //     "proof_link": "",
+    //     "alternatives": t("boycottData..alternatives").split(',').map(alternative => alternative.trim())
+    // },
+    // {
+    //     "id": ,
+    //     "name": "",
+    //     "img_url": "",
+    //     "categories": t("boycottData..categories").split(',').map(category => category.trim()),
+    //     "desc": t("boycottData..desc"),
+    //     "proof_link": "",
+    //     "alternatives": t("boycottData..alternatives").split(',').map(alternative => alternative.trim())
+    // },
+    // {
+    //     "id": ,
+    //     "name": "",
+    //     "img_url": "",
+    //     "categories": t("boycottData..categories").split(',').map(category => category.trim()),
+    //     "desc": t("boycottData..desc"),
+    //     "proof_link": "",
+    //     "alternatives": t("boycottData..alternatives").split(',').map(alternative => alternative.trim())
+    // },
+    // {
+    //     "id": ,
+    //     "name": "",
+    //     "img_url": "",
+    //     "categories": t("boycottData..categories").split(',').map(category => category.trim()),
+    //     "desc": t("boycottData..desc"),
+    //     "proof_link": "",
+    //     "alternatives": t("boycottData..alternatives").split(',').map(alternative => alternative.trim())
+    // },
+    // {
+    //     "id": ,
+    //     "name": "",
+    //     "img_url": "",
+    //     "categories": t("boycottData..categories").split(',').map(category => category.trim()),
+    //     "desc": t("boycottData..desc"),
+    //     "proof_link": "",
+    //     "alternatives": t("boycottData..alternatives").split(',').map(alternative => alternative.trim())
+    // },
     // {
     //     "id": ,
     //     "name": "",
