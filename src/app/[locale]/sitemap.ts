@@ -12,7 +12,7 @@ export default function Sitemap(): MetadataRoute.Sitemap {
     ];
 
     const dynamicRoutes = siteMapBoycottList.map((item: any) => ({
-        url: `https://www.boikotisrael.com/en/why/${item.name}/${item.id}`,
+        url: `https://www.boikotisrael.com/en/why/${item.id}/${item.name}`,
         lastModified: new Date(),
         changeFrequency: 'monthly' as const,
         priority: 0.8,
