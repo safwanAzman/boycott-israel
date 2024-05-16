@@ -1551,15 +1551,15 @@ export function useBoycottList() {
         "proof_link": "https://www.forbes.com/sites/ricardogeromel/2012/05/16/procter-and-gamble-israel-startup/?sh=7c66a09a11f5",
         "alternatives": t("boycottData.Pantene.alternatives").split(',').map(alternative => alternative.trim())
     },
-    // {
-    //     "id": ,
-    //     "name": "",
-    //     "img_url": "",
-    //     "categories": t("boycottData..categories").split(',').map(category => category.trim()),
-    //     "desc": t("boycottData..desc"),
-    //     "proof_link": "",
-    //     "alternatives": t("boycottData..alternatives").split(',').map(alternative => alternative.trim())
-    // },
+    {
+        "id": 181,
+        "name": "Zus Coffee",
+        "img_url": "https://ucarecdn.com/7f0ed1ab-5371-49ff-b8de-2bc0be702be7/ZUSCoffeeLogo.jpg",
+        "categories": t("boycottData.ZusCoffee.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.ZusCoffee.desc"),
+        "proof_link": "https://twitter.com/luqmanhkm_14/status/1790718879364493320",
+        "alternatives": t("boycottData.ZusCoffee.alternatives").split(',').map(alternative => alternative.trim())
+    },
     // {
     //     "id": ,
     //     "name": "",

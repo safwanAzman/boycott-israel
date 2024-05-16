@@ -334,7 +334,7 @@
             "Starbucks": {
                 "desc": "Howard Schultz, the largest private owner of Starbucks shares, is a staunch Zionist who invests heavily in Israel's economy, including a recent $1.7 Billion investment in cybersecurity startup Wiz.",
                 "categories": "food, coffee, drinks",
-                "alternatives":"Zus Coffee,Kopi Saigon,Tealive,Bask Bear,Cool Blog,GIGI Coffee,Richiamo"
+                "alternatives":"Kopi Saigon,Tealive,Bask Bear,Cool Blog,GIGI Coffee"
             },
             "Domino": {
                 "desc": "Domino Pizza has not publicly voiced support for Israel but is subject to boycott calls in Arab countries.",
@@ -943,7 +943,12 @@
                 "desc": "Pantene is owned by Procter and Gamble, who opened an R&D center in Tel Aviv, Occupied Palestine, in which it invests $2bn annually.",
                 "categories": "cosmetics, healthcare",
                 "alternatives": "Supermarket own brand products"
-            }
+            },
+            "ZusCoffee": {
+              "desc": "Zus Coffee has done a collaborated merchandise with well known brand Adidas.",
+              "categories": "food, coffee, drinks",
+              "alternatives": "Kopi Saigon,Tealive,Bask Bear,Cool Blog,GIGI Coffee"
+          }
         }
     }
 }
