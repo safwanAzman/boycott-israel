@@ -943,12 +943,7 @@
                 "desc": "Pantene is owned by Procter and Gamble, who opened an R&D center in Tel Aviv, Occupied Palestine, in which it invests $2bn annually.",
                 "categories": "cosmetics, healthcare",
                 "alternatives": "Supermarket own brand products"
-            },
-            "ZusCoffee": {
-              "desc": "Zus Coffee has done a collaborated merchandise with well known brand Adidas.",
-              "categories": "food, coffee, drinks",
-              "alternatives": "Kopi Saigon,Tealive,Bask Bear,Cool Blog,GIGI Coffee"
-          }
+            }
         }
     }
 }
