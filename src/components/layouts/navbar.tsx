@@ -38,12 +38,12 @@ const Navbar = ({})=> {
             href:"/",
             icon: <Search className="w-5 h-5" />
         },
-        // {
-        //     title:`${t("HeaderSection.donate")}`,
-        //     href:`/go-die` ,
-        //     icon: <div className="text-2xl -mt-1">🗣️</div>,
-        //     newTab:false
-        // },
+        {
+            title:`${t("HeaderSection.donate")}`,
+            href:`/go-die` ,
+            icon: <div className="text-2xl -mt-1">🗣️</div>,
+            newTab:false
+        },
         {
             title:`${t("HeaderSection.reference")}`,
             icon: <BookCopy className="w-5 h-5" />,
