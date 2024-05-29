@@ -40,9 +40,9 @@ const Navbar = ({})=> {
         },
         {
             title:`${t("HeaderSection.donate")}`,
-            href:"https://matwproject.org.uk/crisis-and-emergencies/palestine",
-            icon: <div className="text-xl">🇵🇸</div>,
-            newTab:true
+            href:`/go-die` ,
+            icon: <div className="text-2xl -mt-1">🗣️</div>,
+            newTab:false
         },
         {
             title:`${t("HeaderSection.reference")}`,

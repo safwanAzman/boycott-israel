@@ -25,3 +25,9 @@ export type SiteConfig = {
     }
     keywords:string[],
 }
+
+
+export interface Emoji {
+  id: number;
+  count: number;
+}
