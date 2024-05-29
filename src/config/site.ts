@@ -5,8 +5,8 @@ export const siteConfig: SiteConfig = {
     description:`
         Stand with the Palestinians in their struggle for freedom, justice, and equality.
     `,
-    url: `${process.env.NEXT_PUBLIC_OG_URL}`,
-    ogImage: `${process.env.NEXT_PUBLIC_OG_URL}/og.png`,
+    url: `https://www.boikotisrael.com/`,
+    ogImage: `https://ucarecdn.com/ed78f56d-e797-46d6-99d7-c68ea85776a6/og.png`,
     name:'SafwanAzman',
     links: {
         github: 'https://github.com/safwanAzman',
