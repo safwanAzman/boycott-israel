@@ -1,955 +1,956 @@
-
 {
-    "Logo": {
-        "LogoSection": {
-            "title": "Boikot"
-        }
-    },
-    "Header": {
-        "HeaderSection": {
-            "search": "Cari Semua",
-            "browse": "Semak Kategori",
-            "reference": "Rujukan",
-            "donate": "Pergi Mati,Israel!"
-        }
-    },
-    "Container": {
-        "IntroSection": {
-            "title": "Sokong Palestin. Boikot Israel",
-            "description": "Berdiri bersama rakyat Palestin dalam perjuangan mereka untuk kebebasan, keadilan, dan kesaksamaan."
-        }
-    },
-    "Why": {
-        "WhySection": {
-            "why": "Mengapa memboikot produk ini?",
-            "categories": "Kategori",
-            "alternatives": "Alternatif",
-            "proofLink" : "Pautan Bukti",
-            "bntProof" : "Bukti "
-            
-        }
-    },
-    "BoycottCard": {
-        "BoycottCardSection": {
-            "why": "Kenapa Perlu Boikot"
-        }
-    },
-    "Form": {
-        "formSection": {
-            "search": "Carian",
-            "reset": "Set Semula",
-            "back": "Halaman Utama",
-            "categories": "Pilih Kategori"
-            
-        },
-        "categories": {
-            "all": "semua",
-            "car": "kereta",
-            "charity": "kebajikan",
-            "clothing": "pakaian",
-            "coffee": "kopi",
-            "contractor": "kontraktor",
-            "cosmetics": "kosmetik",
-            "drinks": "minuman",
-            "entertainment": "hiburan",
-            "fashion": "fesyen",
-            "finance": "kewangan",
-            "food": "makanan",
-            "healthcare": "kesihatan",
-            "household": "barangan rumah",
-            "insurance": "insurans",
-            "luxury": "mewah",
-            "manufacturer": "pengilang",
-            "petcare": "haiwan peliharaan",
-            "pharmaceuticals": "farmasi",
-            "politics": "politik",
-            "supermarket": "pasar raya",
-            "technology": "teknologi",
-            "travel": "perjalanan"
-            
-        }
-    },
-
-    "Empty": {
-        "EmptySection": {
-            "title": "Jika syarikat yang anda cari tidak tersenarai, dan anda rasa sepatutnya ia tersenarai, sila emel kami dengan butiran relevan untuk semakan.",
-            "btnTitle": "Klik Di Sini"
-        }
-    },
-
-    "Data": {
-        "boycottData": {
-            "Nestle": {
-                "desc": "Osem ialah pengeluar makanan Israel yang beroperasi di Palestin yang Diduduki. Nestle memiliki pegangan kawalan dalam Osem.",
-                "categories": "makanan,minuman",
-                "alternatives": "Pilihan jenama sendiri pasaraya.,jenama bukan-Nestle/Coca-Cola/Pepsico"
-            },
-            "Cadbury": {
-                "desc": "Pemilik Cadbury, Mondelez, melabur dalam startup Israel di Palestin yang Diduduki.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Maggi": {
-                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki. Terutamanya elakkan mana-mana jenama Osem seperti Sabra Salads.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Lipton": {
-                "desc": "Lipton, di bawah PepsiCo, mendapat perhatian kerana afiliasi dan pelaburannya dalam syarikat yang berkaitan dengan Israel.",
-                "categories": "minuman",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Nescafe": {
-                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki. Terutamanya elakkan mana-mana jenama Osem seperti Sabra Salads.",
-                "categories": "minuman, kopi",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Kitkat": {
-                "desc": "Nestle memiliki pegangan kawalan dalam Osem, pengeluar makanan Israel yang beroperasi di Palestin yang Diduduki.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Oreo": {
-                "desc": "Mondelez, pemilik Oreo, melabur dalam startup Israel di Palestin yang Diduduki.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Mars": {
-                "desc": "Mars menyokong negara Zionis dengan melabur dalam startup foodtech melalui rakan kongsi modal teroka JVC.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Snickers": {
-                "desc": "Mars, pemilik Snickers, menyokong negara Zionis dengan melabur dalam startup foodtech melalui rakan kongsi modal teroka JVC.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Pringles": {
-                "desc": "Pringles mengembangkan operasi ke Israel.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Milo": {
-                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki. Terutamanya elakkan mana-mana jenama Osem seperti Sabra Salads.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Toblerone": {
-                "desc": "Mondelez, pemilik Toblerone, melabur dalam startup Israel di Palestin yang Diduduki.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Nestum": {
-                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "MatKool": {
-                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Nutella": {
-                "desc": "Nutella ialah produk coklat Ferrero, yang dijual di lebih daripada 100 negara.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Coca-Cola": {
-                "desc": "Coca-Cola mengendalikan kilang di penempatan haram Israel di Atarot, di Palestin yang Diduduki.",
-                "categories": "minuman",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Nestea": {
-                "desc": "Nestea, terkenal dengan tawaran teh aisnya, adalah sebahagian daripada Nestle.",
-                "categories": "minuman",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Knorr": {
-                "desc": "Unilever, pemilik Knorr, menjual hak edaran Israel Ben & Jerry's kepada Avi Zinger untuk meneruskan penjualan di Israel.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Hershey": {
-                "desc": "HERSHEY menyokong Israel.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "M&M": {
-                "desc": "Mars, pemilik M&M's, menyokong negara Zionis melalui pelaburan dalam startup foodtech.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "La Cremeria": {
-                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Haagen-Dazs": {
-                "desc": "Keluarga Mattus, bekas pemilik Häagen-Dazs, memberi tumpuan kepada menyokong penyebab Yahudi, Israel, dan Zionis.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Magnum": {
-                "desc": "Magnum, dimiliki oleh Unilever, yang juga memiliki Ben & Jerry's. Unilever menjual hak edaran Israel Ben & Jerry's untuk meneruskan penjualan di Israel.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Lady's Choice": {
-                "desc": "Lady's Choice mempunyai afiliasi dengan syarikat Yahudi atau menyokong pendudukan Zionis di Palestin.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Horlicks": {
-                "desc": "Horlicks mempunyai afiliasi dengan syarikat Yahudi atau menyokong pendudukan Zionis di Palestin.",
-                "categories": "makanan, minuman",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Cornetto": {
-                "desc": "Cornetto, dimiliki oleh Unilever, yang juga memiliki Ben & Jerry's. Unilever menjual hak edaran Israel Ben & Jerry's untuk meneruskan penjualan di Israel.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Wall's": {
-                "desc": "Wall's, dimiliki oleh Unilever, yang juga memiliki Ben & Jerry's. Unilever menjual hak edaran Israel Ben & Jerry's untuk meneruskan penjualan di Israel.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Fanta": {
-                "desc": "Coca-Cola Company, yang memiliki Fanta, mengendalikan kilang di penempatan haram Israel di Atarot, di Palestin yang Diduduki.",
-                "categories": "minuman",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Sprite": {
-                "desc": "Coca-Cola Company, yang memiliki Sprite, mengendalikan kilang di penempatan haram Israel di Atarot, di Palestin yang Diduduki.",
-                "categories": "minuman",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Pepsi": {
-                "desc": "PepsiCo, pemilik Pepsi, membeli SodaStream dan memiliki 50% Saham Sabra, kedua-duanya memanfaatkan pendudukan Israel di Palestin.",
-                "categories": "minuman",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Jacob's": {
-                "desc": "Jacob's mempunyai hubungan dengan syarikat Yahudi atau menyokong pendudukan Zionis di Palestin.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "7up": {
-                "desc": "PepsiCo, pengedar antarabangsa 7up, membeli SodaStream dan memiliki 50% Sabra, kedua-duanya telah mengambil kesempatan daripada pendudukan Israel di Palestin.",
-                "categories": "minuman",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Coffee Mate": {
-                "desc": "Nestle, pemilik Coffee Mate, memiliki pegangan kawalan dalam Osem, pengeluar makanan Israel yang beroperasi di Palestin yang Diduduki.",
-                "categories": "makanan, kopi",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Costa Coffee": {
-                "desc": "Costa Coffee, milik Coca-Cola Company, mengendalikan kilang di penempatan haram Israel di Atarot, di Palestin yang Diduduki.",
-                "categories": "makanan, kopi",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Dasani Water": {
-                "desc": "Coca-Cola Company, yang memiliki Dasani Water, mengendalikan kilang di penempatan haram Israel di Atarot, di Palestin yang Diduduki.",
-                "categories": "minuman, air",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Gatorade": {
-                "desc": "PepsiCo, pemilik Gatorade, membeli SodaStream dan memiliki 50% Sabra, kedua-duanya telah mengambil kesempatan daripada pendudukan Israel di Palestin.",
-                "categories": "minuman",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Halls": {
-                "desc": "Mondelez, pemilik Halls, melabur dalam permulaan di Israel di Palestin yang Diduduki.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Mondelez": {
-                "desc": "Mondelez melabur dalam permulaan di Israel di Palestin yang Diduduki.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Unilever": {
-                "desc": "Unilever, pemilik Ben & Jerry's, menjual hak pengedaran jenama di Israel untuk terus menjual di Israel.",
-                "categories": "makanan, minuman, kosmetik",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Belvita": {
-                "desc": "Mondelez, pemilik Belvita, melabur dalam permulaan di Israel di Palestin yang Diduduki.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Nesquik": {
-                "desc": "Nestle, pemilik Nesquik, memiliki pegangan kawalan dalam Osem, pengeluar makanan Israel yang beroperasi di Palestin yang Diduduki.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Koko Krunch": {
-                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Honey Stars": {
-                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Fitnesse": {
-                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Sjora": {
-                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
-                "categories": "minuman",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Quaker Oats": {
-                "desc": "PepsiCo, pemilik Quaker Oats, membeli SodaStream dan memiliki 50% Sabra, kedua-duanya telah mengambil kesempatan daripada pendudukan Israel di Palestin.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Smarties": {
-                "desc": "Nestle, pemilik Smarties, memiliki pegangan kawalan dalam Osem, pengeluar makanan Israel yang beroperasi di Palestin yang Diduduki.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Lays": {
-                "desc": "PepsiCo, pemilik Lay's, membeli SodaStream dan memiliki 50% Sabra, kedua-duanya telah mengambil kesempatan daripada pendudukan Israel di Palestin.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Carnation": {
-                "desc": "Nestle, pemilik Carnation, memiliki pegangan kawalan dalam Osem, pengeluar makanan Israel yang beroperasi di Palestin yang Diduduki.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Mountain Dew": {
-                "desc": "PepsiCo, pemilik Mountain Dew, membeli SodaStream dan memiliki 50% Sabra, kedua-duanya telah mengambil kesempatan daripada pendudukan Israel di Palestin.",
-                "categories": "minuman",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Mcdonalds": {
-                "desc": "McDonalds Israel menyokong IDF dengan menyediakan makanan dan minuman percuma kepada militan Israel.",
-                "categories": "makanan, minuman",
-                "alternatives":"Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
-            },
-            "Starbucks": {
-                "desc": "Howard Schultz, pemilik saham terbesar Starbucks, adalah Zionis tegar yang melabur banyak dalam ekonomi Israel, termasuk pelaburan terkini sebanyak $1.7 Bilion dalam permulaan keselamatan siber Wiz.",
-                "categories": "makanan, kopi, minuman",
-                "alternatives": "Zus Coffee,Kopi Saigon,Tealive,Bask Bear,Cool Blog,GIGI Coffee,Richiamo"
-            },
-            "Domino": {
-                "desc": "Domino Pizza tidak menyuarakan sokongan terhadap Israel secara terbuka tetapi menjadi subjek seruan boikot di negara-negara Arab.",
-                "categories": "makanan",
-                "alternatives": "Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
-            },
-            "Omega": {
-                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
-                "categories": "makanan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Pizza Hut": {
-                "desc": "Syarikat induk Yum Brands adalah pelabur dalam permulaan di Israel.",
-                "categories": "makanan",
-                "alternatives":"Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
-            },
-            "Burger King": {
-                "desc": "Burger King didakwa menyokong IDF melalui pemberian makanan dan minuman percuma kepada militan Israel.",
-                "categories": "makanan",
-                "alternatives":"Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
-            },
-            "Subway": {
-                "desc": "Subway terlibat dalam kontroversi kerana hubungannya dengan menyokong Israel dalam konflik Palestin.",
-                "categories": "makanan",
-                "alternatives": "Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
-            },
-            "Baskin Robbins": {
-                "desc": "Baskin-Robbins mempunyai sejarah yang berkaitan dengan pengasas Yahudinya, Burt Baskin dan Irv Robbins, yang menyokong sebab Yahudi dan Israel.",
-                "categories": "makanan",
-                "alternatives": "Kedai ais krim tempatan atau jenama ais krim lain"
-            },
-            "PapaJohns": {
-                "desc": "Restoran Papa John's telah menyertai senarai restoran yang menyokong Israel.",
-                "categories": "makanan",
-                "alternatives": "Marrybrown, The Chicken Rice Shop, Ramly's Burger, Ayamas, The Manhattan Fish Market"
-            },
-            "KFC": {
-                "desc": "Syarikat induk Yum Brands adalah pelabur dalam permulaan di Israel.",
-                "categories": "makanan",
-                "alternatives": "Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
-            },
-            "Papa Johns": {
-                "desc": "Restoran Papa John's menyokong Israel.",
-                "categories": "makanan",
-                "alternatives":"Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
-            },
-            "EveryDay": {
-                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
-                "categories": "makanan, minuman",
-                "alternatives": "Jenama lain serbuk susu atau produk tenusu tempatan"
-            },
-            "Lactogrow": {
-                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
-                "categories": "makanan, minuman",
-                "alternatives": "Jenama formula bayi lain atau pilihan nutrisi"
-            },
-            "Lactokid": {
-                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
-                "categories": "makanan, minuman",
-                "alternatives": "Jenama formula bayi lain"
-            },
-            "Cerelac": {
-                "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
-                "categories": "makanan",
-                "alternatives": "Jenama sereal bayi lain atau makanan bayi buatan sendiri"
-            },
-            "Colgate": {
-                "desc": "S. Schestowitz adalah salah satu importer barang keperluan terbesar di Israel. Syarikat ini menguasai 60% pasaran ubat gigi Israel, menurut Haaretz.",
-                "categories": "barangan rumah, kesihatan",
-                "alternatives": "Pilihan jenama sendiri pasaraya, Mu'min, Safi, Halagel, Oradex, Aafiyat Store"
-            },
-            "Listerine": {
-                "desc": "Ini adalah produk Johnson & Johnson, yang membeli syarikat Israel Biosense seharga $400 juta",
-                "categories": "barangan rumah, kesihatan",
-                "alternatives": "Pilihan jenama sendiri pasaraya, Mu'min, Safi, Halagel, Oradex, Aafiyat Store"
-            },
-            "Darlie": {
-                "desc": "Darlie adalah jenama popular China yang dimiliki oleh Colgate dan rakan usaha samanya, Hawley & Hazel. Pakejnya menampilkan seorang lelaki dengan topi tinggi. Ia dahulunya dipanggil Darkie dan menampilkan lelaki dengan wajah hitam.",
-                "categories": "barangan rumah, kesihatan",
-                "alternatives": "Pilihan jenama sendiri pasaraya, Mu'min, Safi, Halagel, Oradex, Aafiyat Store"
-            },
-            "Pepsodent": {
-                "desc": "Pepsodent, dimiliki oleh Unilever, yang juga memiliki Ben & Jerry's. Unilever menjual hak distribusi Ben & Jerry's di Israel untuk terus menjual di Israel.",
-                "categories": "barangan rumah, kesihatan",
-                "alternatives": "Pilihan jenama sendiri pasaraya, Mu'min, Safi, Halagel, Oradex, Aafiyat Store"
-            },
-            "Dove": {
-                "desc": "Dove dimiliki oleh Unilever. Ben & Jerry's juga dimiliki oleh Unilever. Ketika Ben & Jerry's memutuskan untuk berhenti menjual produk mereka di Israel, Unilever menjual hak distribusi di Israel kepada Avi Zinger untuk mengelakkan keputusan mereka dan memaksa nama jenama Ben & Jerry's terus dijual di Israel.",
-                "categories": "barangan rumah, kosmetik",
-                "alternatives": "Pilihan jenama sendiri pasaraya, Antabax, Good Virtues Co, Bad Lab, Fruiser, Safi"
-            },
-            "Palmolive": {
-                "desc": "S. Schestowitz adalah salah satu importir barang keperluan terbesar di Israel. Syarikat ini menguasai 60% pasaran ubat gigi Israel, menurut Haaretz.",
-                "categories": "barangan rumah",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "CleanAndClear": {
-                "desc": "Ini adalah produk Johnson & Johnson, yang membeli syarikat Israel Biosense seharga $400 juta",
-                "categories": "barangan rumah, kosmetik",
-                "alternatives": "Pilihan jenama sendiri pasaraya, Aiken, Nano White, Kayman, Safi, Zarzou, Cosmoderm, Jelita KL, Nurish, Elianto, Pixy, Silkygirl, SimplySiti, Nurraysa"
-            },
-            "Vaseline": {
-                "desc": "Vaseline, dimiliki oleh Unilever, yang juga memiliki Ben & Jerry's. Unilever menjual hak distribusi Ben & Jerry's di Israel untuk terus menjual di Israel.",
-                "categories": "barangan rumah, kosmetik",
-                "alternatives": "Pilihan jenama sendiri pasaraya, Aiken, Nano White, Kayman, Safi, Zarzou, Cosmoderm, Jelita KL, Nurish, Elianto, Pixy, Silkygirl, SimplySiti, Nurraysa"
-            },
-            "Vicks": {
-                "desc": "Vicks dimiliki oleh Procter and Gamble, yang membuka pusat R&D di Tel Aviv, Palestin yang Diduduki, dengan pelaburan tahunan $2bn.",
-                "categories": "barangan rumah, farmasi",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Breeze": {
-                "desc": "Breeze, dimiliki oleh Unilever, yang juga memiliki Ben & Jerry's. Unilever menjual hak distribusi Ben & Jerry's di Israel untuk terus menjual di Israel.",
-                "categories": "barangan rumah",
-                "alternatives": "Pilihan jenama sendiri pasaraya, Kuat Harimau, Dozee, TLC, Good Maid, Toyyib"
-            },
-            "Joy": {
-                "desc": "P&G berhubungan dengan syarikat Israel Avgol Nonwoven, yang mengkhusus dalam penghasilan tekstil untuk produk kebersihan, telah menarik perhatian.",
-                "categories": "barangan rumah",
-                "alternatives": "Pilihan jenama sendiri pasaraya, Kuat Harimau, Dozee, TLC, Good Maid, Toyyib"
-            },
-            "Downy": {
-                "desc": "P&G, syarikat induk Downy, mempunyai hubungan dalam dengan Israel, membangkitkan perbincangan dan perdebatan mengenai kerjasama perniagaannya dalam wilayah tersebut. Terutamanya, hubungan P&G dengan syarikat Israel Avgol Nonwoven, yang mengkhusus dalam penghasilan tekstil untuk produk kebersihan, telah menarik perhatian.",
-                "categories": "barangan rumah",
-                "alternatives": "Pilihan jenama sendiri pasaraya, Kuat Harimau, Dozee, TLC, Good Maid, Toyyib"
-            },
-            "Axion": {
-                "desc": "S. Schestowitz adalah salah satu importir barang keperluan terbesar di Israel. Syarikat ini menguasai 60% pasaran ubat gigi Israel, menurut Haaretz.",
-                "categories": "barangan rumah",
-                "alternatives": "Pilihan jenama sendiri pasaraya, Kuat Harimau, Dozee, TLC, Good Maid, Toyyib"
-            },
-            "Sunlight": {
-                "desc": "Sunlight, dimiliki oleh Unilever, yang juga memiliki Ben & Jerry's. Unilever menjual hak distribusi Ben & Jerry's di Israel untuk terus menjual di Israel.",
-                "categories": "barangan rumah",
-                "alternatives": "Pilihan jenama sendiri pasaraya, Kuat Harimau, Dozee, TLC, Good Maid, Toyyib"
-            },
-            "Kotex": {
-                "desc": "Pada tahun 1998 Robert P. Van der Merwe, Pengerusi Kimberly Clark, menerima Anugerah Jubli dari Perdana Menteri Israel Netanyahu, atas sumbangan mereka dalam membangunkan ekonomi Israel.",
-                "categories": "barangan rumah, kesihatan",
-                "alternatives": "Pilihan jenama sendiri pasaraya, Libresse, Sofy, Flowra"
-            },
-            "Huggies": {
-                "desc": "Kimberly-Clark adalah salah satu syarikat pengguna terbesar di dunia dengan hampir 56,000 pekerja di 35 negara, dan perolehan jualan lebih dari $19 bilion pada tahun 2009. Jenama penjagaan keluarganya termasuk Kleenex, Scott, Andrex, Huggies, Pull-Ups, Kotex, Poise dan Depend",
-                "categories": "barangan rumah, kesihatan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Lux": {
-                "desc": "Lux dimiliki oleh Unilever. Ben & Jerry's juga dimiliki oleh Unilever. Ketika Ben & Jerry's memutuskan untuk berhenti menjual produk mereka di Israel, Unilever menjual hak distribusi di Israel kepada Avi Zinger untuk mengelakkan keputusan mereka dan memaksa nama jenama Ben & Jerry's terus dijual di Israel.",
-                "categories": "barangan rumah, kosmetik",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Febreze": {
-                "desc": "Febreze dimiliki oleh Procter and Gamble, yang membuka pusat R&D di Tel Aviv, Palestin yang Diduduki, dengan pelaburan tahunan $2bn.",
-                "categories": "barangan rumah",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Lifebuoy": {
-                "desc": "Lifebuoy dimiliki oleh Unilever. Ben & Jerry's juga dimiliki oleh Unilever. Ketika Ben & Jerry's memutuskan untuk berhenti menjual produk mereka di Israel, Unilever menjual hak distribusi di Israel kepada Avi Zinger untuk mengelakkan keputusan mereka dan memaksa nama jenama Ben & Jerry's terus dijual di Israel.",
-                "categories": "barangan rumah, kesihatan",
-                "alternatives": "Pilihan jenama sendiri pasaraya, Antabax, Good Virtues Co, Bad Lab, Fruiser, Safi"
-            },
-            "Rexona": {
-                "desc": "Rexona dimiliki oleh Unilever. Ben & Jerry's juga dimiliki oleh Unilever. Ketika Ben & Jerry's memutuskan untuk berhenti menjual produk mereka di Israel, Unilever menjual hak distribusi di Israel kepada Avi Zinger untuk mengelakkan keputusan mereka dan memaksa nama jenama Ben & Jerry's terus dijual di Israel.",
-                "categories": "barangan rumah, kosmetik",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Maybeline": {
-                "desc": "Maybelline, di bawah kepemilikan L'Oreal, telah mengemudi sebuah laluan kontroversi dalam hubungannya dengan Israel.",
-                "categories": "kosmetik",
-                "alternatives": "Pilihan jenama sendiri pasaraya, Aiken, Nano White, Kayman, Safi, Zarzou, Silkygirl, SimplySiti, Nurraysa"
-            },
-            "Loreal": {
-                "desc": "L'Oreal adalah 'sahabat hangat Israel'. Setelah mengirim surat kepada Liga Arab dengan informasi membantu boikot, mereka membayar denda $1.4j dan mengeluarkan permintaan maaf, sebelum menjalin hubungan baru dengan Israel, dengan pelaburan besar dan bahkan mengoperasikan sebuah pabrik di Palestin yang Diduduki.",
-                "categories": "kosmetik",
-                "alternatives": "Pilihan jenama sendiri pasaraya, Aiken, Nano White, Kayman, Safi, Zarzou, Silkygirl, SimplySiti, Nurraysa"
-            },
-            "Garnier": {
-                "desc": "Garnier adalah jenama yang dimiliki oleh L'Oreal, yang merupakan 'sahabat hangat Israel'. Setelah mengirim surat kepada Liga Arab dengan informasi membantu boikot, mereka membayar denda $1.4j dan mengeluarkan permintaan maaf, sebelum menjalin hubungan baru dengan Israel, dengan pelaburan besar dan bahkan mengoperasikan sebuah pabrik di Palestin yang Diduduki.",
-                "categories": "kosmetik",
-                "alternatives": "Pilihan jenama sendiri pasaraya, Aiken, Nano White, Kayman, Safi, Zarzou, Silkygirl, SimplySiti, Nurraysa"
-            },
-            "Clinique": {
-                "desc": "Clinique dimiliki oleh Estee Lauder, yang kepemilikannya, terutama Ronald Lauder, mempunyai pandangan zionis ekstrem dan secara finansial dan politik mendukung pendudukan tanah Palestin oleh Israel.",
-                "categories": "kosmetik",
-                "alternatives": "Pilihan jenama sendiri pasaraya, Aiken, Nano White, Kayman, Safi, Zarzou, Silkygirl, SimplySiti, Nurraysa"
-            },
-            "Gillete": {
-                "desc": "Terkenal dengan barisan produk penjagaan diri, Gillette beroperasi di bawah P&G, sebuah syarikat multinasional. P&G mendapat perhatian kerana pelaburan besar di Israel, terutamanya dengan penubuhan pusat Penyelidikan dan Pembangunan (R&D) di Tel Aviv, yang terletak dalam apa yang disebut sebagai Palestin yang Diduduki.",
-                "categories": "kosmetik",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Louis Vuitton": {
-                "desc": "Pemilik syarikat induk Louis Vuitton, LVMH, Bernard Arnault melabur ratusan juta dalam syarikat-syarikat Israel",
-                "categories": "mewah, pakaian, kosmetik",
-                "alternatives": "sokong jenama tempatan"
-            },
-            "Giorgio Armani": {
-                "desc": "Giorgio Armani Beauty adalah kerjasama dengan L'Oreal, yang merupakan 'sahabat hangat Israel'. Setelah mengirim surat kepada Liga Arab dengan informasi membantu boikot, mereka membayar denda $1.4j dan mengeluarkan permintaan maaf, sebelum menjalin hubungan baru dengan Israel, dengan pelaburan besar dan bahkan mengoperasikan sebuah pabrik di Palestin yang Diduduki.",
-                "categories": "mewah, pakaian, kosmetik, fesyen",
-                "alternatives": "sokong jenama tempatan"
-            },
-            "Johnson n Johnson": {
-                "desc": "Johnson & Johnson membeli syarikat Israel, Biosense, sebanyak $400 juta",
-                "categories": "kesihatan",
-                "alternatives": "Pilihan jenama sendiri pasaraya"
-            },
-            "Bath & Body Works": {
-                "desc": "Les Wexner, pemilik L Brands, syarikat induk Bath&Body Works, adalah sekutu kuat Israel, dan rakan perniagaan jangka panjang Jeffrey Epstein, pengedar kanak-kanak yang dihukum.",
-                "categories": "kosmetik",
-                "alternatives": "Pilihan jenama sendiri pasaraya, Lush cosmetics, Minyak wangi tidak berjenama, Sunnamusk"
-            },
-            "Herbal Essence": {
-                "desc": "Herbal essences dimiliki oleh Procter and Gamble, yang membuka pusat R&D di Tel Aviv, Palestin yang Diduduki, dengan pelaburan tahunan $2bn.",
-                "categories": "kosmetik, kesihatan",
-                "alternatives": "Pilihan jenama sendiri"
-            },
-            "Victoria Secret": {
-                "desc": "Victoria Secret memperoleh keuntungan dari pendudukan Israel atas tanah Palestin & kejahatan terhadap kemanusiaan dengan kerjasama rapat dengan syarikat-syarikat Israel.",
-                "categories": "mewah",
-                "alternatives": "Pilihan jenama sendiri"
-            },
-            "Estee Lauder": {
-                "desc": "Ronald Lauder, yang bersama dengan abangnya Leonard Lauder mewarisi syarikat Estee Lauder, adalah presiden Kongres Yahudi Dunia, dan pengerusi Dana Kebangsaan Yahudi, dan adalah zionis dengan pandangan ekstremis dan menyokong pendudukan Israel atas tanah Palestin secara kewangan dan politik.",
-                "categories": "kosmetik",
-                "alternatives": "Pilihan jenama sendiri"
-            },
-            "Ralph Lauren": {
-                "desc": "Ralph Lauren Frangrances adalah kerjasama dengan L'Oreal, yang merupakan 'sahabat hangat Israel'. Setelah mengirim surat kepada Liga Arab dengan informasi membantu boikot, mereka membayar denda $1.4j dan mengeluarkan permintaan maaf, sebelum menjalin hubungan baru dengan Israel, dengan pelaburan besar dan bahkan mengoperasikan sebuah pabrik di Palestin yang Diduduki.",
-                "categories": "mewah",
-                "alternatives": "Minyak wangi tidak berjenama, Sunnamusk"
-            },
-            "Neutrogena": {
-                "desc": "Menyelami jejak Neutrogena di Israel, kita mengungkap jaringan hubungan, kerjasama, dan pelaburan yang menggambarkan gambaran berbilang wajah tentang keterlibatan jenama di wilayah ini.",
-                "categories": "kosmetik",
-                "alternatives": "Pilihan jenama sendiri"
-            },
-            "Valentino Beauty": {
-                "desc": "Valentino Beauty adalah kerjasama dengan L'Oreal, yang merupakan 'sahabat hangat Israel'. Setelah mengirim surat kepada Liga Arab dengan informasi membantu boikot, mereka membayar denda $1.4j dan mengeluarkan permintaan maaf, sebelum menjalin hubungan baru dengan Israel, dengan pelaburan besar dan bahkan mengoperasikan sebuah pabrik di Palestin yang Diduduki.",
-                "categories": "mewah, pakaian, fesyen, kosmetik",
-                "alternatives": "Pilihan jenama sendiri"
-            },
-            "YSL Beauty": {
-                "desc": "YSL Beauty adalah kerjasama dengan L'Oreal, yang merupakan 'sahabat hangat Israel'. Setelah mengirim surat kepada Liga Arab dengan informasi membantu boikot, mereka membayar denda $1.4j dan mengeluarkan permintaan maaf, sebelum menjalin hubungan baru dengan Israel, dengan pelaburan besar dan bahkan mengoperasikan sebuah pabrik di Palestin yang Diduduki.",
-                "categories": "mewah, pakaian, fesyen, kosmetik",
-                "alternatives": "Pilihan jenama sendiri"
-            },
-            "Tommy Hilfiger": {
-                "desc": "Di tengah-tengah kekacauan, laporan mendedahkan bahawa PVH, syarikat induk Tommy Hilfiger, berjanji untuk menyamai sumbangan daripada para pekerjanya dengan nisbah 2:1 untuk usaha bantuan di wilayah tersebut.",
-                "categories": "mewah, pakaian, fesyen",
-                "alternatives": "Pilihan jenama sendiri"
-            },
-            "Kerastase": {
-                "desc": "Kerastase dimiliki oleh L'Oreal. L'Oreal adalah 'sahabat hangat Israel'. Setelah mengirim surat kepada Liga Arab dengan informasi membantu boikot, mereka membayar denda $1.4j dan mengeluarkan permintaan maaf, sebelum menjalin hubungan baru dengan Israel, dengan pelaburan besar dan bahkan mengoperasikan sebuah pabrik di Palestin yang Diduduki.",
-                "categories": "kosmetik",
-                "alternatives": "Pilihan jenama sendiri"
-            },
-            "Lancome": {
-                "desc": "Lancome adalah jenama milik L'Oreal, yang merupakan 'sahabat hangat Israel'. Setelah mengirim surat kepada Liga Arab dengan informasi membantu boikot, mereka membayar denda $1.4j dan mengeluarkan permintaan maaf, sebelum menjalin hubungan baru dengan Israel, dengan pelaburan besar dan bahkan mengoperasikan sebuah pabrik di Palestin yang Diduduki.",
-                "categories": "mewah, kosmetik",
-                "alternatives": "Kosmetik Lush, Kecantikan Huda"
-            },
-            "Revlon": {
-                "desc": "Pemegang saham terbesar Revlon, Ronald Perelman, adalah pemegang amanah utama Yayasan Simon Weisenthal, yang menjalankan Muzium Toleransi yang agak ironis namanya.",
-                "categories": "kosmetik",
-                "alternatives": "Pilihan jenama sendiri"
-            },
-            "Chanel": {
-                "desc": "Alain Wertheimer, mengutuk serangan terhadap Israel tetapi berdiam diri tentang serangan di Gaza, juga berjanji $4j atas nama Chanel.",
-                "categories": "mewah, pakaian, fesyen, kosmetik",
-                "alternatives": "Kosmetik Lush, Kecantikan Huda, Sunnamusk, Minyak wangi tidak berjenama"
-            },
-            "Cerave": {
-                "desc": "Cerave dimiliki oleh L'Oreal. L'Oreal adalah 'sahabat hangat Israel'. Setelah mengirim surat kepada Liga Arab dengan informasi membantu boikot, mereka membayar denda $1.4j dan mengeluarkan permintaan maaf, sebelum menjalin hubungan baru dengan Israel, dengan pelaburan besar dan bahkan mengoperasikan sebuah pabrik di Palestin yang Diduduki.",
-                "categories": "kosmetik",
-                "alternatives": "Kosmetik Lush, Kecantikan Huda"
-            },
-            "Kenzo": {
-                "desc": "Pemilik syarikat induk Kenzo, LVMH, Bernard Arnault melabur ratusan juta dalam syarikat-syarikat Israel",
-                "categories": "mewah, pakaian, fesyen, kosmetik",
-                "alternatives": "Kosmetik Lush, Kecantikan Huda, Sunnamusk, Minyak wangi tidak berjenama"
-            },
-            "Kiehl": {
-                "desc": "Kiehl's adalah jenama milik L'Oreal, yang merupakan 'sahabat hangat Israel'. Setelah mengirim surat kepada Liga Arab dengan informasi membantu boikot, mereka membayar denda $1.4j dan mengeluarkan permintaan maaf, sebelum menjalin hubungan baru dengan Israel, dengan pelaburan besar dan bahkan mengoperasikan sebuah pabrik di Palestin yang Diduduki.",
-                "categories": "kosmetik",
-                "alternatives": "Kosmetik Lush, Kecantikan Huda"
-            },
-            "Olay": {
-                "desc": "Olay dimiliki oleh Procter and Gamble, yang membuka pusat R&D di Tel Aviv, Palestin yang Diduduki, di mana mereka melabur $2bn setiap tahun.",
-                "categories": "kosmetik, kesihatan",
-                "alternatives": "Aiken, Nano White, Kayman, Safi, Zarzou, Cosmoderm, Jelita KL, Nurish, Elianto, Pixy, Silkygirl, SimplySiti, Nurraysa"
-            },
-            "Dior": {
-                "desc": "Pemilik syarikat induk Dior, LVMH, Bernard Arnault melabur ratusan juta dalam syarikat-syarikat Israel",
-                "categories": "mewah, pakaian, fesyen, kosmetik",
-                "alternatives": "Pilihan jenama sendiri"
-            },
-            "MAC": {
-                "desc": "MAC Cosmetics dimiliki oleh Estee Lauder, yang pemilikannya, terutama Ronald Lauder, mempunyai pandangan zionis ekstremis dan secara kewangan dan politik menyokong pendudukan Israel atas tanah Palestin.",
-                "categories": "kosmetik",
-                "alternatives": "Aiken, Nano White, Kayman, Safi, Zarzou, Cosmoderm, Jelita KL, Nurish, Elianto, Pixy, Silkygirl, SimplySiti, Nurraysa"
-            },
-            "La Mer": {
-                "desc": "La Mer dimiliki oleh Estee Lauder, yang pemilikannya, terutama Ronald Lauder, mempunyai pandangan zionis ekstremis dan secara kewangan dan politik menyokong pendudukan Israel atas tanah Palestin.",
-                "categories": "mewah, kosmetik",
-                "alternatives": "Aiken, Nano White, Kayman, Safi, Zarzou, Cosmoderm, Jelita KL, Nurish, Elianto, Pixy, Silkygirl, SimplySiti, Nurraysa"
-            },
-            "Agoda": {
-                "desc": "Booking.com, syarikat induk yang memiliki Agoda, membenarkan penyenaraian di wilayah Palestin yang diduduki, dan setelah memutuskan awalnya untuk menambah label pada hartanah yang berada di wilayah yang diduduki, membatalkan langkah itu di bawah tekanan dari Israel.",
-                "categories": "pelancongan, teknologi",
-                "alternatives": "halalbooking.com"
-            },
-            "Airbnb": {
-                "desc": "Airbnb membenarkan penyenaraian di wilayah Palestin yang diduduki, dan setelah mengumumkan akan menghapuskan 200 penyenaraian tersebut, ia membatalkan keputusannya, menunjukkan ia dengan sengaja bersubahat dalam pendudukan Israel.",
-                "categories": "pelancongan, teknologi",
-                "alternatives": "halalbooking.com"
-            },
-            "Amazon": {
-                "desc": "Amazon melabur $7.2bn dalam pusat data di Israel melalui AWS",
-                "categories": "pasar raya, teknologi",
-                "alternatives": "eBay (tidak disahkan)"
-            },
-            "AXA": {
-                "desc": "AXA terus melabur dalam bank-bank Israel yang bersubahat dalam pendudukan dan apartheid Israel di Palestin.",
-                "categories": "insurans, kewangan",
-                "alternatives": "Syarikat insurans lain"
-            },
-            "Booking": {
-                "desc": "Booking.com membenarkan penyenaraian di wilayah Palestin yang diduduki, dan setelah mengumumkan akan menghapuskan 200 penyenaraian tersebut, ia membatalkan keputusannya, menunjukkan ia dengan sengaja bersubahat dalam pendudukan Israel.",
-                "categories": "pelancongan, teknologi",
-                "alternatives": "halalbooking.com"
-            },
-            "Carrefour": {
-                "desc": "Carrefour telah membuat pelaburan besar ke dalam Israel tahun lalu, membuka 50 kedai dan merancang untuk membuka 100 lagi menjelang 2024.",
-                "categories": "pasar raya, makanan, minuman, pakaian, barangan rumah",
-                "alternatives": "Rantaian pasar raya lain"
-            },
-            "Tesco": {
-                "desc": "Tesco bekerjasama dengan sebuah permulaan Israel, Trigo Retail, untuk menyampaikan kedai tanpa kaunter dengan beberapa sudah dibuka di London. Michael Gabay, CEO Trigo adalah seorang zionis tegar.",
-                "categories": "pasar raya, makanan, minuman, insurans, barangan rumah, kewangan",
-                "alternatives": "Rantaian pasar raya lain"
-            },
-            "Disney": {
-                "desc": "Disney membuat pengumuman rasmi bahawa ia akan berjanji $2 juta dan inisiatif lanjut untuk menyokong Israel. Walaupun CEO secara terang-terangan mengutuk serangan terhadap orang Yahudi di Israel, beliau tidak menyebut tentang orang Palestin yang dibunuh oleh tentera Israel.",
-                "categories": "hiburan, teknologi",
-                "alternatives": "Syarikat hiburan dan media lain"
-            },
-            "Fiverr": {
-                "desc": "CEO, Micha Kaufman, adalah seorang zionis tegar yang menyokong IDF.",
-                "categories": "teknologi",
-                "alternatives": "Platform perkhidmatan bebas lain"
-            },
-            "HP": {
-                "desc": "Hewlett Packard mengendalikan sistem ID biometrik yang digunakan Israel untuk menghadkan pergerakan Palestin serta sistem lain untuk IDF.",
-                "categories": "teknologi",
-                "alternatives": "Lenovo"
-            },
-            "HSBC": {
-                "desc": "HSBC melabur dalam syarikat yang menjual senjata dan peralatan ketenteraan kepada Israel yang telah digunakan dalam penindasan terhadap Palestin.",
-                "categories": "kewangan",
-                "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
-            },
-            "Motorola": {
-                "desc": "IDF menggunakan Motorola sebagai pembekal utama untuk peralatan komunikasinya yang membolehkan mereka mengawal orang Palestin yang diduduki secara berkesan. Mereka juga mengeluarkan fius bom yang digunakan dalam bom IDF.",
-                "categories": "teknologi, pengilang",
-                "alternatives": "Syarikat telefon bimbit dan teknologi lain"
-            },
-            "Movenpick": {
-                "desc": "Pemilik jenama Movenpick, Nestle, memiliki saham pengendali di Osem. Osem adalah pengilang makanan Israel yang beroperasi di Palestin yang diduduki.",
-                "categories": "makanan",
-                "alternatives": "Jenama makanan dan minuman lain"
-            },
-            "PUMA": {
-                "desc": "Puma adalah penaja utama Persatuan Bola Sepak Israel (IFA), yang termasuk pasukan di penempatan haram Israel di tanah Palestin yang diduduki.",
-                "categories": "pakaian, fesyen",
-                "alternatives": "Jenama pakaian sukan dan fesyen lain"
-            },
-            "Tag Heuer": {
-                "desc": "Pemilik syarikat induk TAG Heuer, LVMH, Bernard Arnault melabur ratusan juta dalam syarikat-syarikat Israel",
-                "categories": "mewah, fesyen",
-                "alternatives": "Jenama jam tangan mewah lain"
-            },
-            "Waze": {
-                "desc": "Pengasas, Uri Levine, adalah seorang zionis tegar yang juga bekas IDF (juga pengasas moovit). Waze telah dibeli oleh Google yang juga dalam senarai boikot kerana membina superkomputer Israel dengan Amazon. Waze dimiliki oleh Google tetapi pasukan dan pejabat mereka masih berada di Israel. Waze adalah penghasil pendapatan, kerana ia menayangkan iklan pada peta itu sendiri yang bermaksud mereka membuat wang apabila anda menggunakan navigasi. Peta Google adalah percuma dan bukan penghasil pendapatan. Ia membantu Google menargetkan anda dengan iklan kemudian, tetapi jika anda tidak mengklik iklan tersebut, maka anda tidak memberi manfaat kepada Google. Oleh itu, kami mengesyorkan menggunakan peta Google, tetapi tidak mengklik iklan Google semasa anda melayari internet.",
-                "categories": "teknologi, perjalanan",
-                "alternatives": "Perisian navigasi GPS lain"
-            },
-            "Nokia": {
-                "desc": "Nokia Venture Partners, cawangan Nokia Ventures Organization, melancarkan dana baru $500 juta pada Disember 2000 dan membenarkan bahawa sejumlah besar daripadanya akan masuk ke dalam syarikat-syarikat Israel. Pusat Penyelidikan Nokia sedang mencari permulaan Israel yang boleh mereka kerjasama.",
-                "categories": "teknologi",
-                "alternatives": "Pengilang telefon bimbit lain"
-            },
-            "Nike": {
-                "desc": "Keputusan Nike untuk menghentikan bekalan ke kedai-kedai Israel menandakan kemunduran bagi banyak kedai sukan di negara tersebut. Ia mencerminkan strategi global Nike daripada mesej politik tertentu terhadap Israel, bertujuan untuk mengawal proses jualan dan meningkatkan keuntungan.",
-                "categories": "pakaian, fesyen",
-                "alternatives": "Jenama pakaian sukan dan atletik lain"
-            },
-            "Skechers": {
-                "desc": "Michael S Greenberg, presiden Skechers, adalah seorang zionis yang telah memuat naik kandungan pro-Israel di Instagramnya.",
-                "categories": "pakaian, fesyen",
-                "alternatives": "Jenama kasut dan fesyen lain"
-            },
-            "Adidas": {
-                "desc": "Adidas menggunakan pengilang Israel, Delta Galil, untuk menghasilkan rangkaian pakaian dalamnya.",
-                "categories": "pakaian, fesyen",
-                "alternatives": "Jenama pakaian sukan dan atletik lain"
-            },
-            "Hyundai": {
-                "desc": "Mesin berat Hyundai telah digunakan dalam pemusnahan kejiranan Palestin di Jerusalem, mendapat manfaat secara komersial dari pendudukan Israel.",
-                "categories": "kereta, pengilang",
-                "alternatives": "Pengilang kereta lain"
-            },
-            "Mercedes Benz": {
-                "desc": "Mercedes Benz membuka pusat teknologi di Tel Aviv untuk mengembangkan teknologi kereta bersambung, padahal mereka boleh membuka pusat tersebut di mana-mana bandar di dunia.",
-                "categories": "kereta, pengilang",
-                "alternatives": "Pengilang kereta mewah lain"
-            },
-            "Rentalcars": {
-                "desc": "Booking.com, yang syarikat induknya Booking Holdings memiliki Rentalcars.com, membenarkan penyenaraian di wilayah Palestin yang diduduki, dan selepas memutuskan untuk menambah label pada hartanah yang berada di wilayah yang diduduki, membatalkan langkah tersebut di bawah tekanan dari Israel.",
-                "categories": "kereta, teknologi, perjalanan",
-                "alternatives": "Perkhidmatan sewa kereta lain"
-            },
-            "Volvo": {
-                "desc": "Mesin berat Volvo telah digunakan dalam pemusnahan kejiranan Palestin di Palestin yang diduduki, mendapat manfaat secara komersial dari pendudukan Israel. Mereka mengeluarkan kenyataan menjarakkan diri dan menolak tanggungjawab keputusan rangkaian penjualannya, namun masih bersalah kecuali mereka mengakhiri hubungan dengan syarikat yang menjual peralatan kepada IDF, contohnya Mayers Cars and Trucks di Ashdod.",
-                "categories": "kereta, pengilang",
-                "alternatives": "Pengilang kereta lain"
-            },
-            "Shell": {
-                "desc": "Saham Shell mencapai rekod tertinggi kerana perang Israel-Hamas mendorong harga minyak naik",
-                "categories": "tenaga",
-                "alternatives": "Petronas, BHP"
-            },
-            "Caltex": {
-                "desc": "Chevron terlibat dalam dasar dan amalan Israel yang merampas hak rakyat Palestin atas kedaulatan sumber semula jadi mereka.",
-                "categories": "tenaga",
-                "alternatives": "Petronas, BHP"
-            },
-            "Purina": {
-                "desc": "Pemilik jenama Purina, Nestle, memiliki pegangan pengendali dalam Osem. Osem adalah pengilang makanan Israel yang beroperasi di Palestin yang Diduduki.",
-                "categories": "haiwan peliharaan",
-                "alternatives": "Jenama makanan haiwan peliharaan lain"
-            },
-            "Friskies": {
-                "desc": "Hubungan antara Friskies Nestle dan Israel adalah mengkhawatirkan. Adalah membimbangkan mengetahui bahawa jenama terkenal seperti Friskies, yang dimiliki oleh Nestle, menyokong pendudukan Israel terhadap wilayah Palestin.",
-                "categories": "haiwan peliharaan",
-                "alternatives": "Jenama makanan haiwan peliharaan lain"
-            },
-            "Whiskas": {
-                "desc": "Pemilik Whiskas, Mars, menyokong negara zionis dengan melabur berat dalam scene permulaan foodtech melalui rakan modal ventur JVC.",
-                "categories": "haiwan peliharaan",
-                "alternatives": "Jenama makanan haiwan peliharaan lain"
-            },
-            "Unicef": {
-                "desc": "Ketua Unicef, Catherine Russell berkahwin dengan pengerusi pelaburan BlackRock, salah satu pelabur terbesar dalam syarikat senjata di dunia. Ini adalah konflik kepentingan besar dan Unicef tidak patut dipercayai.",
-                "categories": "kebajikan",
-                "alternatives": "Muslims Around The World, Ummah Welfare Trust, One Ummah"
-            },
-            "Labour party": {
-                "desc": "Keir Starmer telah membuat kenyataan rasmi bahawa Parti Buruh berdiri bersama Israel.",
-                "categories": "politik",
-                "alternatives": "Abstain, Mengundi untuk parti kecil dengan nilai baik"
-            },
-            "Conservative party": {
-                "desc": "Rishi Sunak telah membuat kenyataan rasmi bahawa Konservatif berdiri bersama Israel. Dia juga menghantar bantuan ketenteraan untuk membantu Israel dalam genosid Gaza.",
-                "categories": "politik",
-                "alternatives": "Abstain, Mengundi untuk parti kecil dengan nilai baik"
-            },
-            "G4S": {
-                "desc": "G4S kini telah sepenuhnya melupuskan dari Israel selepas tekanan BDS. Tetapi mereka telah bersubahat dan membantu pendudukan Israel selama bertahun-tahun.",
-                "categories": "kontraktor",
-                "alternatives": "Tiada alternatif yang diselidiki"
-            },
-            "A&W": {
-                "desc": "Syarikat induk Yum Brands adalah pelabur dalam permulaan di Israel.",
-                "categories": "makanan,minuman",
-                "alternatives": "Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
-            },
-            "Taco Bell": {
-                "desc": "Syarikat induk Yum Brands adalah pelabur dalam permulaan di Israel.",
-                "categories": "makanan",
-                "alternatives": "Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
-            },
-            "Meta": {
-                "desc": "Di tengah-tengah konflik yang berterusan antara Israel dan Palestin, Mark Zuckerberg, Ketua Pegawai Eksekutif Meta, menyatakan pendapatnya mengenai situasi itu dan mengutuk serangan yang dilakukan oleh Hamas. Dalam Kisah Instagram awal minggu ini, Encik Zuckerberg berkata, ''Serangan pengganas oleh Hamas adalah jahat. Tidak pernah ada sebarang justifikasi untuk melakukan tindakan keganasan terhadap orang yang tidak bersalah.''",
-                "categories": "teknologi",
-                "alternatives": "twitter,Gab"
-            },
-            "Aviva": {
-                "desc": "Aviva melabur dalam syarikat-syarikat yang menjual senjata dan peralatan ketenteraan kepada Israel yang telah digunakan dalam penindasan Palestin",
-                "categories": "insurans,kewangan",
-                "alternatives": "Jangan simpan wang persaraan anda dengan Aviva"
-            },
-            "BankOfAmerica": {
-                "desc": "Bank of America adalah sebahagian daripada urusan pinjaman $500 juta dengan konsortium pemberi pinjaman, ke dalam Elbit Systems Ltd, pengilang senjata Israel.",
-                "categories": "kewangan",
-                "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
-            },
-            "BankOfMontreal": {
-                    "desc": "Bank of Montreal meminjamkan $90 juta sebagai sebahagian daripada urusan pinjaman $500 juta dengan konsortium pemberi pinjaman, ke dalam Elbit Systems Ltd, pengilang senjata Israel.",
-                    "categories": "kewangan",
-                    "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
-            },
-                
-            "Barclays": {
-                "desc": "Barclays melabur dalam syarikat-syarikat yang menjual senjata dan peralatan ketenteraan kepada Israel yang telah digunakan dalam penindasan Palestin",
-                "categories": "insurans,kewangan",
-                "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
-            },
-            "BNP": {
-                "desc": "BNP Paribas adalah sebahagian daripada urusan pinjaman $500 juta dengan konsortium pemberi pinjaman, ke dalam Elbit Systems Ltd, pengilang senjata Israel.",
-                "categories": "kewangan",
-                "alternatives": "Jangan berurusan dengan BNP Paribas"
-            },
-            "CapitalOne": {
-                "desc": "Capital One adalah sebahagian daripada urusan pinjaman $500 juta dengan konsortium pemberi pinjaman, ke dalam Elbit Systems Ltd, pengilang senjata Israel.",
-                "categories": "kewangan",
-                "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
-            },
-            "Legal": {
-                "desc": "Legal & General melabur dalam syarikat-syarikat yang menjual senjata dan peralatan ketenteraan kepada Israel yang telah digunakan dalam penindasan Palestin",
-                "categories": "insurans,kewangan",
-                "alternatives": "Jangan melabur dengan Legal & General"
-            },
-            "Lloyds": {
-                "desc": "Lloyds melabur dalam syarikat-syarikat yang menjual senjata dan peralatan ketenteraan kepada Israel yang telah digunakan dalam penindasan Palestin",
-                "categories": "insurans,kewangan",
-                "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
-            },
-            "M&S": {
-                "desc": "Marks & Spencer telah menjadi entiti pro zionis sejak permulaannya, dengan pelbagai ahli pengurusan mereka secara terbuka menyatakan sokongan untuk negara zionis. Selama lebih 100 tahun, mereka telah menjadi saluran komersial terbesar antara Israel dan UK. Walau bagaimanapun, baru-baru ini mereka telah secara terbuka menjauhkan diri daripada mempunyai hubungan 'politik' dan tujuan. Dan kerana kenyataan terakhir dalam sokongan Israel adalah sekitar tahun 2000, sukar untuk mengetahui sejauh mana kepemimpinan mereka menyokong Israel.",
-                "categories": "supermarket, makanan, minuman, pakaian, kewangan",
-                "alternatives": "Morrisons, Co-op"
-            },
-            "RBS": {
-                "desc": "RBS melabur dalam syarikat-syarikat yang menjual senjata dan peralatan ketenteraan kepada Israel yang telah digunakan dalam penindasan Palestin",
-                "categories": "insurans,kewangan",
-                "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
-            },
-            "StandardLife": {
-                "desc": "Standard Life melabur dalam syarikat-syarikat yang menjual senjata dan peralatan ketenteraan kepada Israel yang telah digunakan dalam penindasan Palestin",
-                "categories": "insurans,kewangan",
-                "alternatives": "Jangan simpan atau melabur dengan Standard Life"
-            },
-            "Visa": {
-                "desc": "Visa telah membuka pusat penyelidikan dan pembangunan di Israel dan melabur dengan banyak dalam ekonomi tempatan.",
-                "categories": "kewangan",
-                "alternatives": "Tiada alternatif yang dikaji setakat ini. Bantu kami!"
-            },
-            "WellsFargo": {
-                "desc": "Wells Fargo adalah sebahagian daripada urusan pinjaman $500 juta dengan konsortium pemberi pinjaman, ke dalam Elbit Systems Ltd, pengilang senjata Israel.",
-                "categories": "kewangan",
-                "alternatives": "Jangan berurusan dengan Wells Fargo"
-            },
-            "DunkinDonuts": {
-                "desc": "Di tengah-tengah konflik Israel-Palestin yang berterusan, timbul pertanyaan mengenai pendirian syarikat, yang membuat pengguna bertanya-tanya apakah Dunkin Donuts menyokong salah satu pihak. Artikel ini bertujuan untuk meneroka nuansa sekeliling Dunkin Donuts di Israel dan pendiriannya di tengah-tengah konflik.",
-                "categories": "makanan,kopi,minuman",
-                "alternatives": "sokong jenama tempatan"
-            },
-            "Wix": {
-                "desc": "CEO Avishai Abrahami adalah seorang zionis yang menyokong IDF.",
-                "categories": "teknologi",
-                "alternatives": "Wordpress,Weebly,Squarespace,Framer,Figma"
-            },
-            "Nvidia": {
-                "desc": "Nvidia sedang membina sebuah superkomputer untuk Israel, yang pasti akan digunakan untuk meneruskan penindasan terhadap Palestin dan menguatkuasakan apartheid mereka.",
-                "categories": "teknologi",
-                "alternatives": "AMD"
-            },
-            "Zara": {
-                "desc": "Kempen pemasaran terbaru Zara menggunakan mayat dalam pembungkusan plastik, dan estetika zon perang, memperlekehkan pembunuhan besar-besaran oleh Israel di Gaza. Dalam insiden sebelumnya, Joey Schwebel, seorang warganegara dwi Kanada-Israel dan pengerusi francais Zara Israel Trimera, telah mengadakan pertemuan dengan pengganas yang dihukum, Itamar Ben-Gvir, di rumahnya menjelang pilihan raya Israel. Zara tidak mengeluarkan kenyataan untuk menjauhkan diri dari hubungan ini dan membiarkan kempen iklan ini berjalan.",
-                "categories": "pakaian, fesyen",
-                "alternatives": "sokong jenama tempatan"
-            },
-            "LouisVuitton": {
-                "desc": "Pemilik syarikat induk Louis Vuitton, LVMH, Bernard Arnault melabur ratusan juta dalam syarikat-syarikat Israel",
-                "categories": "pakaian, fesyen, kosmetik",
-                "alternatives": "sokong jenama tempatan, kosmetik Lush, kecantikan Huda, Sunnamusk"
-            },
-            "PradaBeauty": {
-                "desc": "Prada Beauty merupakan kerjasama dengan L'Oreal, yang merupakan 'kawan rapat Israel'. Setelah menghantar surat kepada Liga Arab dengan maklumat untuk membantu boikot, mereka membayar denda $1.4 juta dan mengeluarkan permohonan maaf, sebelum membina hubungan baru dengan Israel, dengan pelaburan besar-besaran dan bahkan mengendalikan kilang di Palestin yang Diduduki.",
-                "categories": "pakaian, fesyen, kosmetik",
-                "alternatives": "sokong jenama tempatan, kosmetik Lush, kecantikan Huda, Sunnamusk"
-            },
-            "Sephora": {
-                "desc": "Pemilik Sephora, Bernard Arnault melabur ratusan juta dalam syarikat-syarikat Israel",
-                "categories": "kosmetik",
-                "alternatives": "sokong jenama tempatan, kosmetik Lush, kecantikan Huda, Sunnamusk"
-            },
-            "Ordinary": {
-                "desc": "The Ordinary dimiliki oleh Estee Lauder, di mana pemiliknya, terutama Ronald Lauder, mempunyai pandangan Zionis ekstremis dan menyokong secara kewangan dan politik pendudukan Israel atas tanah Palestin.",
-                "categories": "kosmetik",
-                "alternatives": "sokong jenama tempatan, kosmetik Lush, kecantikan Huda, Sunnamusk"
-            },
-            "Stella": {
-                "desc": "Pemilik syarikat induk STELLA by Stella McCartney, LVMH, Bernard Arnault melabur ratusan juta dalam syarikat-syarikat Israel",
-                "categories": "pakaian, fesyen, kosmetik",
-                "alternatives": "sokong jenama tempatan, kosmetik Lush, kecantikan Huda, Sunnamusk"
-            },
-            "Victorias": {
-                "desc": "Les Wexner yang memiliki L Brands, syarikat induk Victorias Secret, adalah sekutu kukuh Israel, dan rakan perniagaan jangka panjang Jeffrey Epstein, pengedar kanak-kanak yang dihukum.",
-                "categories": "pakaian, kosmetik",
-                "alternatives": "sokong jenama tempatan"
-            },
-            "OralB": {
-                "desc": "Oral B dimiliki oleh Procter and Gamble, yang membuka pusat R&D di Tel Aviv, Palestin yang Diduduki, di mana ia melabur $2bn setiap tahun.",
-                "categories": "penjagaan kesihatan",
-                "alternatives": "Produk jenama sendiri pasar raya"
-            },
-            "Pantene": {
-                "desc": "Pantene dimiliki oleh Procter and Gamble, yang membuka pusat R&D di Tel Aviv, Palestin yang Diduduki, di mana ia melabur $2bn setiap tahun.",
-                "categories": "kosmetik, penjagaan kesihatan",
-                "alternatives": "Produk jenama sendiri pasar raya"
-            }
-        }
+  "Logo": {
+    "LogoSection": {
+      "title": "Boikot"
     }
+  },
+  "Header": {
+    "HeaderSection": {
+      "search": "Cari Semua",
+      "browse": "Semak Kategori",
+      "reference": "Rujukan",
+      "donate": "Derma untuk GAZA"
+    }
+  },
+  "Container": {
+    "IntroSection": {
+      "title": "Sokong Palestin. Boikot Israel",
+      "description": "Berdiri bersama rakyat Palestin dalam perjuangan mereka untuk kebebasan, keadilan, dan kesaksamaan."
+    }
+  },
+  "Why": {
+    "WhySection": {
+      "why": "Mengapa memboikot produk ini?",
+      "categories": "Kategori",
+      "alternatives": "Alternatif",
+      "proofLink": "Pautan Bukti",
+      "bntProof": "Bukti "
+    }
+  },
+  "BoycottCard": {
+    "BoycottCardSection": {
+      "why": "Kenapa Perlu Boikot"
+    }
+  },
+  "Form": {
+    "formSection": {
+      "search": "Carian",
+      "reset": "Set Semula",
+      "back": "Halaman Utama",
+      "categories": "Pilih Kategori"
+    },
+    "categories": {
+      "all": "semua",
+      "car": "kereta",
+      "charity": "kebajikan",
+      "clothing": "pakaian",
+      "coffee": "kopi",
+      "contractor": "kontraktor",
+      "cosmetics": "kosmetik",
+      "drinks": "minuman",
+      "entertainment": "hiburan",
+      "fashion": "fesyen",
+      "finance": "kewangan",
+      "food": "makanan",
+      "healthcare": "kesihatan",
+      "household": "barangan rumah",
+      "insurance": "insurans",
+      "luxury": "mewah",
+      "manufacturer": "pengilang",
+      "petcare": "haiwan peliharaan",
+      "pharmaceuticals": "farmasi",
+      "politics": "politik",
+      "supermarket": "pasar raya",
+      "technology": "teknologi",
+      "travel": "perjalanan"
+    }
+  },
+
+  "Empty": {
+    "EmptySection": {
+      "title": "Jika syarikat yang anda cari tidak tersenarai, dan anda rasa sepatutnya ia tersenarai, sila emel kami dengan butiran relevan untuk semakan.",
+      "btnTitle": "Klik Di Sini"
+    }
+  },
+
+  "Data": {
+    "boycottData": {
+      "Nestle": {
+        "desc": "Osem ialah pengeluar makanan Israel yang beroperasi di Palestin yang Diduduki. Nestle memiliki pegangan kawalan dalam Osem.",
+        "categories": "makanan,minuman",
+        "alternatives": "Pilihan jenama sendiri pasaraya.,jenama bukan-Nestle/Coca-Cola/Pepsico"
+      },
+      "Cadbury": {
+        "desc": "Pemilik Cadbury, Mondelez, melabur dalam startup Israel di Palestin yang Diduduki.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Maggi": {
+        "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki. Terutamanya elakkan mana-mana jenama Osem seperti Sabra Salads.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Lipton": {
+        "desc": "Lipton, di bawah PepsiCo, mendapat perhatian kerana afiliasi dan pelaburannya dalam syarikat yang berkaitan dengan Israel.",
+        "categories": "minuman",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Nescafe": {
+        "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki. Terutamanya elakkan mana-mana jenama Osem seperti Sabra Salads.",
+        "categories": "minuman, kopi",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Kitkat": {
+        "desc": "Nestle memiliki pegangan kawalan dalam Osem, pengeluar makanan Israel yang beroperasi di Palestin yang Diduduki.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Oreo": {
+        "desc": "Mondelez, pemilik Oreo, melabur dalam startup Israel di Palestin yang Diduduki.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Mars": {
+        "desc": "Mars menyokong negara Zionis dengan melabur dalam startup foodtech melalui rakan kongsi modal teroka JVC.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Snickers": {
+        "desc": "Mars, pemilik Snickers, menyokong negara Zionis dengan melabur dalam startup foodtech melalui rakan kongsi modal teroka JVC.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Pringles": {
+        "desc": "Pringles mengembangkan operasi ke Israel.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Milo": {
+        "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki. Terutamanya elakkan mana-mana jenama Osem seperti Sabra Salads.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Toblerone": {
+        "desc": "Mondelez, pemilik Toblerone, melabur dalam startup Israel di Palestin yang Diduduki.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Nestum": {
+        "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "MatKool": {
+        "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Nutella": {
+        "desc": "Nutella ialah produk coklat Ferrero, yang dijual di lebih daripada 100 negara.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Coca-Cola": {
+        "desc": "Coca-Cola mengendalikan kilang di penempatan haram Israel di Atarot, di Palestin yang Diduduki.",
+        "categories": "minuman",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Nestea": {
+        "desc": "Nestea, terkenal dengan tawaran teh aisnya, adalah sebahagian daripada Nestle.",
+        "categories": "minuman",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Knorr": {
+        "desc": "Unilever, pemilik Knorr, menjual hak edaran Israel Ben & Jerry's kepada Avi Zinger untuk meneruskan penjualan di Israel.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Hershey": {
+        "desc": "HERSHEY menyokong Israel.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "M&M": {
+        "desc": "Mars, pemilik M&M's, menyokong negara Zionis melalui pelaburan dalam startup foodtech.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "La Cremeria": {
+        "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Haagen-Dazs": {
+        "desc": "Keluarga Mattus, bekas pemilik Häagen-Dazs, memberi tumpuan kepada menyokong penyebab Yahudi, Israel, dan Zionis.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Magnum": {
+        "desc": "Magnum, dimiliki oleh Unilever, yang juga memiliki Ben & Jerry's. Unilever menjual hak edaran Israel Ben & Jerry's untuk meneruskan penjualan di Israel.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Lady's Choice": {
+        "desc": "Lady's Choice mempunyai afiliasi dengan syarikat Yahudi atau menyokong pendudukan Zionis di Palestin.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Horlicks": {
+        "desc": "Horlicks mempunyai afiliasi dengan syarikat Yahudi atau menyokong pendudukan Zionis di Palestin.",
+        "categories": "makanan, minuman",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Cornetto": {
+        "desc": "Cornetto, dimiliki oleh Unilever, yang juga memiliki Ben & Jerry's. Unilever menjual hak edaran Israel Ben & Jerry's untuk meneruskan penjualan di Israel.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Wall's": {
+        "desc": "Wall's, dimiliki oleh Unilever, yang juga memiliki Ben & Jerry's. Unilever menjual hak edaran Israel Ben & Jerry's untuk meneruskan penjualan di Israel.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Fanta": {
+        "desc": "Coca-Cola Company, yang memiliki Fanta, mengendalikan kilang di penempatan haram Israel di Atarot, di Palestin yang Diduduki.",
+        "categories": "minuman",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Sprite": {
+        "desc": "Coca-Cola Company, yang memiliki Sprite, mengendalikan kilang di penempatan haram Israel di Atarot, di Palestin yang Diduduki.",
+        "categories": "minuman",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Pepsi": {
+        "desc": "PepsiCo, pemilik Pepsi, membeli SodaStream dan memiliki 50% Saham Sabra, kedua-duanya memanfaatkan pendudukan Israel di Palestin.",
+        "categories": "minuman",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Jacob's": {
+        "desc": "Jacob's mempunyai hubungan dengan syarikat Yahudi atau menyokong pendudukan Zionis di Palestin.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "7up": {
+        "desc": "PepsiCo, pengedar antarabangsa 7up, membeli SodaStream dan memiliki 50% Sabra, kedua-duanya telah mengambil kesempatan daripada pendudukan Israel di Palestin.",
+        "categories": "minuman",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Coffee Mate": {
+        "desc": "Nestle, pemilik Coffee Mate, memiliki pegangan kawalan dalam Osem, pengeluar makanan Israel yang beroperasi di Palestin yang Diduduki.",
+        "categories": "makanan, kopi",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Costa Coffee": {
+        "desc": "Costa Coffee, milik Coca-Cola Company, mengendalikan kilang di penempatan haram Israel di Atarot, di Palestin yang Diduduki.",
+        "categories": "makanan, kopi",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Dasani Water": {
+        "desc": "Coca-Cola Company, yang memiliki Dasani Water, mengendalikan kilang di penempatan haram Israel di Atarot, di Palestin yang Diduduki.",
+        "categories": "minuman, air",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Gatorade": {
+        "desc": "PepsiCo, pemilik Gatorade, membeli SodaStream dan memiliki 50% Sabra, kedua-duanya telah mengambil kesempatan daripada pendudukan Israel di Palestin.",
+        "categories": "minuman",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Halls": {
+        "desc": "Mondelez, pemilik Halls, melabur dalam permulaan di Israel di Palestin yang Diduduki.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Mondelez": {
+        "desc": "Mondelez melabur dalam permulaan di Israel di Palestin yang Diduduki.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Unilever": {
+        "desc": "Unilever, pemilik Ben & Jerry's, menjual hak pengedaran jenama di Israel untuk terus menjual di Israel.",
+        "categories": "makanan, minuman, kosmetik",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Belvita": {
+        "desc": "Mondelez, pemilik Belvita, melabur dalam permulaan di Israel di Palestin yang Diduduki.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Nesquik": {
+        "desc": "Nestle, pemilik Nesquik, memiliki pegangan kawalan dalam Osem, pengeluar makanan Israel yang beroperasi di Palestin yang Diduduki.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Koko Krunch": {
+        "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Honey Stars": {
+        "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Fitnesse": {
+        "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Sjora": {
+        "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+        "categories": "minuman",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Quaker Oats": {
+        "desc": "PepsiCo, pemilik Quaker Oats, membeli SodaStream dan memiliki 50% Sabra, kedua-duanya telah mengambil kesempatan daripada pendudukan Israel di Palestin.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Smarties": {
+        "desc": "Nestle, pemilik Smarties, memiliki pegangan kawalan dalam Osem, pengeluar makanan Israel yang beroperasi di Palestin yang Diduduki.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Lays": {
+        "desc": "PepsiCo, pemilik Lay's, membeli SodaStream dan memiliki 50% Sabra, kedua-duanya telah mengambil kesempatan daripada pendudukan Israel di Palestin.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Carnation": {
+        "desc": "Nestle, pemilik Carnation, memiliki pegangan kawalan dalam Osem, pengeluar makanan Israel yang beroperasi di Palestin yang Diduduki.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Mountain Dew": {
+        "desc": "PepsiCo, pemilik Mountain Dew, membeli SodaStream dan memiliki 50% Sabra, kedua-duanya telah mengambil kesempatan daripada pendudukan Israel di Palestin.",
+        "categories": "minuman",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Mcdonalds": {
+        "desc": "McDonalds Israel menyokong IDF dengan menyediakan makanan dan minuman percuma kepada militan Israel.",
+        "categories": "makanan, minuman",
+        "alternatives": "Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+      },
+      "Starbucks": {
+        "desc": "Howard Schultz, pemilik saham terbesar Starbucks, adalah Zionis tegar yang melabur banyak dalam ekonomi Israel, termasuk pelaburan terkini sebanyak $1.7 Bilion dalam permulaan keselamatan siber Wiz.",
+        "categories": "makanan, kopi, minuman",
+        "alternatives": "Zus Coffee,Kopi Saigon,Tealive,Bask Bear,Cool Blog,GIGI Coffee,Richiamo"
+      },
+      "Domino": {
+        "desc": "Domino Pizza tidak menyuarakan sokongan terhadap Israel secara terbuka tetapi menjadi subjek seruan boikot di negara-negara Arab.",
+        "categories": "makanan",
+        "alternatives": "Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+      },
+      "Omega": {
+        "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+        "categories": "makanan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Pizza Hut": {
+        "desc": "Syarikat induk Yum Brands adalah pelabur dalam permulaan di Israel.",
+        "categories": "makanan",
+        "alternatives": "Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+      },
+      "Burger King": {
+        "desc": "Burger King didakwa menyokong IDF melalui pemberian makanan dan minuman percuma kepada militan Israel.",
+        "categories": "makanan",
+        "alternatives": "Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+      },
+      "Subway": {
+        "desc": "Subway terlibat dalam kontroversi kerana hubungannya dengan menyokong Israel dalam konflik Palestin.",
+        "categories": "makanan",
+        "alternatives": "Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+      },
+      "Baskin Robbins": {
+        "desc": "Baskin-Robbins mempunyai sejarah yang berkaitan dengan pengasas Yahudinya, Burt Baskin dan Irv Robbins, yang menyokong sebab Yahudi dan Israel.",
+        "categories": "makanan",
+        "alternatives": "Kedai ais krim tempatan atau jenama ais krim lain"
+      },
+      "PapaJohns": {
+        "desc": "Restoran Papa John's telah menyertai senarai restoran yang menyokong Israel.",
+        "categories": "makanan",
+        "alternatives": "Marrybrown, The Chicken Rice Shop, Ramly's Burger, Ayamas, The Manhattan Fish Market"
+      },
+      "KFC": {
+        "desc": "Syarikat induk Yum Brands adalah pelabur dalam permulaan di Israel.",
+        "categories": "makanan",
+        "alternatives": "Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+      },
+      "Papa Johns": {
+        "desc": "Restoran Papa John's menyokong Israel.",
+        "categories": "makanan",
+        "alternatives": "Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+      },
+      "EveryDay": {
+        "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+        "categories": "makanan, minuman",
+        "alternatives": "Jenama lain serbuk susu atau produk tenusu tempatan"
+      },
+      "Lactogrow": {
+        "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+        "categories": "makanan, minuman",
+        "alternatives": "Jenama formula bayi lain atau pilihan nutrisi"
+      },
+      "Lactokid": {
+        "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+        "categories": "makanan, minuman",
+        "alternatives": "Jenama formula bayi lain"
+      },
+      "Cerelac": {
+        "desc": "Elakkan produk Nestle sehingga mereka melucutkan semua operasi di Palestin yang Diduduki.",
+        "categories": "makanan",
+        "alternatives": "Jenama sereal bayi lain atau makanan bayi buatan sendiri"
+      },
+      "Colgate": {
+        "desc": "S. Schestowitz adalah salah satu importer barang keperluan terbesar di Israel. Syarikat ini menguasai 60% pasaran ubat gigi Israel, menurut Haaretz.",
+        "categories": "barangan rumah, kesihatan",
+        "alternatives": "Pilihan jenama sendiri pasaraya, Mu'min, Safi, Halagel, Oradex, Aafiyat Store"
+      },
+      "Listerine": {
+        "desc": "Ini adalah produk Johnson & Johnson, yang membeli syarikat Israel Biosense seharga $400 juta",
+        "categories": "barangan rumah, kesihatan",
+        "alternatives": "Pilihan jenama sendiri pasaraya, Mu'min, Safi, Halagel, Oradex, Aafiyat Store"
+      },
+      "Darlie": {
+        "desc": "Darlie adalah jenama popular China yang dimiliki oleh Colgate dan rakan usaha samanya, Hawley & Hazel. Pakejnya menampilkan seorang lelaki dengan topi tinggi. Ia dahulunya dipanggil Darkie dan menampilkan lelaki dengan wajah hitam.",
+        "categories": "barangan rumah, kesihatan",
+        "alternatives": "Pilihan jenama sendiri pasaraya, Mu'min, Safi, Halagel, Oradex, Aafiyat Store"
+      },
+      "Pepsodent": {
+        "desc": "Pepsodent, dimiliki oleh Unilever, yang juga memiliki Ben & Jerry's. Unilever menjual hak distribusi Ben & Jerry's di Israel untuk terus menjual di Israel.",
+        "categories": "barangan rumah, kesihatan",
+        "alternatives": "Pilihan jenama sendiri pasaraya, Mu'min, Safi, Halagel, Oradex, Aafiyat Store"
+      },
+      "Dove": {
+        "desc": "Dove dimiliki oleh Unilever. Ben & Jerry's juga dimiliki oleh Unilever. Ketika Ben & Jerry's memutuskan untuk berhenti menjual produk mereka di Israel, Unilever menjual hak distribusi di Israel kepada Avi Zinger untuk mengelakkan keputusan mereka dan memaksa nama jenama Ben & Jerry's terus dijual di Israel.",
+        "categories": "barangan rumah, kosmetik",
+        "alternatives": "Pilihan jenama sendiri pasaraya, Antabax, Good Virtues Co, Bad Lab, Fruiser, Safi"
+      },
+      "Palmolive": {
+        "desc": "S. Schestowitz adalah salah satu importir barang keperluan terbesar di Israel. Syarikat ini menguasai 60% pasaran ubat gigi Israel, menurut Haaretz.",
+        "categories": "barangan rumah",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "CleanAndClear": {
+        "desc": "Ini adalah produk Johnson & Johnson, yang membeli syarikat Israel Biosense seharga $400 juta",
+        "categories": "barangan rumah, kosmetik",
+        "alternatives": "Pilihan jenama sendiri pasaraya, Aiken, Nano White, Kayman, Safi, Zarzou, Cosmoderm, Jelita KL, Nurish, Elianto, Pixy, Silkygirl, SimplySiti, Nurraysa"
+      },
+      "Vaseline": {
+        "desc": "Vaseline, dimiliki oleh Unilever, yang juga memiliki Ben & Jerry's. Unilever menjual hak distribusi Ben & Jerry's di Israel untuk terus menjual di Israel.",
+        "categories": "barangan rumah, kosmetik",
+        "alternatives": "Pilihan jenama sendiri pasaraya, Aiken, Nano White, Kayman, Safi, Zarzou, Cosmoderm, Jelita KL, Nurish, Elianto, Pixy, Silkygirl, SimplySiti, Nurraysa"
+      },
+      "Vicks": {
+        "desc": "Vicks dimiliki oleh Procter and Gamble, yang membuka pusat R&D di Tel Aviv, Palestin yang Diduduki, dengan pelaburan tahunan $2bn.",
+        "categories": "barangan rumah, farmasi",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Breeze": {
+        "desc": "Breeze, dimiliki oleh Unilever, yang juga memiliki Ben & Jerry's. Unilever menjual hak distribusi Ben & Jerry's di Israel untuk terus menjual di Israel.",
+        "categories": "barangan rumah",
+        "alternatives": "Pilihan jenama sendiri pasaraya, Kuat Harimau, Dozee, TLC, Good Maid, Toyyib"
+      },
+      "Joy": {
+        "desc": "P&G berhubungan dengan syarikat Israel Avgol Nonwoven, yang mengkhusus dalam penghasilan tekstil untuk produk kebersihan, telah menarik perhatian.",
+        "categories": "barangan rumah",
+        "alternatives": "Pilihan jenama sendiri pasaraya, Kuat Harimau, Dozee, TLC, Good Maid, Toyyib"
+      },
+      "Downy": {
+        "desc": "P&G, syarikat induk Downy, mempunyai hubungan dalam dengan Israel, membangkitkan perbincangan dan perdebatan mengenai kerjasama perniagaannya dalam wilayah tersebut. Terutamanya, hubungan P&G dengan syarikat Israel Avgol Nonwoven, yang mengkhusus dalam penghasilan tekstil untuk produk kebersihan, telah menarik perhatian.",
+        "categories": "barangan rumah",
+        "alternatives": "Pilihan jenama sendiri pasaraya, Kuat Harimau, Dozee, TLC, Good Maid, Toyyib"
+      },
+      "Axion": {
+        "desc": "S. Schestowitz adalah salah satu importir barang keperluan terbesar di Israel. Syarikat ini menguasai 60% pasaran ubat gigi Israel, menurut Haaretz.",
+        "categories": "barangan rumah",
+        "alternatives": "Pilihan jenama sendiri pasaraya, Kuat Harimau, Dozee, TLC, Good Maid, Toyyib"
+      },
+      "Sunlight": {
+        "desc": "Sunlight, dimiliki oleh Unilever, yang juga memiliki Ben & Jerry's. Unilever menjual hak distribusi Ben & Jerry's di Israel untuk terus menjual di Israel.",
+        "categories": "barangan rumah",
+        "alternatives": "Pilihan jenama sendiri pasaraya, Kuat Harimau, Dozee, TLC, Good Maid, Toyyib"
+      },
+      "Kotex": {
+        "desc": "Pada tahun 1998 Robert P. Van der Merwe, Pengerusi Kimberly Clark, menerima Anugerah Jubli dari Perdana Menteri Israel Netanyahu, atas sumbangan mereka dalam membangunkan ekonomi Israel.",
+        "categories": "barangan rumah, kesihatan",
+        "alternatives": "Pilihan jenama sendiri pasaraya, Libresse, Sofy, Flowra"
+      },
+      "Huggies": {
+        "desc": "Kimberly-Clark adalah salah satu syarikat pengguna terbesar di dunia dengan hampir 56,000 pekerja di 35 negara, dan perolehan jualan lebih dari $19 bilion pada tahun 2009. Jenama penjagaan keluarganya termasuk Kleenex, Scott, Andrex, Huggies, Pull-Ups, Kotex, Poise dan Depend",
+        "categories": "barangan rumah, kesihatan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Lux": {
+        "desc": "Lux dimiliki oleh Unilever. Ben & Jerry's juga dimiliki oleh Unilever. Ketika Ben & Jerry's memutuskan untuk berhenti menjual produk mereka di Israel, Unilever menjual hak distribusi di Israel kepada Avi Zinger untuk mengelakkan keputusan mereka dan memaksa nama jenama Ben & Jerry's terus dijual di Israel.",
+        "categories": "barangan rumah, kosmetik",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Febreze": {
+        "desc": "Febreze dimiliki oleh Procter and Gamble, yang membuka pusat R&D di Tel Aviv, Palestin yang Diduduki, dengan pelaburan tahunan $2bn.",
+        "categories": "barangan rumah",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Lifebuoy": {
+        "desc": "Lifebuoy dimiliki oleh Unilever. Ben & Jerry's juga dimiliki oleh Unilever. Ketika Ben & Jerry's memutuskan untuk berhenti menjual produk mereka di Israel, Unilever menjual hak distribusi di Israel kepada Avi Zinger untuk mengelakkan keputusan mereka dan memaksa nama jenama Ben & Jerry's terus dijual di Israel.",
+        "categories": "barangan rumah, kesihatan",
+        "alternatives": "Pilihan jenama sendiri pasaraya, Antabax, Good Virtues Co, Bad Lab, Fruiser, Safi"
+      },
+      "Rexona": {
+        "desc": "Rexona dimiliki oleh Unilever. Ben & Jerry's juga dimiliki oleh Unilever. Ketika Ben & Jerry's memutuskan untuk berhenti menjual produk mereka di Israel, Unilever menjual hak distribusi di Israel kepada Avi Zinger untuk mengelakkan keputusan mereka dan memaksa nama jenama Ben & Jerry's terus dijual di Israel.",
+        "categories": "barangan rumah, kosmetik",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Maybeline": {
+        "desc": "Maybelline, di bawah kepemilikan L'Oreal, telah mengemudi sebuah laluan kontroversi dalam hubungannya dengan Israel.",
+        "categories": "kosmetik",
+        "alternatives": "Pilihan jenama sendiri pasaraya, Aiken, Nano White, Kayman, Safi, Zarzou, Silkygirl, SimplySiti, Nurraysa"
+      },
+      "Loreal": {
+        "desc": "L'Oreal adalah 'sahabat hangat Israel'. Setelah mengirim surat kepada Liga Arab dengan informasi membantu boikot, mereka membayar denda $1.4j dan mengeluarkan permintaan maaf, sebelum menjalin hubungan baru dengan Israel, dengan pelaburan besar dan bahkan mengoperasikan sebuah pabrik di Palestin yang Diduduki.",
+        "categories": "kosmetik",
+        "alternatives": "Pilihan jenama sendiri pasaraya, Aiken, Nano White, Kayman, Safi, Zarzou, Silkygirl, SimplySiti, Nurraysa"
+      },
+      "Garnier": {
+        "desc": "Garnier adalah jenama yang dimiliki oleh L'Oreal, yang merupakan 'sahabat hangat Israel'. Setelah mengirim surat kepada Liga Arab dengan informasi membantu boikot, mereka membayar denda $1.4j dan mengeluarkan permintaan maaf, sebelum menjalin hubungan baru dengan Israel, dengan pelaburan besar dan bahkan mengoperasikan sebuah pabrik di Palestin yang Diduduki.",
+        "categories": "kosmetik",
+        "alternatives": "Pilihan jenama sendiri pasaraya, Aiken, Nano White, Kayman, Safi, Zarzou, Silkygirl, SimplySiti, Nurraysa"
+      },
+      "Clinique": {
+        "desc": "Clinique dimiliki oleh Estee Lauder, yang kepemilikannya, terutama Ronald Lauder, mempunyai pandangan zionis ekstrem dan secara finansial dan politik mendukung pendudukan tanah Palestin oleh Israel.",
+        "categories": "kosmetik",
+        "alternatives": "Pilihan jenama sendiri pasaraya, Aiken, Nano White, Kayman, Safi, Zarzou, Silkygirl, SimplySiti, Nurraysa"
+      },
+      "Gillete": {
+        "desc": "Terkenal dengan barisan produk penjagaan diri, Gillette beroperasi di bawah P&G, sebuah syarikat multinasional. P&G mendapat perhatian kerana pelaburan besar di Israel, terutamanya dengan penubuhan pusat Penyelidikan dan Pembangunan (R&D) di Tel Aviv, yang terletak dalam apa yang disebut sebagai Palestin yang Diduduki.",
+        "categories": "kosmetik",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Louis Vuitton": {
+        "desc": "Pemilik syarikat induk Louis Vuitton, LVMH, Bernard Arnault melabur ratusan juta dalam syarikat-syarikat Israel",
+        "categories": "mewah, pakaian, kosmetik",
+        "alternatives": "sokong jenama tempatan"
+      },
+      "Giorgio Armani": {
+        "desc": "Giorgio Armani Beauty adalah kerjasama dengan L'Oreal, yang merupakan 'sahabat hangat Israel'. Setelah mengirim surat kepada Liga Arab dengan informasi membantu boikot, mereka membayar denda $1.4j dan mengeluarkan permintaan maaf, sebelum menjalin hubungan baru dengan Israel, dengan pelaburan besar dan bahkan mengoperasikan sebuah pabrik di Palestin yang Diduduki.",
+        "categories": "mewah, pakaian, kosmetik, fesyen",
+        "alternatives": "sokong jenama tempatan"
+      },
+      "Johnson n Johnson": {
+        "desc": "Johnson & Johnson membeli syarikat Israel, Biosense, sebanyak $400 juta",
+        "categories": "kesihatan",
+        "alternatives": "Pilihan jenama sendiri pasaraya"
+      },
+      "Bath & Body Works": {
+        "desc": "Les Wexner, pemilik L Brands, syarikat induk Bath&Body Works, adalah sekutu kuat Israel, dan rakan perniagaan jangka panjang Jeffrey Epstein, pengedar kanak-kanak yang dihukum.",
+        "categories": "kosmetik",
+        "alternatives": "Pilihan jenama sendiri pasaraya, Lush cosmetics, Minyak wangi tidak berjenama, Sunnamusk"
+      },
+      "Herbal Essence": {
+        "desc": "Herbal essences dimiliki oleh Procter and Gamble, yang membuka pusat R&D di Tel Aviv, Palestin yang Diduduki, dengan pelaburan tahunan $2bn.",
+        "categories": "kosmetik, kesihatan",
+        "alternatives": "Pilihan jenama sendiri"
+      },
+      "Victoria Secret": {
+        "desc": "Victoria Secret memperoleh keuntungan dari pendudukan Israel atas tanah Palestin & kejahatan terhadap kemanusiaan dengan kerjasama rapat dengan syarikat-syarikat Israel.",
+        "categories": "mewah",
+        "alternatives": "Pilihan jenama sendiri"
+      },
+      "Estee Lauder": {
+        "desc": "Ronald Lauder, yang bersama dengan abangnya Leonard Lauder mewarisi syarikat Estee Lauder, adalah presiden Kongres Yahudi Dunia, dan pengerusi Dana Kebangsaan Yahudi, dan adalah zionis dengan pandangan ekstremis dan menyokong pendudukan Israel atas tanah Palestin secara kewangan dan politik.",
+        "categories": "kosmetik",
+        "alternatives": "Pilihan jenama sendiri"
+      },
+      "Ralph Lauren": {
+        "desc": "Ralph Lauren Frangrances adalah kerjasama dengan L'Oreal, yang merupakan 'sahabat hangat Israel'. Setelah mengirim surat kepada Liga Arab dengan informasi membantu boikot, mereka membayar denda $1.4j dan mengeluarkan permintaan maaf, sebelum menjalin hubungan baru dengan Israel, dengan pelaburan besar dan bahkan mengoperasikan sebuah pabrik di Palestin yang Diduduki.",
+        "categories": "mewah",
+        "alternatives": "Minyak wangi tidak berjenama, Sunnamusk"
+      },
+      "Neutrogena": {
+        "desc": "Menyelami jejak Neutrogena di Israel, kita mengungkap jaringan hubungan, kerjasama, dan pelaburan yang menggambarkan gambaran berbilang wajah tentang keterlibatan jenama di wilayah ini.",
+        "categories": "kosmetik",
+        "alternatives": "Pilihan jenama sendiri"
+      },
+      "Valentino Beauty": {
+        "desc": "Valentino Beauty adalah kerjasama dengan L'Oreal, yang merupakan 'sahabat hangat Israel'. Setelah mengirim surat kepada Liga Arab dengan informasi membantu boikot, mereka membayar denda $1.4j dan mengeluarkan permintaan maaf, sebelum menjalin hubungan baru dengan Israel, dengan pelaburan besar dan bahkan mengoperasikan sebuah pabrik di Palestin yang Diduduki.",
+        "categories": "mewah, pakaian, fesyen, kosmetik",
+        "alternatives": "Pilihan jenama sendiri"
+      },
+      "YSL Beauty": {
+        "desc": "YSL Beauty adalah kerjasama dengan L'Oreal, yang merupakan 'sahabat hangat Israel'. Setelah mengirim surat kepada Liga Arab dengan informasi membantu boikot, mereka membayar denda $1.4j dan mengeluarkan permintaan maaf, sebelum menjalin hubungan baru dengan Israel, dengan pelaburan besar dan bahkan mengoperasikan sebuah pabrik di Palestin yang Diduduki.",
+        "categories": "mewah, pakaian, fesyen, kosmetik",
+        "alternatives": "Pilihan jenama sendiri"
+      },
+      "Tommy Hilfiger": {
+        "desc": "Di tengah-tengah kekacauan, laporan mendedahkan bahawa PVH, syarikat induk Tommy Hilfiger, berjanji untuk menyamai sumbangan daripada para pekerjanya dengan nisbah 2:1 untuk usaha bantuan di wilayah tersebut.",
+        "categories": "mewah, pakaian, fesyen",
+        "alternatives": "Pilihan jenama sendiri"
+      },
+      "Kerastase": {
+        "desc": "Kerastase dimiliki oleh L'Oreal. L'Oreal adalah 'sahabat hangat Israel'. Setelah mengirim surat kepada Liga Arab dengan informasi membantu boikot, mereka membayar denda $1.4j dan mengeluarkan permintaan maaf, sebelum menjalin hubungan baru dengan Israel, dengan pelaburan besar dan bahkan mengoperasikan sebuah pabrik di Palestin yang Diduduki.",
+        "categories": "kosmetik",
+        "alternatives": "Pilihan jenama sendiri"
+      },
+      "Lancome": {
+        "desc": "Lancome adalah jenama milik L'Oreal, yang merupakan 'sahabat hangat Israel'. Setelah mengirim surat kepada Liga Arab dengan informasi membantu boikot, mereka membayar denda $1.4j dan mengeluarkan permintaan maaf, sebelum menjalin hubungan baru dengan Israel, dengan pelaburan besar dan bahkan mengoperasikan sebuah pabrik di Palestin yang Diduduki.",
+        "categories": "mewah, kosmetik",
+        "alternatives": "Kosmetik Lush, Kecantikan Huda"
+      },
+      "Revlon": {
+        "desc": "Pemegang saham terbesar Revlon, Ronald Perelman, adalah pemegang amanah utama Yayasan Simon Weisenthal, yang menjalankan Muzium Toleransi yang agak ironis namanya.",
+        "categories": "kosmetik",
+        "alternatives": "Pilihan jenama sendiri"
+      },
+      "Chanel": {
+        "desc": "Alain Wertheimer, mengutuk serangan terhadap Israel tetapi berdiam diri tentang serangan di Gaza, juga berjanji $4j atas nama Chanel.",
+        "categories": "mewah, pakaian, fesyen, kosmetik",
+        "alternatives": "Kosmetik Lush, Kecantikan Huda, Sunnamusk, Minyak wangi tidak berjenama"
+      },
+      "Cerave": {
+        "desc": "Cerave dimiliki oleh L'Oreal. L'Oreal adalah 'sahabat hangat Israel'. Setelah mengirim surat kepada Liga Arab dengan informasi membantu boikot, mereka membayar denda $1.4j dan mengeluarkan permintaan maaf, sebelum menjalin hubungan baru dengan Israel, dengan pelaburan besar dan bahkan mengoperasikan sebuah pabrik di Palestin yang Diduduki.",
+        "categories": "kosmetik",
+        "alternatives": "Kosmetik Lush, Kecantikan Huda"
+      },
+      "Kenzo": {
+        "desc": "Pemilik syarikat induk Kenzo, LVMH, Bernard Arnault melabur ratusan juta dalam syarikat-syarikat Israel",
+        "categories": "mewah, pakaian, fesyen, kosmetik",
+        "alternatives": "Kosmetik Lush, Kecantikan Huda, Sunnamusk, Minyak wangi tidak berjenama"
+      },
+      "Kiehl": {
+        "desc": "Kiehl's adalah jenama milik L'Oreal, yang merupakan 'sahabat hangat Israel'. Setelah mengirim surat kepada Liga Arab dengan informasi membantu boikot, mereka membayar denda $1.4j dan mengeluarkan permintaan maaf, sebelum menjalin hubungan baru dengan Israel, dengan pelaburan besar dan bahkan mengoperasikan sebuah pabrik di Palestin yang Diduduki.",
+        "categories": "kosmetik",
+        "alternatives": "Kosmetik Lush, Kecantikan Huda"
+      },
+      "Olay": {
+        "desc": "Olay dimiliki oleh Procter and Gamble, yang membuka pusat R&D di Tel Aviv, Palestin yang Diduduki, di mana mereka melabur $2bn setiap tahun.",
+        "categories": "kosmetik, kesihatan",
+        "alternatives": "Aiken, Nano White, Kayman, Safi, Zarzou, Cosmoderm, Jelita KL, Nurish, Elianto, Pixy, Silkygirl, SimplySiti, Nurraysa"
+      },
+      "Dior": {
+        "desc": "Pemilik syarikat induk Dior, LVMH, Bernard Arnault melabur ratusan juta dalam syarikat-syarikat Israel",
+        "categories": "mewah, pakaian, fesyen, kosmetik",
+        "alternatives": "Pilihan jenama sendiri"
+      },
+      "MAC": {
+        "desc": "MAC Cosmetics dimiliki oleh Estee Lauder, yang pemilikannya, terutama Ronald Lauder, mempunyai pandangan zionis ekstremis dan secara kewangan dan politik menyokong pendudukan Israel atas tanah Palestin.",
+        "categories": "kosmetik",
+        "alternatives": "Aiken, Nano White, Kayman, Safi, Zarzou, Cosmoderm, Jelita KL, Nurish, Elianto, Pixy, Silkygirl, SimplySiti, Nurraysa"
+      },
+      "La Mer": {
+        "desc": "La Mer dimiliki oleh Estee Lauder, yang pemilikannya, terutama Ronald Lauder, mempunyai pandangan zionis ekstremis dan secara kewangan dan politik menyokong pendudukan Israel atas tanah Palestin.",
+        "categories": "mewah, kosmetik",
+        "alternatives": "Aiken, Nano White, Kayman, Safi, Zarzou, Cosmoderm, Jelita KL, Nurish, Elianto, Pixy, Silkygirl, SimplySiti, Nurraysa"
+      },
+      "Agoda": {
+        "desc": "Booking.com, syarikat induk yang memiliki Agoda, membenarkan penyenaraian di wilayah Palestin yang diduduki, dan setelah memutuskan awalnya untuk menambah label pada hartanah yang berada di wilayah yang diduduki, membatalkan langkah itu di bawah tekanan dari Israel.",
+        "categories": "pelancongan, teknologi",
+        "alternatives": "halalbooking.com"
+      },
+      "Airbnb": {
+        "desc": "Airbnb membenarkan penyenaraian di wilayah Palestin yang diduduki, dan setelah mengumumkan akan menghapuskan 200 penyenaraian tersebut, ia membatalkan keputusannya, menunjukkan ia dengan sengaja bersubahat dalam pendudukan Israel.",
+        "categories": "pelancongan, teknologi",
+        "alternatives": "halalbooking.com"
+      },
+      "Amazon": {
+        "desc": "Amazon melabur $7.2bn dalam pusat data di Israel melalui AWS",
+        "categories": "pasar raya, teknologi",
+        "alternatives": "eBay (tidak disahkan)"
+      },
+      "AXA": {
+        "desc": "AXA terus melabur dalam bank-bank Israel yang bersubahat dalam pendudukan dan apartheid Israel di Palestin.",
+        "categories": "insurans, kewangan",
+        "alternatives": "Syarikat insurans lain"
+      },
+      "Booking": {
+        "desc": "Booking.com membenarkan penyenaraian di wilayah Palestin yang diduduki, dan setelah mengumumkan akan menghapuskan 200 penyenaraian tersebut, ia membatalkan keputusannya, menunjukkan ia dengan sengaja bersubahat dalam pendudukan Israel.",
+        "categories": "pelancongan, teknologi",
+        "alternatives": "halalbooking.com"
+      },
+      "Carrefour": {
+        "desc": "Carrefour telah membuat pelaburan besar ke dalam Israel tahun lalu, membuka 50 kedai dan merancang untuk membuka 100 lagi menjelang 2024.",
+        "categories": "pasar raya, makanan, minuman, pakaian, barangan rumah",
+        "alternatives": "Rantaian pasar raya lain"
+      },
+      "Tesco": {
+        "desc": "Tesco bekerjasama dengan sebuah permulaan Israel, Trigo Retail, untuk menyampaikan kedai tanpa kaunter dengan beberapa sudah dibuka di London. Michael Gabay, CEO Trigo adalah seorang zionis tegar.",
+        "categories": "pasar raya, makanan, minuman, insurans, barangan rumah, kewangan",
+        "alternatives": "Rantaian pasar raya lain"
+      },
+      "Disney": {
+        "desc": "Disney membuat pengumuman rasmi bahawa ia akan berjanji $2 juta dan inisiatif lanjut untuk menyokong Israel. Walaupun CEO secara terang-terangan mengutuk serangan terhadap orang Yahudi di Israel, beliau tidak menyebut tentang orang Palestin yang dibunuh oleh tentera Israel.",
+        "categories": "hiburan, teknologi",
+        "alternatives": "Syarikat hiburan dan media lain"
+      },
+      "Fiverr": {
+        "desc": "CEO, Micha Kaufman, adalah seorang zionis tegar yang menyokong IDF.",
+        "categories": "teknologi",
+        "alternatives": "Platform perkhidmatan bebas lain"
+      },
+      "HP": {
+        "desc": "Hewlett Packard mengendalikan sistem ID biometrik yang digunakan Israel untuk menghadkan pergerakan Palestin serta sistem lain untuk IDF.",
+        "categories": "teknologi",
+        "alternatives": "Lenovo"
+      },
+      "HSBC": {
+        "desc": "HSBC melabur dalam syarikat yang menjual senjata dan peralatan ketenteraan kepada Israel yang telah digunakan dalam penindasan terhadap Palestin.",
+        "categories": "kewangan",
+        "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
+      },
+      "Motorola": {
+        "desc": "IDF menggunakan Motorola sebagai pembekal utama untuk peralatan komunikasinya yang membolehkan mereka mengawal orang Palestin yang diduduki secara berkesan. Mereka juga mengeluarkan fius bom yang digunakan dalam bom IDF.",
+        "categories": "teknologi, pengilang",
+        "alternatives": "Syarikat telefon bimbit dan teknologi lain"
+      },
+      "Movenpick": {
+        "desc": "Pemilik jenama Movenpick, Nestle, memiliki saham pengendali di Osem. Osem adalah pengilang makanan Israel yang beroperasi di Palestin yang diduduki.",
+        "categories": "makanan",
+        "alternatives": "Jenama makanan dan minuman lain"
+      },
+      "PUMA": {
+        "desc": "Puma adalah penaja utama Persatuan Bola Sepak Israel (IFA), yang termasuk pasukan di penempatan haram Israel di tanah Palestin yang diduduki.",
+        "categories": "pakaian, fesyen",
+        "alternatives": "Jenama pakaian sukan dan fesyen lain"
+      },
+      "Tag Heuer": {
+        "desc": "Pemilik syarikat induk TAG Heuer, LVMH, Bernard Arnault melabur ratusan juta dalam syarikat-syarikat Israel",
+        "categories": "mewah, fesyen",
+        "alternatives": "Jenama jam tangan mewah lain"
+      },
+      "Waze": {
+        "desc": "Pengasas, Uri Levine, adalah seorang zionis tegar yang juga bekas IDF (juga pengasas moovit). Waze telah dibeli oleh Google yang juga dalam senarai boikot kerana membina superkomputer Israel dengan Amazon. Waze dimiliki oleh Google tetapi pasukan dan pejabat mereka masih berada di Israel. Waze adalah penghasil pendapatan, kerana ia menayangkan iklan pada peta itu sendiri yang bermaksud mereka membuat wang apabila anda menggunakan navigasi. Peta Google adalah percuma dan bukan penghasil pendapatan. Ia membantu Google menargetkan anda dengan iklan kemudian, tetapi jika anda tidak mengklik iklan tersebut, maka anda tidak memberi manfaat kepada Google. Oleh itu, kami mengesyorkan menggunakan peta Google, tetapi tidak mengklik iklan Google semasa anda melayari internet.",
+        "categories": "teknologi, perjalanan",
+        "alternatives": "Perisian navigasi GPS lain"
+      },
+      "Nokia": {
+        "desc": "Nokia Venture Partners, cawangan Nokia Ventures Organization, melancarkan dana baru $500 juta pada Disember 2000 dan membenarkan bahawa sejumlah besar daripadanya akan masuk ke dalam syarikat-syarikat Israel. Pusat Penyelidikan Nokia sedang mencari permulaan Israel yang boleh mereka kerjasama.",
+        "categories": "teknologi",
+        "alternatives": "Pengilang telefon bimbit lain"
+      },
+      "Nike": {
+        "desc": "Keputusan Nike untuk menghentikan bekalan ke kedai-kedai Israel menandakan kemunduran bagi banyak kedai sukan di negara tersebut. Ia mencerminkan strategi global Nike daripada mesej politik tertentu terhadap Israel, bertujuan untuk mengawal proses jualan dan meningkatkan keuntungan.",
+        "categories": "pakaian, fesyen",
+        "alternatives": "Jenama pakaian sukan dan atletik lain"
+      },
+      "Skechers": {
+        "desc": "Michael S Greenberg, presiden Skechers, adalah seorang zionis yang telah memuat naik kandungan pro-Israel di Instagramnya.",
+        "categories": "pakaian, fesyen",
+        "alternatives": "Jenama kasut dan fesyen lain"
+      },
+      "Adidas": {
+        "desc": "Adidas menggunakan pengilang Israel, Delta Galil, untuk menghasilkan rangkaian pakaian dalamnya.",
+        "categories": "pakaian, fesyen",
+        "alternatives": "Jenama pakaian sukan dan atletik lain"
+      },
+      "Hyundai": {
+        "desc": "Mesin berat Hyundai telah digunakan dalam pemusnahan kejiranan Palestin di Jerusalem, mendapat manfaat secara komersial dari pendudukan Israel.",
+        "categories": "kereta, pengilang",
+        "alternatives": "Pengilang kereta lain"
+      },
+      "Mercedes Benz": {
+        "desc": "Mercedes Benz membuka pusat teknologi di Tel Aviv untuk mengembangkan teknologi kereta bersambung, padahal mereka boleh membuka pusat tersebut di mana-mana bandar di dunia.",
+        "categories": "kereta, pengilang",
+        "alternatives": "Pengilang kereta mewah lain"
+      },
+      "Rentalcars": {
+        "desc": "Booking.com, yang syarikat induknya Booking Holdings memiliki Rentalcars.com, membenarkan penyenaraian di wilayah Palestin yang diduduki, dan selepas memutuskan untuk menambah label pada hartanah yang berada di wilayah yang diduduki, membatalkan langkah tersebut di bawah tekanan dari Israel.",
+        "categories": "kereta, teknologi, perjalanan",
+        "alternatives": "Perkhidmatan sewa kereta lain"
+      },
+      "Volvo": {
+        "desc": "Mesin berat Volvo telah digunakan dalam pemusnahan kejiranan Palestin di Palestin yang diduduki, mendapat manfaat secara komersial dari pendudukan Israel. Mereka mengeluarkan kenyataan menjarakkan diri dan menolak tanggungjawab keputusan rangkaian penjualannya, namun masih bersalah kecuali mereka mengakhiri hubungan dengan syarikat yang menjual peralatan kepada IDF, contohnya Mayers Cars and Trucks di Ashdod.",
+        "categories": "kereta, pengilang",
+        "alternatives": "Pengilang kereta lain"
+      },
+      "Shell": {
+        "desc": "Saham Shell mencapai rekod tertinggi kerana perang Israel-Hamas mendorong harga minyak naik",
+        "categories": "tenaga",
+        "alternatives": "Petronas, BHP"
+      },
+      "Caltex": {
+        "desc": "Chevron terlibat dalam dasar dan amalan Israel yang merampas hak rakyat Palestin atas kedaulatan sumber semula jadi mereka.",
+        "categories": "tenaga",
+        "alternatives": "Petronas, BHP"
+      },
+      "Purina": {
+        "desc": "Pemilik jenama Purina, Nestle, memiliki pegangan pengendali dalam Osem. Osem adalah pengilang makanan Israel yang beroperasi di Palestin yang Diduduki.",
+        "categories": "haiwan peliharaan",
+        "alternatives": "Jenama makanan haiwan peliharaan lain"
+      },
+      "Friskies": {
+        "desc": "Hubungan antara Friskies Nestle dan Israel adalah mengkhawatirkan. Adalah membimbangkan mengetahui bahawa jenama terkenal seperti Friskies, yang dimiliki oleh Nestle, menyokong pendudukan Israel terhadap wilayah Palestin.",
+        "categories": "haiwan peliharaan",
+        "alternatives": "Jenama makanan haiwan peliharaan lain"
+      },
+      "Whiskas": {
+        "desc": "Pemilik Whiskas, Mars, menyokong negara zionis dengan melabur berat dalam scene permulaan foodtech melalui rakan modal ventur JVC.",
+        "categories": "haiwan peliharaan",
+        "alternatives": "Jenama makanan haiwan peliharaan lain"
+      },
+      "Unicef": {
+        "desc": "Ketua Unicef, Catherine Russell berkahwin dengan pengerusi pelaburan BlackRock, salah satu pelabur terbesar dalam syarikat senjata di dunia. Ini adalah konflik kepentingan besar dan Unicef tidak patut dipercayai.",
+        "categories": "kebajikan",
+        "alternatives": "Muslims Around The World, Ummah Welfare Trust, One Ummah"
+      },
+      "Labour party": {
+        "desc": "Keir Starmer telah membuat kenyataan rasmi bahawa Parti Buruh berdiri bersama Israel.",
+        "categories": "politik",
+        "alternatives": "Abstain, Mengundi untuk parti kecil dengan nilai baik"
+      },
+      "Conservative party": {
+        "desc": "Rishi Sunak telah membuat kenyataan rasmi bahawa Konservatif berdiri bersama Israel. Dia juga menghantar bantuan ketenteraan untuk membantu Israel dalam genosid Gaza.",
+        "categories": "politik",
+        "alternatives": "Abstain, Mengundi untuk parti kecil dengan nilai baik"
+      },
+      "G4S": {
+        "desc": "G4S kini telah sepenuhnya melupuskan dari Israel selepas tekanan BDS. Tetapi mereka telah bersubahat dan membantu pendudukan Israel selama bertahun-tahun.",
+        "categories": "kontraktor",
+        "alternatives": "Tiada alternatif yang diselidiki"
+      },
+      "A&W": {
+        "desc": "Syarikat induk Yum Brands adalah pelabur dalam permulaan di Israel.",
+        "categories": "makanan,minuman",
+        "alternatives": "Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+      },
+      "Taco Bell": {
+        "desc": "Syarikat induk Yum Brands adalah pelabur dalam permulaan di Israel.",
+        "categories": "makanan",
+        "alternatives": "Marrybrown,The Chicken Rice Shop,Ramly's Burger,Ayamas,The Manhattan Fish Market"
+      },
+      "Meta": {
+        "desc": "Di tengah-tengah konflik yang berterusan antara Israel dan Palestin, Mark Zuckerberg, Ketua Pegawai Eksekutif Meta, menyatakan pendapatnya mengenai situasi itu dan mengutuk serangan yang dilakukan oleh Hamas. Dalam Kisah Instagram awal minggu ini, Encik Zuckerberg berkata, ''Serangan pengganas oleh Hamas adalah jahat. Tidak pernah ada sebarang justifikasi untuk melakukan tindakan keganasan terhadap orang yang tidak bersalah.''",
+        "categories": "teknologi",
+        "alternatives": "twitter,Gab"
+      },
+      "Aviva": {
+        "desc": "Aviva melabur dalam syarikat-syarikat yang menjual senjata dan peralatan ketenteraan kepada Israel yang telah digunakan dalam penindasan Palestin",
+        "categories": "insurans,kewangan",
+        "alternatives": "Jangan simpan wang persaraan anda dengan Aviva"
+      },
+      "BankOfAmerica": {
+        "desc": "Bank of America adalah sebahagian daripada urusan pinjaman $500 juta dengan konsortium pemberi pinjaman, ke dalam Elbit Systems Ltd, pengilang senjata Israel.",
+        "categories": "kewangan",
+        "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
+      },
+      "BankOfMontreal": {
+        "desc": "Bank of Montreal meminjamkan $90 juta sebagai sebahagian daripada urusan pinjaman $500 juta dengan konsortium pemberi pinjaman, ke dalam Elbit Systems Ltd, pengilang senjata Israel.",
+        "categories": "kewangan",
+        "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
+      },
+
+      "Barclays": {
+        "desc": "Barclays melabur dalam syarikat-syarikat yang menjual senjata dan peralatan ketenteraan kepada Israel yang telah digunakan dalam penindasan Palestin",
+        "categories": "insurans,kewangan",
+        "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
+      },
+      "BNP": {
+        "desc": "BNP Paribas adalah sebahagian daripada urusan pinjaman $500 juta dengan konsortium pemberi pinjaman, ke dalam Elbit Systems Ltd, pengilang senjata Israel.",
+        "categories": "kewangan",
+        "alternatives": "Jangan berurusan dengan BNP Paribas"
+      },
+      "CapitalOne": {
+        "desc": "Capital One adalah sebahagian daripada urusan pinjaman $500 juta dengan konsortium pemberi pinjaman, ke dalam Elbit Systems Ltd, pengilang senjata Israel.",
+        "categories": "kewangan",
+        "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
+      },
+      "Legal": {
+        "desc": "Legal & General melabur dalam syarikat-syarikat yang menjual senjata dan peralatan ketenteraan kepada Israel yang telah digunakan dalam penindasan Palestin",
+        "categories": "insurans,kewangan",
+        "alternatives": "Jangan melabur dengan Legal & General"
+      },
+      "Lloyds": {
+        "desc": "Lloyds melabur dalam syarikat-syarikat yang menjual senjata dan peralatan ketenteraan kepada Israel yang telah digunakan dalam penindasan Palestin",
+        "categories": "insurans,kewangan",
+        "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
+      },
+      "M&S": {
+        "desc": "Marks & Spencer telah menjadi entiti pro zionis sejak permulaannya, dengan pelbagai ahli pengurusan mereka secara terbuka menyatakan sokongan untuk negara zionis. Selama lebih 100 tahun, mereka telah menjadi saluran komersial terbesar antara Israel dan UK. Walau bagaimanapun, baru-baru ini mereka telah secara terbuka menjauhkan diri daripada mempunyai hubungan 'politik' dan tujuan. Dan kerana kenyataan terakhir dalam sokongan Israel adalah sekitar tahun 2000, sukar untuk mengetahui sejauh mana kepemimpinan mereka menyokong Israel.",
+        "categories": "supermarket, makanan, minuman, pakaian, kewangan",
+        "alternatives": "Morrisons, Co-op"
+      },
+      "RBS": {
+        "desc": "RBS melabur dalam syarikat-syarikat yang menjual senjata dan peralatan ketenteraan kepada Israel yang telah digunakan dalam penindasan Palestin",
+        "categories": "insurans,kewangan",
+        "alternatives": "TSB Bank, Monzo Bank, Bank Islam, MayBank, Muamalat Bank, Cimb Bank, Bank Rakyat, Affin Bank, Alliance Bank, RHB Bank, Public Bank, Agrobank, BSN"
+      },
+      "StandardLife": {
+        "desc": "Standard Life melabur dalam syarikat-syarikat yang menjual senjata dan peralatan ketenteraan kepada Israel yang telah digunakan dalam penindasan Palestin",
+        "categories": "insurans,kewangan",
+        "alternatives": "Jangan simpan atau melabur dengan Standard Life"
+      },
+      "Visa": {
+        "desc": "Visa telah membuka pusat penyelidikan dan pembangunan di Israel dan melabur dengan banyak dalam ekonomi tempatan.",
+        "categories": "kewangan",
+        "alternatives": "Tiada alternatif yang dikaji setakat ini. Bantu kami!"
+      },
+      "WellsFargo": {
+        "desc": "Wells Fargo adalah sebahagian daripada urusan pinjaman $500 juta dengan konsortium pemberi pinjaman, ke dalam Elbit Systems Ltd, pengilang senjata Israel.",
+        "categories": "kewangan",
+        "alternatives": "Jangan berurusan dengan Wells Fargo"
+      },
+      "DunkinDonuts": {
+        "desc": "Di tengah-tengah konflik Israel-Palestin yang berterusan, timbul pertanyaan mengenai pendirian syarikat, yang membuat pengguna bertanya-tanya apakah Dunkin Donuts menyokong salah satu pihak. Artikel ini bertujuan untuk meneroka nuansa sekeliling Dunkin Donuts di Israel dan pendiriannya di tengah-tengah konflik.",
+        "categories": "makanan,kopi,minuman",
+        "alternatives": "sokong jenama tempatan"
+      },
+      "Wix": {
+        "desc": "CEO Avishai Abrahami adalah seorang zionis yang menyokong IDF.",
+        "categories": "teknologi",
+        "alternatives": "Wordpress,Weebly,Squarespace,Framer,Figma"
+      },
+      "Nvidia": {
+        "desc": "Nvidia sedang membina sebuah superkomputer untuk Israel, yang pasti akan digunakan untuk meneruskan penindasan terhadap Palestin dan menguatkuasakan apartheid mereka.",
+        "categories": "teknologi",
+        "alternatives": "AMD"
+      },
+      "Zara": {
+        "desc": "Kempen pemasaran terbaru Zara menggunakan mayat dalam pembungkusan plastik, dan estetika zon perang, memperlekehkan pembunuhan besar-besaran oleh Israel di Gaza. Dalam insiden sebelumnya, Joey Schwebel, seorang warganegara dwi Kanada-Israel dan pengerusi francais Zara Israel Trimera, telah mengadakan pertemuan dengan pengganas yang dihukum, Itamar Ben-Gvir, di rumahnya menjelang pilihan raya Israel. Zara tidak mengeluarkan kenyataan untuk menjauhkan diri dari hubungan ini dan membiarkan kempen iklan ini berjalan.",
+        "categories": "pakaian, fesyen",
+        "alternatives": "sokong jenama tempatan"
+      },
+      "LouisVuitton": {
+        "desc": "Pemilik syarikat induk Louis Vuitton, LVMH, Bernard Arnault melabur ratusan juta dalam syarikat-syarikat Israel",
+        "categories": "pakaian, fesyen, kosmetik",
+        "alternatives": "sokong jenama tempatan, kosmetik Lush, kecantikan Huda, Sunnamusk"
+      },
+      "PradaBeauty": {
+        "desc": "Prada Beauty merupakan kerjasama dengan L'Oreal, yang merupakan 'kawan rapat Israel'. Setelah menghantar surat kepada Liga Arab dengan maklumat untuk membantu boikot, mereka membayar denda $1.4 juta dan mengeluarkan permohonan maaf, sebelum membina hubungan baru dengan Israel, dengan pelaburan besar-besaran dan bahkan mengendalikan kilang di Palestin yang Diduduki.",
+        "categories": "pakaian, fesyen, kosmetik",
+        "alternatives": "sokong jenama tempatan, kosmetik Lush, kecantikan Huda, Sunnamusk"
+      },
+      "Sephora": {
+        "desc": "Pemilik Sephora, Bernard Arnault melabur ratusan juta dalam syarikat-syarikat Israel",
+        "categories": "kosmetik",
+        "alternatives": "sokong jenama tempatan, kosmetik Lush, kecantikan Huda, Sunnamusk"
+      },
+      "Ordinary": {
+        "desc": "The Ordinary dimiliki oleh Estee Lauder, di mana pemiliknya, terutama Ronald Lauder, mempunyai pandangan Zionis ekstremis dan menyokong secara kewangan dan politik pendudukan Israel atas tanah Palestin.",
+        "categories": "kosmetik",
+        "alternatives": "sokong jenama tempatan, kosmetik Lush, kecantikan Huda, Sunnamusk"
+      },
+      "Stella": {
+        "desc": "Pemilik syarikat induk STELLA by Stella McCartney, LVMH, Bernard Arnault melabur ratusan juta dalam syarikat-syarikat Israel",
+        "categories": "pakaian, fesyen, kosmetik",
+        "alternatives": "sokong jenama tempatan, kosmetik Lush, kecantikan Huda, Sunnamusk"
+      },
+      "Victorias": {
+        "desc": "Les Wexner yang memiliki L Brands, syarikat induk Victorias Secret, adalah sekutu kukuh Israel, dan rakan perniagaan jangka panjang Jeffrey Epstein, pengedar kanak-kanak yang dihukum.",
+        "categories": "pakaian, kosmetik",
+        "alternatives": "sokong jenama tempatan"
+      },
+      "OralB": {
+        "desc": "Oral B dimiliki oleh Procter and Gamble, yang membuka pusat R&D di Tel Aviv, Palestin yang Diduduki, di mana ia melabur $2bn setiap tahun.",
+        "categories": "penjagaan kesihatan",
+        "alternatives": "Produk jenama sendiri pasar raya"
+      },
+      "Pantene": {
+        "desc": "Pantene dimiliki oleh Procter and Gamble, yang membuka pusat R&D di Tel Aviv, Palestin yang Diduduki, di mana ia melabur $2bn setiap tahun.",
+        "categories": "kosmetik, penjagaan kesihatan",
+        "alternatives": "Produk jenama sendiri pasar raya"
+      },
+      "Hahne": {
+        "desc": "Mempunyai Beberapa Logo Zionis",
+        "categories": "makanan , pasar raya",
+        "alternatives": "Produk jenama sendiri pasar raya"
+      }
+    }
+  }
 }

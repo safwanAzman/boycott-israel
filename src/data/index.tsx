@@ -1551,15 +1551,15 @@ export function useBoycottList() {
         "proof_link": "https://www.forbes.com/sites/ricardogeromel/2012/05/16/procter-and-gamble-israel-startup/?sh=7c66a09a11f5",
         "alternatives": t("boycottData.Pantene.alternatives").split(',').map(alternative => alternative.trim())
     },
-    // {
-    //     "id": ,
-    //     "name": "",
-    //     "img_url": "",
-    //     "categories": t("boycottData..categories").split(',').map(category => category.trim()),
-    //     "desc": t("boycottData..desc"),
-    //     "proof_link": "",
-    //     "alternatives": t("boycottData..alternatives").split(',').map(alternative => alternative.trim())
-    // },
+    {
+        "id": 181, 
+        "name": "Hahne",
+        "img_url": "https://ucarecdn.com/9ccd25c8-be6c-4f1c-aaa6-0e3dc65bec21/hahne.png",
+        "categories": t("boycottData.Hahne.categories").split(',').map(category => category.trim()),
+        "desc": t("boycottData.Hahne.desc"),
+        "proof_link": "https://ucarecdn.com/c6a2ffcc-a723-413d-a3ae-3f018a431a11/hasisraellogo.jpg",
+        "alternatives": t("boycottData.Hahne.alternatives").split(',').map(alternative => alternative.trim())
+    },
     // {
     //     "id": ,
     //     "name": "",
