@@ -10,11 +10,10 @@ import { BoycottList } from "@/types";
 import { Link as LinkIcon } from "lucide-react";
 import { useTranslations } from "next-intl";
 import BackBtn from "@/components/molecules/back-btn";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 
 const Why = ({ params }: { params: { name: string; id: string } }) => {
   const t = useTranslations("Why");
-  const router = useRouter();
   const searchParams = useSearchParams();
   const getCategoriesParams = searchParams.get("categories");
   const boycottData = useBoycottList();
