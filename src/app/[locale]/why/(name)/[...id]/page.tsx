@@ -30,7 +30,7 @@ const Why = ({ params }: { params: { name: string; id: string } }) => {
       section={
         <div className="search-container justify-between items-center">
           <BackBtn
-            categories={getCategoriesParams || undefined}
+            categories={getCategoriesParams || data?.categories[0]}
             title={data?.name}
           />
         </div>
