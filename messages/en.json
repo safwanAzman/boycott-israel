@@ -946,6 +946,11 @@
         "desc": "Has some Zionist Logo",
         "categories": "food, supermarket",
         "alternatives": "Supermarket own brand products"
+      },
+      "Vercel": {
+        "desc": "Developers drop Vercel, call for boycott after CEO posts selfie with Netanyahu",
+        "categories": "technology",
+        "alternatives": "Netlify,Render,Railway,DigitalOcean"
       }
     }
   }

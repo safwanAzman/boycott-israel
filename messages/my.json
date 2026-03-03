@@ -950,6 +950,11 @@
         "desc": "Mempunyai Beberapa Logo Zionis",
         "categories": "makanan , pasar raya",
         "alternatives": "Produk jenama sendiri pasar raya"
+      },
+      "Vercel": {
+        "desc": "Developer menjatuhkan Vercel, memanggil boikot selepas CEO memposting selfie dengan Netanyahu",
+        "categories": "teknologi",
+        "alternatives": "Netlify,Render,Railway,DigitalOcean"
       }
     }
   }
