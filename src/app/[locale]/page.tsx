@@ -7,6 +7,7 @@ import React, {
   ChangeEvent,
   useRef,
   useMemo,
+  Suspense,
 } from "react";
 import Container from "@/components/layouts/container";
 import { Input } from "@/components/ui/input";
@@ -21,7 +22,7 @@ import CategoryCard from "@/components/molecules/category-card";
 import { scroll, scrollToCategory } from "@/utils/scroll-horinzontal";
 import Empty from "@/components/molecules/empty";
 
-export default function Home() {
+function HomeContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const form = useTranslations("Form");
@@ -51,16 +52,18 @@ export default function Home() {
   };
 
   const filteredData = useMemo(() => {
-    return boycottData.filter((item) => {
-      const matchesCategory =
-        selectedCategory === form("categories.all") ||
-        item.categories.includes(selectedCategory);
-      const matchesSearch = item.name
-        .toLowerCase()
-        .includes(searchData.toLowerCase());
-      return matchesCategory && matchesSearch;
-    });
-  }, [searchData, selectedCategory, boycottData]);
+    return boycottData
+      .filter((item) => {
+        const matchesCategory =
+          selectedCategory === form("categories.all") ||
+          item.categories.includes(selectedCategory);
+        const matchesSearch = item.name
+          .toLowerCase()
+          .includes(searchData.toLowerCase());
+        return matchesCategory && matchesSearch;
+      })
+      .sort((a, b) => b.id - a.id);
+  }, [searchData, selectedCategory, boycottData, form]);
 
   useEffect(() => {
     const params = searchParams.get("categories");
@@ -166,5 +169,19 @@ export default function Home() {
         </div>
       </div>
     </Container>
+  );
+}
+
+export default function Home() {
+  return (
+    <Suspense
+      fallback={
+        <div className="flex min-h-[50vh] items-center justify-center">
+          <div className="h-8 w-8 animate-spin rounded-full border-2 border-gray-300 border-t-gray-900 dark:border-gray-600 dark:border-t-gray-100" />
+        </div>
+      }
+    >
+      <HomeContent />
+    </Suspense>
   );
 }
