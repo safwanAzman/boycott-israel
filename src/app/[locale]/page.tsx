@@ -102,7 +102,9 @@ function HomeContent() {
             >
               {categories?.map((item, index) => (
                 <div
-                  ref={(el) => (categoryRefs.current[index] = el)}
+                  ref={(el) => {
+                    categoryRefs.current[index] = el;
+                  }}
                   key={item.id}
                 >
                   <CategoryCard

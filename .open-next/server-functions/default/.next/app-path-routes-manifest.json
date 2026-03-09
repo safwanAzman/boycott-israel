@@ -1,0 +1,7 @@
+{
+  "/[locale]/sitemap.xml/route": "/[locale]/sitemap.xml",
+  "/favicon.ico/route": "/favicon.ico",
+  "/_not-found/page": "/_not-found",
+  "/[locale]/page": "/[locale]",
+  "/[locale]/why/(name)/[...id]/page": "/[locale]/why/[...id]"
+}

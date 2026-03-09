@@ -1,0 +1,7 @@
+{
+  "/[locale]/sitemap.xml/route": "app/[locale]/sitemap.xml/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/[locale]/page": "app/[locale]/page.js",
+  "/[locale]/why/(name)/[...id]/page": "app/[locale]/why/(name)/[...id]/page.js"
+}

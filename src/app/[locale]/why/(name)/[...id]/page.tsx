@@ -1,7 +1,8 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { use, useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
+import ImageWithFallback from "@/components/ui/image-with-fallback";
+import LogoImg from "../../../../../../public/logo.png";
 import { Badge } from "@/components/ui/badge";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import Container from "@/components/layouts/container";
@@ -12,7 +13,12 @@ import { useTranslations } from "next-intl";
 import BackBtn from "@/components/molecules/back-btn";
 import { useSearchParams } from "next/navigation";
 
-const Why = ({ params }: { params: { name: string; id: string } }) => {
+const Why = ({
+  params,
+}: {
+  params: Promise<{ locale: string; id: string[] }>;
+}) => {
+  const { id } = use(params);
   const t = useTranslations("Why");
   const searchParams = useSearchParams();
   const getCategoriesParams = searchParams.get("categories");
@@ -20,10 +26,12 @@ const Why = ({ params }: { params: { name: string; id: string } }) => {
   const [data, setData] = useState<BoycottList | undefined>(undefined);
 
   useEffect(() => {
-    const convertId = Number(params.id[0]);
+    const convertId = Number(id[0]);
     const item = boycottData.find((item) => item.id === convertId);
     setData(item);
-  }, [params.id]);
+    // boycottData omitted: useBoycottList returns a new array ref each render, which would cause infinite re-renders
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [id]);
 
   return (
     <Container
@@ -40,7 +48,7 @@ const Why = ({ params }: { params: { name: string; id: string } }) => {
         <div className="grid grid-cols-12 gap-6 p-4">
           <div className="imgWhyContainer">
             <AspectRatio ratio={10 / 9} className="bg-white">
-              <Image
+              <ImageWithFallback
                 src={data.img_url}
                 quality={75}
                 alt={data.name}
